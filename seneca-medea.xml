@@ -1,0 +1,2664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://dracor.org/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="lat">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medea</title>
+        <author key="wikidata:Q2054">Seneca</author>
+        <editor n="Peiper" role="editor">Adolf Peiper</editor>
+        <editor n="Richter" role="editor">Gustav Richter</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="dracor" xml:base="https://dracor.org/id/">rom000005</idno>
+        <availability>
+          <licence>
+            <ab>CC BY-SA 3.0 US</ab>
+            <ref target="https://creativecommons.org/licenses/by-sa/3.0/us/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q3332727</idno>
+      </publicationStmt>
+      <extent>About 100Kb</extent>
+      <sourceDesc>
+        <biblStruct>
+          <bibl type="originalSource">
+            <author key="wikidata:Q2054">L. Annaeus Seneca</author>
+            <editor n="Peiper" role="editor">Adolf Peiper</editor>
+            <editor n="Richter" role="editor">Gustav Richter</editor>
+            <imprint>
+              <pubPlace>Leipzig</pubPlace>
+              <publisher>Teubner</publisher>
+              <date>1921</date>
+            </imprint>
+          </bibl>
+        </biblStruct>
+      </sourceDesc>
+      <bibl type="digitalSource">
+        <name>Perseus Digital Library (http://www.perseus.tufts.edu)</name>
+        <idno type="URL">http://www.perseus.tufts.edu/hopper/opensource/download</idno>
+        <availability status="free">
+          <licence>
+            <ab>CC BY-SA 3.0 US</ab>
+            <ref target="https://creativecommons.org/licenses/by-sa/3.0/us/">Licence</ref>
+          </licence>
+        </availability>
+      </bibl>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <personGrp sex="UNKNOWN" xml:id="chorus">
+            <name>Chorus</name>
+          </personGrp>
+          <person ana="http://www.wikidata.org/entity/Q732066" sex="MALE" xml:id="creon">
+            <persName>Creo</persName>
+          </person>
+          <person ana="http://www.wikidata.org/entity/Q176758" sex="MALE" xml:id="iason">
+            <persName>Iason</persName>
+          </person>
+          <person ana="http://www.wikidata.org/entity/Q174278" sex="FEMALE" xml:id="medea">
+            <persName>Medea</persName>
+          </person>
+          <person sex="FEMALE" xml:id="nutrix">
+            <persName>Nvtrix</persName>
+          </person>
+          <person sex="MALE" xml:id="nuntius">
+            <persName>Nuntius</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="tragedy" type="genreTitle">Tragedy</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language id="la">Latin</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2009</date>
+        <respStmt>
+          <name>GRC</name>
+          <resp>tagging</resp>
+        </respStmt>
+        <item />
+      </change>
+    </revisionDesc>
+    <change>
+      <date>2019-06-09</date>
+      <respStmt>
+        <name>Boris Orekhov</name>
+        <resp>ed.</resp>
+      </respStmt>
+      <item>converted to P.5 Dracor format</item>
+    </change>
+  </teiHeader>
+  <text n="Med.">
+    <body>
+      <castList>
+        <head>Personae</head>
+        <castGroup>
+          <head>I</head>
+          <castItem type="role">
+            <role id="medea">Medea</role>
+          </castItem>
+        </castGroup>
+        <castGroup>
+          <head>II</head>
+          <castItem type="role">
+            <role id="iason">Iason</role>
+          </castItem>
+          <castItem type="role">
+            <role id="creon">creo</role>
+          </castItem>
+        </castGroup>
+        <castGroup>
+          <head>III</head>
+          <castItem type="role">
+            <role id="nutrix">Nutrix</role>
+          </castItem>
+          <castItem type="role">
+            <role id="nuntius">Nuntius</role>
+          </castItem>
+        </castGroup>
+        <castItem type="role">
+          <role id="chorus">Chorus Corinthiorum</role>
+        </castItem>
+        <castItem type="role">
+          <role id="hyllus">Hyllus</role>
+        </castItem>
+      </castList>
+      <milestone n="1" unit="card" />
+      <pb id="p.119" />
+      <sp who="#medea">
+        <speaker>Medea</speaker>
+        <milestone ed="exclude" n="1" unit="line" />
+        <l real='u-uu-uuuuu-ux'>Di coniugales tuque genialis tori,</l>
+        <milestone ed="exclude" n="2" unit="line" />
+        <l real='uuu---uuuu-ux'>Lucina, custos quaeque domituram freta</l>
+        <milestone ed="exclude" n="3" unit="line" />
+        <l real='u-u-uuuuu-uux'>Tiphyn novam frenare docuisti ratem,</l>
+        <milestone ed="exclude" n="4" unit="line" />
+        <l real='-uu-u-uuuu-ux'>et tu, profundi saeve dominator maris,</l>
+        <milestone ed="exclude" n="5" unit="line" />
+        <l n="5" real='u-uu-uu--uux'>clarumque Titan dividens orbi diem, </l>
+        <milestone ed="exclude" n="6" unit="line" />
+        <l real='uu-u---u-u-ux'>tacitisque praebens conscium sacris iubar</l>
+        <milestone ed="exclude" n="7" unit="line" />
+        <l real='uuuu---uuu-ux'>Hecate triformis, quosque iuravit mihi</l>
+        <milestone ed="exclude" n="8" unit="line" />
+        <l real='uuu--uuu-ux'>deos Iason, quosque Medeae magis</l>
+        <milestone ed="exclude" n="9" unit="line" />
+        <l real='u-uuu-u---ux'>fas est precari: noctis aeternae chaos,</l>
+        <milestone ed="exclude" n="10" unit="line" />
+        <l n="10" real='u-uuu--uu--ux'>aversa superis regna manesque impios </l>
+        <milestone ed="exclude" n="11" unit="line" />
+        <l real='u-u-u-u-uu-ux'>dominumque regni tristis et dominam fide</l>
+        <milestone ed="exclude" n="12" unit="line" />
+        <l real='uuuu--uu--uux'>meliore raptam, voce non fausta precor,</l>
+        <milestone ed="exclude" n="13" unit="line" />
+        <l real='--u-uuuu-u-ux'>nunc, nunc adeste, sceleris ultrices deae,</l>
+        <milestone ed="exclude" n="14" unit="line" />
+        <l real='u-uu-uu---ux'>crinem solutis squalidae serpentibus,</l>
+        <milestone ed="exclude" n="15" unit="line" />
+        <l n="15" real='u-u--uuu---ux'>atram cruentis manibus amplexae facem, </l>
+        <milestone ed="exclude" n="16" unit="line" />
+        <l real='u-uuuu-u---x'>adeste, thalamis horridae quondam meis</l>
+        <milestone ed="exclude" n="17" unit="line" />
+        <l real='u-u---uuu-ux'>quales stetistis: coniugi letum novae</l>
+        <milestone ed="exclude" n="18" unit="line" />
+        <l real='u-uuu-uu--uux'>letumque socero et regiae stirpi date,</l>
+        <milestone ed="exclude" n="19" unit="line" />
+        <l real='u-uuu--u--uux'>date peius aliud, quod precer sponso malum:</l>
+        <milestone ed="exclude" n="20" unit="line" />
+        <l n="20" real='u-u-u-u-uuux'>vivat, per urbes erret ignotas egens </l>
+        <milestone ed="exclude" n="21" unit="line" />
+        <l real='--u--uu--uux'>exul pavens invisus incerti laris,</l>
+        <milestone ed="exclude" n="23a22b" unit="line" />
+        <l n="23a22b" real='-uu--uuuuu-ux'>iam notus hospes limen alienum expetat,</l>
+        <milestone ed="exclude" n="22a23b" unit="line" />
+        <l n="22a23b" real='u-u--uuuuu-ux'>me coniugem optet quoque non aliud queam</l>
+        <pb id="p.120" />
+        <milestone ed="exclude" n="24" unit="line" />
+        <l real='--uuuuu-uu-ux'>peius precari, liberos similes patri "</l>
+        <milestone ed="exclude" n="25" unit="line" />
+        <l n="25" real='uu-uuu-u---ux'>similesque matri, parta iam, parta ultio est: </l>
+        <milestone ed="exclude" n="26" unit="line" />
+        <l real='uuuuu--u---ux'>peperi, querelas verbaque in cassum sero?</l>
+        <milestone ed="exclude" n="27" unit="line" />
+        <l real='uu--uuu-uu-ux'>non ibo in hostes? manibus excutiam faces</l>
+        <milestone ed="exclude" n="28" unit="line" />
+        <l real='-uuu--u--uux'>caeloque lucem, spectat hoc nostri sator </l>
+        <milestone ed="exclude" n="29" unit="line" />
+        <l real='-uuu--uu---ux'>Sol generis, et spectatur, et curru insidens </l>
+        <milestone ed="exclude" n="30" unit="line" />
+        <l n="30" real='uuuuuuuuu--ux'>per solita puri spatia decurrit poli? </l>
+        <milestone ed="exclude" n="31" unit="line" />
+        <l real='-uuu-u-uuu-ux'>non redit in ortus et remetitur diem?</l>
+        <milestone ed="exclude" n="32" unit="line" />
+        <l real='uuu---u-uu-ux'>da, da per auras curribus patriis vehi,</l>
+        <milestone ed="exclude" n="33" unit="line" />
+        <l real='--uu-uuu-u-ux'>committe habenas, genitor, et flagrantibus</l>
+        <milestone ed="exclude" n="34" unit="line" />
+        <l real='uuu-uuuuuuuux'>ignifera loris tribue moderari iuga:</l>
+        <milestone ed="exclude" n="35" unit="line" />
+        <l n="35" real='uuuu--uu-u-ux'>gemino Corinthos litore opponens moras </l>
+        <milestone ed="exclude" n="36" unit="line" />
+        <l real='uu---uuu---ux'>cremata flammis maria committat duo.</l>
+        <milestone ed="exclude" n="37" unit="line" />
+        <l real='--uu-uu-uuuux'>hoc restat unum, pronubam thalamo feram</l>
+        <milestone ed="exclude" n="38" unit="line" />
+        <l real='u-uu--uuuu-ux'>ut ipsa pinum postque sacrificas preces</l>
+        <milestone ed="exclude" n="39" unit="line" />
+        <l real='--uu--uu-uux'>caedam dicatis victimas altaribus,</l>
+        <milestone ed="exclude" n="40" unit="line" />
+        <l n="40" real='--u-u-u-uuuux'>per viscera ipsa quaere supplicio viam, </l>
+        <milestone ed="exclude" n="41" unit="line" />
+        <l real='uuuuuuuu-uuux'>si vivis, anime, si quid antiqui tibi</l>
+        <milestone ed="exclude" n="42" unit="line" />
+        <l real='u-uu--uuuu-ux'>remanet vigoris; pelle femineos metus</l>
+        <milestone ed="exclude" n="43" unit="line" />
+        <l real='uu-uuu-u---ux'>et inhospitalem Caucasum mente indue,</l>
+        <milestone ed="exclude" n="44" unit="line" />
+        <l real='--uuu-u-u-ux'>quodcumque vidit Pontus aut Phasis nefas,</l>
+        <milestone ed="exclude" n="45" unit="line" />
+        <l n="45" real='uuu-x', '-u-u-ux'>videbit Isthmos. effera ignota horrida, </l>
+        <milestone ed="exclude" n="46" unit="line" />
+        <l real='u-u-uuuu---ux'>tremenda caelo pariter ac terris mala</l>
+        <milestone ed="exclude" n="47" unit="line" />
+        <l real='--uuu--u---ux'>mens intus agitat: vulnera et caedem et vagum</l>
+        <milestone ed="exclude" n="48" unit="line" />
+        <l real='-u--uuuuuuuux'>funus per artus— levia memoravi nimis:</l>
+        <milestone ed="exclude" n="49" unit="line" />
+        <l real='--uuuuuu---ux'>haec virgo feci; gravior exurgat dolor:</l>
+        <milestone ed="exclude" n="50" unit="line" />
+        <l n="50" real='uuu-uuuu---ux'>maiora iam me scelera post partus decent. </l>
+        <milestone ed="exclude" n="51" unit="line" />
+        <l real='--uuuuu-uu-ux'>accingere ira teque in exitium para</l>
+        <milestone ed="exclude" n="52" unit="line" />
+        <l real='uuuux', 'uuu---ux'>furore toto. paria narrentur tua</l>
+        <milestone ed="exclude" n="53" unit="line" />
+        <l real='uuuuu-uu---ux'>repudia thalamis: quo virum linques modo?</l>
+        <milestone ed="exclude" n="54" unit="line" />
+        <l real='-uuux', '-u---ux'>hoc quo secuta es. rumpe iam segnes moras:</l>
+        <milestone ed="exclude" n="55" unit="line" />
+        <l n="55" real='uuu--uuu---ux'>quae scelere parta est, scelere linquenda est domus. </l>
+      </sp>
+      <milestone n="56" unit="card" />
+      <pb id="p.121" />
+      <sp who="#chorus">
+        <speaker>Chorus</speaker>
+        <milestone ed="exclude" n="56" unit="line" />
+        <l real='-u-uu-uuu-ux'>Ad regum thalamos numine prospero</l>
+        <milestone ed="exclude" n="57" unit="line" />
+        <l real='u--uuuuu--ux'>qui caelum superi quique regnat fretum</l>
+        <milestone ed="exclude" n="58" unit="line" />
+        <l real='---uu-uuu-ux'>assint cum populis rite faventibus,</l>
+        <milestone ed="exclude" n="59" unit="line" />
+        <l real='u--uu--uu-ux'>primum sceptriferis colla Tonantibus</l>
+        <milestone ed="exclude" n="60" unit="line" />
+        <l n="60" real='---uu--uu-ux'>taurus celsa ferat tergore candido; </l>
+        <milestone ed="exclude" n="61" unit="line" />
+        <l real='uu-u-uuu-ux'>Latinam nivei femina corporis</l>
+        <milestone ed="exclude" n="62" unit="line" />
+        <l real='--uuuuuuu-ux'>intemptata iugo placet et asperi</l>
+        <milestone ed="exclude" n="63" unit="line" />
+        <l real='----u--uu-ux'>Martis sanguineas quae cohibet manus,</l>
+        <milestone ed="exclude" n="64" unit="line" />
+        <l real='---uu--uu-ux'>quae dat belligeris foedera gentibus</l>
+        <milestone ed="exclude" n="65" unit="line" />
+        <l n="65" real='--uuu-uuuuux'>et cornu retinet divite copiam, </l>
+        <milestone ed="exclude" n="66" unit="line" />
+        <l real='uu-uuuuuu-ux'>donetur tenera mitior hostia,</l>
+        <milestone ed="exclude" n="67" unit="line" />
+        <l real='-uuuu-uuuuux'>et tu, qui facibus legitimis ades,</l>
+        <milestone ed="exclude" n="68" unit="line" />
+        <l real='---uu--uu-ux'>noctem discutiens auspice dextera</l>
+        <milestone ed="exclude" n="69" unit="line" />
+        <l real='u-uuuu-uuuux'>huc incede gradu marcidus ebrio,</l>
+        <milestone ed="exclude" n="70" unit="line" />
+        <l n="70" real='---uuu-uu-ux'>praecingens roseo tempora vinculo. </l>
+        <milestone ed="exclude" n="71" unit="line" />
+        <l real='-u-uuu-uu-ux'>et tu quae, gemini praevia temporis,</l>
+        <milestone ed="exclude" n="72" unit="line" />
+        <l real='-u-uu--uu-ux'>tarde, stella, redis semper amantibus:</l>
+        <milestone ed="exclude" n="73" unit="line" />
+        <l real='uuuuuuuuu-ux'>te matres, avide te cupiunt nurus</l>
+        <milestone ed="exclude" n="74" unit="line" />
+        <l real='-u-uu--uuuux'>quamprimum radios spargere lucidos.</l>
+        <milestone ed="exclude" n="75" unit="line" />
+        <l n="75" real='---u-ux'>Vincit virgineus decor </l>
+        <milestone ed="exclude" n="76" unit="line" />
+        <l real='-uuuu-ux'>longe Cecropias nurus,</l>
+        <milestone ed="exclude" n="77" unit="line" />
+        <l real='-uuuuuux'>et quas Taygeti iugis</l>
+        <milestone ed="exclude" n="78" unit="line" />
+        <l real='---uu-ux'>exercet iuvenum modo</l>
+        <milestone ed="exclude" n="79" unit="line" />
+        <l real='u--uu-ux'>muris quod caret oppidum,</l>
+        <milestone ed="exclude" n="80" unit="line" />
+        <l n="80" real='-uuuu-ux'>et quas Aonius latex </l>
+        <milestone ed="exclude" n="81" unit="line" />
+        <l real='-u-uu-ux'>Alpheosque sacer lavat.</l>
+        <milestone ed="exclude" n="82" unit="line" />
+        <l real='u-uuu-ux'>Si forma velit aspici,</l>
+        <milestone ed="exclude" n="83" unit="line" />
+        <l real='u-uuuuux'>cedent Aesonio duci</l>
+        <pb id="p.122" />
+        <milestone ed="exclude" n="84" unit="line" />
+        <l real='u--uu-ux'>proles fulminis improbi</l>
+        <milestone ed="exclude" n="85" unit="line" />
+        <l n="85" real='--uuuuux'>aptat qui iuga tigribus. </l>
+        <milestone ed="exclude" n="86" unit="line" />
+        <l real='--uuu-ux'>nec non, qui tripodas movet,</l>
+        <milestone ed="exclude" n="87" unit="line" />
+        <l real='u--uu-ux'>frater virginis asperae,</l>
+        <milestone ed="exclude" n="88" unit="line" />
+        <l real='uu-uu-ux'>cedet Castore cum suo</l>
+        <milestone ed="exclude" n="89" unit="line" />
+        <l real='---uu-ux'>Pollux caestibus aptior.</l>
+        <milestone ed="exclude" n="90" unit="line" />
+        <l n="90" real='---uu-ux'>sic, sic, caelicolae, precor, </l>
+        <milestone ed="exclude" n="91" unit="line" />
+        <l real='--uuu-ux'>vincat femina coniuges,</l>
+        <milestone ed="exclude" n="92" unit="line" />
+        <l real='--uuu-ux'>vir longe superet viros.</l>
+        <milestone ed="exclude" n="93" unit="line" />
+        <l real='--uuux', '-uu-ux'>Haec cum femineo .constitit in choro,</l>
+        <milestone ed="exclude" n="94" unit="line" />
+        <l real='uu-uu--uu-ux'>unius facies praenitet omnibus.</l>
+        <milestone ed="exclude" n="95" unit="line" />
+        <l n="95" real='--uuu-uu-ux'>sic cum sole perit sidereus decor, </l>
+        <milestone ed="exclude" n="96" unit="line" />
+        <l real='--uuu--u-ux'>et densi latitant Pleiadum greges</l>
+        <milestone ed="exclude" n="97" unit="line" />
+        <l real='u-uuu-uuu-ux'>cum Phoebe solidum lumine non suo</l>
+        <milestone ed="exclude" n="98" unit="line" />
+        <l real='---uu--uu-ux'>orbem circuitis cornibus alligat.</l>
+        <milestone ed="exclude" n="99" unit="line" />
+        <l real='-u-u-uuuuux'>ostro sic niveus puniceo color</l>
+        <milestone ed="exclude" n="100" unit="line" />
+        <l n="100" real='-u-uu--uu-ux'>perfusus rubuit, sic nitidum iubar </l>
+        <milestone ed="exclude" n="101" unit="line" />
+        <l real='--uuuu-uu-ux'>pastor luce nova roscidus aspicit.</l>
+        <milestone ed="exclude" n="102" unit="line" />
+        <l real='u--uuuuuu-ux'>ereptus thalamis Phasidis horridi,</l>
+        <milestone ed="exclude" n="103" unit="line" />
+        <l real='-u-uu--uu-ux'>effrenae solitus pectora coniugis</l>
+        <milestone ed="exclude" n="104" unit="line" />
+        <l real='-uuuu--uu-ux'>invita trepidus prendere dextera,</l>
+        <milestone ed="exclude" n="105" unit="line" />
+        <l n="105" real='uuuuu--uu-ux'>felix Aeoliam corripe virginem . </l>
+        <milestone ed="exclude" n="106" unit="line" />
+        <l real='-u-uu--uu-ux'>nunc primum soceris, sponse, volentibus.</l>
+        <milestone ed="exclude" n="107" unit="line" />
+        <l real='--uuu-uuu-ux'>concesso, iuvenes, ludite iurgio,</l>
+        <milestone ed="exclude" n="108" unit="line" />
+        <l real='---uu--uu-ux'>hinc illinc, iuvenes, mittite carmina:</l>
+        <milestone ed="exclude" n="109" unit="line" />
+        <l real='u--uu--uu-ux'>rara est in dominos iusta licentia.</l>
+        <milestone ed="exclude" n="110" unit="line" />
+        <l n="110" real='-uuuu-uuuuu-x'>Candida thyrsigeri proles generosa Lyaei, </l>
+        <milestone ed="exclude" n="111" unit="line" />
+        <l real='u---uu---uuux'>multifidam iam tempus erat succendere pinum:</l>
+        <milestone ed="exclude" n="112" unit="line" />
+        <l real='u---uu---uu-x'>excute sollemnem digitis marcentibus ignem.</l>
+        <pb id="p.123" />
+        <milestone ed="exclude" n="113" unit="line" />
+        <l real='uu----uuu--ux'>festa dicax fundat convicia fescenninus.</l>
+        <milestone ed="exclude" n="114" unit="line" />
+        <l real='uu-uuuuu-uuux'>solvat turba iocos— tacitis eat illa tenebris,</l>
+        <milestone ed="exclude" n="115" unit="line" />
+        <l n="115" real='uuuuu-uuuuuux'>si qua peregrino nubit fugitiva marito. </l>
+      </sp>
+      <milestone n="116" unit="card" />
+      <stage>Medea Nvtrix</stage>
+      <sp who="#medea">
+        <milestone ed="exclude" n="116" unit="line" />
+        <l real='uu--uuuuu--ux'>Occidimus, aures pepulit hymenaeus meas.</l>
+        <milestone ed="exclude" n="117" unit="line" />
+        <l real='u-u--u-uuuuux'>vix ipsa tantum, vix adnue credo malum,</l>
+        <milestone ed="exclude" n="118" unit="line" />
+        <l real='uuuu-uuuu-uux'>hoc facere Iason potuit, erepto patre</l>
+        <milestone ed="exclude" n="119" unit="line" />
+        <l real='uu-u-uuu-u-ux'>patria atque regno sedibus solam exteris</l>
+        <milestone ed="exclude" n="120" unit="line" />
+        <l n="120" real='uuuu-uuu---ux'>deserere durus? merita contempsit mea </l>
+        <milestone ed="exclude" n="121" unit="line" />
+        <l real='uuu---uu---ux'>qui scelere flammas viderat vinci et mare?</l>
+        <milestone ed="exclude" n="122" unit="line" />
+        <l real='uuuuuu-u---ux'>adeone credit omne consumptum nefas?</l>
+        <milestone ed="exclude" n="123" unit="line" />
+        <l real='--u---u-uuux'>incerta vaecors mente vaesana feror</l>
+        <milestone ed="exclude" n="124" unit="line" />
+        <l real='-uu-u-u--uux'>partes in omnes; unde me ulcisci queam?</l>
+        <milestone ed="exclude" n="125" unit="line" />
+        <l n="125" real='uu-u--uu---ux'>utinam esset illi frater! est coniunx: in hanc </l>
+        <milestone ed="exclude" n="126" unit="line" />
+        <l real='--uux', '--uu-ux'>ferrum exigatur. hoc meis satis est malis?</l>
+        <milestone ed="exclude" n="127" unit="line" />
+        <l real='uuu--uu---ux'>si quod Pelasgae, si quod urbes barbarae</l>
+        <milestone ed="exclude" n="128" unit="line" />
+        <l real='uuuuu--u-u-ux'>novere facinus quod tuae ignorent manus,</l>
+        <milestone ed="exclude" n="129" unit="line" />
+        <l real='--u-x', 'uuu---ux'>nunc est parandum. scelera te hortentur tua</l>
+        <milestone ed="exclude" n="130" unit="line" />
+        <l n="130" real='--uuux'>et cuncta redeant f inclitum regni decus </l>
+        <milestone ed="exclude" n="131" unit="line" />
+        <l real='--u---u---ux'>raptum et nefandae virginis parvus comes</l>
+        <milestone ed="exclude" n="132" unit="line" />
+        <l real='uuu-uuu--x', 'ux'>divisus ense, funus ingestum. patri</l>
+        <milestone ed="exclude" n="133" unit="line" />
+        <l real='--u-u-uuuu-ux'>sparsum que ponto corpus et Peliae senis</l>
+        <milestone ed="exclude" n="134" unit="line" />
+        <l real='u--u-uu--ux'>decocta aeno membra: funestum impie</l>
+        <milestone ed="exclude" n="135" unit="line" />
+        <l n="135" real='--uuu-----ux'>quam saepe fudi sanguinem, et nullum scelus </l>
+        <milestone ed="exclude" n="136" unit="line" />
+        <l real='uuuuuuuu-uuux'>irata feci: suasit infelix amor.</l>
+        <milestone ed="exclude" n="137" unit="line" />
+        <l real='uuu-uuuuuu-ux'>Quid tamen Iason potuit, alieni arbitri</l>
+        <milestone ed="exclude" n="138" unit="line" />
+        <l real='u-u--uu---ux'>iurisque factus? debuit ferro obvium</l>
+        <milestone ed="exclude" n="139" unit="line" />
+        <l real='-u--uuuuuu-ux'>offerre pectus— melius, a melius, dolor</l>
+        <milestone ed="exclude" n="140" unit="line" />
+        <l n="140" real='uuuuuuuuu-u-x'>furiose, loquere, si potest, vivat meus, </l>
+        <pb id="p.124" />
+        <milestone ed="exclude" n="141" unit="line" />
+        <l real='-uuu-uu-u-ux'>ut fuit, Iason; si minus, vivat tamen</l>
+        <milestone ed="exclude" n="142" unit="line" />
+        <l real='u-u-uuu---ux'>memorque nostri muneris parcat mihi.</l>
+        <milestone ed="exclude" n="143" unit="line" />
+        <l real='--u--uuu--ux'>culpa est Creontis tota, qui sceptro impotens</l>
+        <milestone ed="exclude" n="144" unit="line" />
+        <l real='uuu--uuuuu-ux'>coniugia solvit quique genetricem abstrahit</l>
+        <milestone ed="exclude" n="145" unit="line" />
+        <l n="145" real='uuu-u-u---ux'>gnatis et arto pignore astrictam fidem </l>
+        <milestone ed="exclude" n="146" unit="line" />
+        <l real='uu-uu-uu---ux'>dirimit: petatur solus hic, poenas luat</l>
+        <milestone ed="exclude" n="147" unit="line" />
+        <l real='uu-uuuuuuuuux'>quas debet, alto cinere cumulabo domum;</l>
+        <milestone ed="exclude" n="148" unit="line" />
+        <l real='uuuu--u--uux'>videbit atrum verticem flammis agi</l>
+        <milestone ed="exclude" n="149" unit="line" />
+        <l real='uuu--uu---ux'>Malea longas navibus flectens moras.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="150" unit="line" />
+        <l n="150" real='u-uu--uuu-ux'>Sile, obsecro, questusque secreto abditos </l>
+        <milestone ed="exclude" n="151" unit="line" />
+        <l real='-uuuuuuu---ux'>manda dolori, gravia quisquis vulnera</l>
+        <milestone ed="exclude" n="152" unit="line" />
+        <l real='u-u-uuuuuu-ux'>patiente et aequo mutus animo pertulit,</l>
+        <milestone ed="exclude" n="153" unit="line" />
+        <l real='-uuuuuu-uu-ux'>referre potuit: ira quae tegitur nocet;</l>
+        <milestone ed="exclude" n="154" unit="line" />
+        <l real='u-u--uuu---ux'>professa perdunt odia vindictae locum.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="155" unit="line" />
+        <l n="155" real='-u-uuuu-uu-ux'>Levis est dolor qui capere consilium potest </l>
+        <milestone ed="exclude" n="156" unit="line" />
+        <l real='uuuuu-u-uu-ux'>et clepere sese: magna non latitant mala.</l>
+        <milestone ed="exclude" n="157" unit="line" />
+        <l part="I" real='uuuu-x'>libet ire contra,</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <l part="F" real='-uuuu-ux'>Siste furialem impetum,</l>
+        <milestone ed="exclude" n="158" unit="line" />
+        <l real='u-u-uuuuu--ux'>alumna: vix te tacita defendit quies.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="159" unit="line" />
+        <l real='-uu--uuu-u-ux'>Fortuna fortes metuit, ignavos premit.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="160" unit="line" />
+        <l n="160" real='--u-uuu--uux'>Tunc est probanda, si locum virtus habet. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="161" unit="line" />
+        <l real='--u-u-u-uuux'>Numquam potest non esse virtuti locus.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="162" unit="line" />
+        <l real='--uu--u---ux'>Spes nulla rebus monstrat adflictis viam.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="163" unit="line" />
+        <l real='--u-uuu-u-ux'>Qui nil potest sperare, desperet nihil.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="164" unit="line" />
+        <l real='uuuu-u-u---ux'>Abiere Colchi, coniugis nulla est fides</l>
+        <milestone ed="exclude" n="165" unit="line" />
+        <l n="165" real='-uuu-uuuu--ux'>nihilque superest opibus e tantis tibi. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="166" unit="line" />
+        <l real='uuuuu--u---ux'>Medea superest, hic mare et terras vides</l>
+        <milestone ed="exclude" n="167" unit="line" />
+        <l real='--u-u-uu--ux'>ferrumque et ignes et deos et fulmina.</l>
+      </sp>
+      <milestone n="168" unit="card" />
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="168" unit="line" />
+        <l part="I" real='u-u-x'>Rex est timendus,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='--uu-ux'>Rex meus fuerat pater.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="169" unit="line" />
+        <l part="I" real='-uuu-x'>Non metuis arma?</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-u--uux'>Sint licet terra edita.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="170" unit="line" />
+        <l n="170" part="I" real='uuuux', 'uux', 'uux'>Moriere, MED. Cupio. NVTR. Profuge.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-uu-ux'>Paenituit fugae. </l>
+      </sp>
+      <pb id="p.125" />
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="171" unit="line" />
+        <l part="I" real='uuux', 'ux', 'uux'>Medea— MED. Fiam. NVTR. Mater es.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='x'>Cui</l>
+        <milestone ed="exclude" n="172" unit="line" />
+        <l real='-ux'>sim vides.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="173" unit="line" />
+        <l part="I" real='uuuuuux'>Profugere dubitas?</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='uuu--x'>Fugiam, ut ulciscar</l>
+        <milestone ed="exclude" n="174" unit="line" />
+        <l real='ux'>prius.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="175" unit="line" />
+        <l part="I" real='--uux'>Vindex sequetur,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-u-uu-ux'>Forsan inveniam moras.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="176" unit="line" />
+        <l real='--u-u-u-u-ux'>Compesce verba, parce iam, demens, minis</l>
+        <milestone ed="exclude" n="175" unit="line" />
+        <l n="175" real='u-uuuu-u-uuux'>animosque minue: tempori aptari decet. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="176" unit="line" />
+        <l real='-uuu--uuuu-ux'>Fortuna opes auferre, non animum potest,</l>
+        <milestone ed="exclude" n="177" unit="line" />
+        <l real='-uuu-uuu--uux'>sed cuius ictu regius cardo strepit?</l>
+        <milestone ed="exclude" n="178" unit="line" />
+        <l real='-u-uuuu-uuuux'>ipse' est Pelasgo tumidus imperio Creo.</l>
+      </sp>
+      <stage>Creo Medea</stage>
+      <sp who="#creon">
+        <milestone ed="exclude" n="179" unit="line" />
+        <l real='uuu-u-uuuu-ux'>Medea, Colchi noxium Aeetae genus,</l>
+        <milestone ed="exclude" n="180" unit="line" />
+        <l n="180" real='-----uu--ux'>nondum meis exportat e regnis pedem? </l>
+        <milestone ed="exclude" n="181" unit="line" />
+        <l real='uuuuu-u--u-ux'>molitur aliquid: nota fraus, nota est manus,</l>
+        <milestone ed="exclude" n="182" unit="line" />
+        <l real='--u-u-uuu-ux'>cui parcet illa quemve securum sinet?</l>
+        <milestone ed="exclude" n="183" unit="line" />
+        <l real='uuuuuu-u--uux'>abolere propere pessimam ferro luem</l>
+        <milestone ed="exclude" n="184" unit="line" />
+        <l real='u-uu-uuuuu-ux'>equidem parabam: precibus evicit gener,</l>
+        <milestone ed="exclude" n="185" unit="line" />
+        <l n="185" real='--uu-uu-u-ux'>concessa vita est, liberet fines metu </l>
+        <milestone ed="exclude" n="186" unit="line" />
+        <l real='uu-uux', '-u--uux'>abeatque tuta. fert gradum contra ferox</l>
+        <milestone ed="exclude" n="187" unit="line" />
+        <l real='u-u--uuu-u-ux'>minaxque nostros propius affatus petit,</l>
+        <milestone ed="exclude" n="188" unit="line" />
+        <l real='-uuuuu-u--uux'>arcete, famuli, tactu et accessu procul,</l>
+        <milestone ed="exclude" n="189" unit="line" />
+        <l real='uuuuux', 'uu-uu-ux'>iubete sileat. regium imperium pati</l>
+        <milestone ed="exclude" n="190" unit="line" />
+        <l n="190" real='uu-u--uuuuuux'>aliquando discat, vade veloci fuga </l>
+        <milestone ed="exclude" n="191" unit="line" />
+        <l real='--u--uuu-uuux'>monstrumque saevum horribile iamdudum avehe.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="192" unit="line" />
+        <l real='-uu---u-u-ux'>Quod crimen aut quae culpa multatur fuga?</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="193" unit="line" />
+        <l real='--u-u-u-uu-ux'>Quae causa pellat, innocens mulier rogat.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="194" unit="line" />
+        <l real='uuu---uu--ux'>Si iudicas, cognosce, si regnas, iube.</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="195" unit="line" />
+        <l n="195" real='u-uu-uu-uu-ux'>Aequum atque iniquum regis imperium feras. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="196" unit="line" />
+        <l real='uuu---u-uuuux'>Iniqua numquam regna perpetuo manent.</l>
+      </sp>
+      <pb id="p.126" />
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="197" unit="line" />
+        <l part="I" real='uuuu-x'>I, querere Colchis,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='uuu---ux'>Redeo: qui advexit, ferat.</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="198" unit="line" />
+        <l real='--uuuuuuuuux'>Vox constitute sera decreto venit.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="199" unit="line" />
+        <l real='uuuuu--u-u-ux'>Qui statuit aliquid parte inaudita altera,</l>
+        <milestone ed="exclude" n="200" unit="line" />
+        <l n="200" real='--u-uuuu---ux'>aequum licet statuerit, haud aequus fuit. </l>
+        <milestone ed="exclude" n="201" unit="line" />
+        <l real='x', 'uuuuuuu-uu-ux'>C R. Auditus a te Pelia supplicium tulit?</l>
+        <milestone ed="exclude" n="202" unit="line" />
+        <l real='-uu--uuuuu-ux'>sed fare, causae detur egregiae locus.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="203" unit="line" />
+        <l real='uuu-uuuuu--ux'>Difficile quam sit animum ab ira flectere</l>
+        <milestone ed="exclude" n="204" unit="line" />
+        <l real='--uu--uuu-ux'>iam concitatum quamque regale hoc putet</l>
+        <milestone ed="exclude" n="205" unit="line" />
+        <l n="205" real='--u---u-u-ux'>sceptris superbas quisquis admovit manus, </l>
+        <milestone ed="exclude" n="206" unit="line" />
+        <l real='uuuuuuuuuuuux'>qua coepit ire, regia didici mea.</l>
+        <milestone ed="exclude" n="207" unit="line" />
+        <l real='-uu--uuuu-uux'>quamvis enim sim clade miseranda obruta,</l>
+        <milestone ed="exclude" n="208" unit="line" />
+        <l real='--u--uuu--ux'>expulsa supplex sola deserta, undique</l>
+        <milestone ed="exclude" n="209" unit="line" />
+        <l real='--u--uuu-uux'>adflicta, quondam nobili falsi patre</l>
+        <milestone ed="exclude" n="210" unit="line" />
+        <l n="210" real='uuuuuuuu-uux'>avoque clarum Sole deduxi genus. </l>
+        <milestone ed="exclude" n="211" unit="line" />
+        <l real='--uuu--uuu-ux'>quodcumque placidis flexibus Phasis rigat</l>
+        <milestone ed="exclude" n="212" unit="line" />
+        <l real='--u-uuuuu-uux'>Pontusque quicquid Scythicus a tergo videt,</l>
+        <milestone ed="exclude" n="213" unit="line" />
+        <l real='u-u-uuuu---ux'>palustribus qua maria dulcescunt aquis,</l>
+        <milestone ed="exclude" n="214" unit="line" />
+        <l real='-uu---u---ux'>armata peltis quicquid exterret cohors</l>
+        <milestone ed="exclude" n="215" unit="line" />
+        <l n="215" real='-uuu-uuu-u-ux'>inclusa ripis vidua Thermodontiis, </l>
+        <milestone ed="exclude" n="216" unit="line" />
+        <l real='-u--uuu-uuuux'>hoc omne noster genitor imperio regit.</l>
+        <milestone ed="exclude" n="217" unit="line" />
+        <l real='uuuu-uuuuuuux'>generosa, felix, decore regali potens</l>
+        <milestone ed="exclude" n="218" unit="line" />
+        <l real='-uuu--u-uu-ux'>fulsi: petebant tunc meos thalamos proci,</l>
+        <milestone ed="exclude" n="219" unit="line" />
+        <l real='u-u-x', 'uuu-u-ux'>qui nunc petuntur. rapida fortuna ac levis</l>
+        <milestone ed="exclude" n="220" unit="line" />
+        <l n="220" real='-u-uuuu-uuuux'>praecepsque regno eripuit, exilio dedit. </l>
+        <milestone ed="exclude" n="221" unit="line" />
+        <l real='-uu---u--uux'>confide regnis, cum levis magnas opes</l>
+        <milestone ed="exclude" n="222" unit="line" />
+        <l real='-uuu--uu-uuux'>huc ferat et illuc casus— hoc reges habent</l>
+        <milestone ed="exclude" n="223" unit="line" />
+        <l real='uuu---u-uu-ux'>magnificum et ingens, nulla quod rapiat dies:</l>
+        <milestone ed="exclude" n="224" unit="line" />
+        <l real='u-uuu--u-uuux'>prodesse miseris, supplices fido lare</l>
+        <milestone ed="exclude" n="225" unit="line" />
+        <l n="225" real='uuuuuu-uu--ux'>protegere, solum hoc Colchico regno extuli, </l>
+        <milestone ed="exclude" n="226" unit="line" />
+        <l real='uu-u---u-u-ux'>decus illud ingens Graeciae et florem inclitum,</l>
+        <pb id="p.127" />
+        <milestone ed="exclude" n="227" unit="line" />
+        <l real='uuuuu--u-u-ux'>praesidia Achivae gentis et prolem deum,</l>
+        <milestone ed="exclude" n="228" unit="line" />
+        <l real='--uu-uu---x'>servasse memet, munus est Orpheus meum,</l>
+        <milestone ed="exclude" n="229" unit="line" />
+        <l real='u-u-u-u---ux'>qui saxa cantu mulcet et silvas trahit,</l>
+        <milestone ed="exclude" n="230" unit="line" />
+        <l n="230" real='uu-uuu-uu--x'>geminum que numen Castor et Pollux meum est </l>
+        <milestone ed="exclude" n="231" unit="line" />
+        <l real='uuuuuuuu---ux'>satique Borea quique trans Pontum quoque</l>
+        <milestone ed="exclude" n="232" unit="line" />
+        <l real='-uu--uu--uux'>summota Lynceus lumine inmisso videt,</l>
+        <milestone ed="exclude" n="233" unit="line" />
+        <l real='-uuu--u-uuuux'>omnesque Minyae: nam ducem taceo ducum,</l>
+        <milestone ed="exclude" n="234" unit="line" />
+        <l real='uuu-uuu---ux'>pro quo nihil debetur: hunc nulli imputo;</l>
+        <milestone ed="exclude" n="235" unit="line" />
+        <l n="235" real='u-u-uuuuu-ux'>vobis revexi ceteros, unum mihi. </l>
+        <milestone ed="exclude" n="236" unit="line" />
+        <l real='--u----uuu-ux'>incesse nunc et cuncta flagitia ingere.</l>
+        <milestone ed="exclude" n="237" unit="line" />
+        <l real='uuuuuuuu-u-ux'>fatebor: obici crimen hoc solum potest,</l>
+        <milestone ed="exclude" n="238" unit="line" />
+        <l real='-uu-u-uuuu-ux'>Argo reversa, virgini placeat pudor</l>
+        <milestone ed="exclude" n="239" unit="line" />
+        <l real='-uuu-uu-uu-ux'>paterque placeat: tota cum ducibus ruet</l>
+        <milestone ed="exclude" n="240" unit="line" />
+        <l n="240" real='u-u-u-u-u-ux'>Pelasga tellus, hic tuus primum gener </l>
+        <milestone ed="exclude" n="241" unit="line" />
+        <l real='-uuuuu----ux'>tauri ferocis ore flammanti occidet.</l>
+        <milestone ed="exclude" n="242" unit="line" />
+        <l real='-uu---u---ux'>fortuna causam quae volet nostram premat,</l>
+        <milestone ed="exclude" n="243" unit="line" />
+        <l real='--u---u-u-ux'>non paenitet servasse tot regum decus.</l>
+        <milestone ed="exclude" n="244" unit="line" />
+        <l real='--u-u-uu-uux'>quodcumque culpa praemium ex omni tuli,</l>
+        <milestone ed="exclude" n="245" unit="line" />
+        <l n="245" real='u-u-x', 'uu--uux'>hoc est penes te. si placet, damna ream; </l>
+        <milestone ed="exclude" n="246" unit="line" />
+        <l real='--uu--u-uuuux'>sed redde crimen, sum nocens, fateor, Creo:</l>
+        <milestone ed="exclude" n="247" unit="line" />
+        <l real='u-uuu-u-uu-ux'>talem sciebas esse, cum genua attigi</l>
+        <milestone ed="exclude" n="248" unit="line" />
+        <l real='u-u---u---ux'>fidemque supplex praesidis dextrae peti;</l>
+        <milestone ed="exclude" n="249" unit="line" />
+        <l real='--uuuu-u-u-ux'>terra hac miseriis angulum ac sedem rogo</l>
+        <milestone ed="exclude" n="250" unit="line" />
+        <l n="250" real='uu-uuu-uu-uux'>latebrasque viles: urbe si pelli placet, </l>
+        <milestone ed="exclude" n="251" unit="line" />
+        <l real='u-uuuuuu---ux'>detur remotus aliquis in regnis locus.</l>
+      </sp>
+      <milestone n="252" unit="card" />
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="252" unit="line" />
+        <l real='u-uuu-uuu--ux'>Non esse me qui sceptra violentus geram</l>
+        <milestone ed="exclude" n="253" unit="line" />
+        <l real='-uu-uuuu---ux'>nec qui superbo miserias calcem pede,</l>
+        <milestone ed="exclude" n="254" unit="line" />
+        <l real='uuuu-uuu-uuux'>testatus equidem videor haud clare parum</l>
+        <milestone ed="exclude" n="255" unit="line" />
+        <l n="255" real='uu-u-u-u---ux'>generum exulem legendo et adflictum et gravi </l>
+        <pb id="p.128" />
+        <milestone ed="exclude" n="256" unit="line" />
+        <l real='-uuuu--u---ux'>terrore pavidum, quippe quem poenae expetit</l>
+        <milestone ed="exclude" n="257" unit="line" />
+        <l real='uuu---u-uu-ux'>letoque Acastus regna Thessalica optinens.</l>
+        <milestone ed="exclude" n="258" unit="line" />
+        <l real='uuuu--uu--uux'>senio trementem debili atque aevo gravem</l>
+        <milestone ed="exclude" n="259" unit="line" />
+        <l real='u-u--uuu--uux'>patrem peremptum queritur et caesi senis</l>
+        <milestone ed="exclude" n="260" unit="line" />
+        <l n="260" real='--u-u-uu--ux'>discissa membra, cum dolo captae tuo </l>
+        <milestone ed="exclude" n="261" unit="line" />
+        <l real='u-uuu-u-u-ux'>piae sorores impium auderent nefas.</l>
+        <milestone ed="exclude" n="262" unit="line" />
+        <l real='u-u-uu--uux'>potest Iason, si tuam causam amoves,</l>
+        <milestone ed="exclude" n="263" unit="line" />
+        <l real='u-uuu-u-uu-ux'>suam tueri: nullus innocuum cruor</l>
+        <milestone ed="exclude" n="264" unit="line" />
+        <l real='-uuuuuu--uux'>contaminavit, afuit ferro manus</l>
+        <milestone ed="exclude" n="265" unit="line" />
+        <l n="265" real='u-u-uuuuuuuux'>proculque vestro purus a coetu stetit. </l>
+        <milestone ed="exclude" n="266" unit="line" />
+        <l real='uuuu-uuu-uuux'>tu, tu malorum machinatrix facinorum,</l>
+        <milestone ed="exclude" n="267" unit="line" />
+        <l real='-uu-uuuu---ux'>cui feminae nequitia ad audenda omnia,</l>
+        <milestone ed="exclude" n="268" unit="line" />
+        <l real='u-uu--uu-uuux'>robur virile est, nulla famae memoria,</l>
+        <milestone ed="exclude" n="269" unit="line" />
+        <l real='uuuu-u-uuu-ux'>egredere, purga regna, letales simul</l>
+        <milestone ed="exclude" n="270" unit="line" />
+        <l n="270" real='u-u--uuuu-ux'>tecum aufer herbas, libera cives metu, </l>
+        <milestone ed="exclude" n="271" unit="line" />
+        <l real='uuu--uu-uuuux'>alia sedens tellure sollicita deos.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="272" unit="line" />
+        <l real='uuuu--uuu-uux'>Profugere cogis? redde fugienti ratem</l>
+        <milestone ed="exclude" n="273" unit="line" />
+        <l real='-uuu-uuu-u-ux'>vel redde comitem— fugere cur solam iubes?</l>
+        <milestone ed="exclude" n="274" unit="line" />
+        <l real='-uuux', '-uuuu-ux'>non sola veni. bella si metuis pati,</l>
+        <milestone ed="exclude" n="275" unit="line" />
+        <l n="275" real='u-u-u-u---ux'>utrumque regno pelle, cur sontes duos </l>
+        <milestone ed="exclude" n="276" unit="line" />
+        <l real='----uuuu-u-ux'>distinguis? illi Pelia, non nobis iacet;</l>
+        <milestone ed="exclude" n="277" unit="line" />
+        <l real='u-uuuuuuu--ux'>fugam, rapinas adice, desertum patrem</l>
+        <milestone ed="exclude" n="278" unit="line" />
+        <l real='u--u--uuu--ux'>lacerum que fratrem, quicquid etiam nunc novas</l>
+        <milestone ed="exclude" n="279" unit="line" />
+        <l real='u-uu--u-u-x'>docet maritus coniuges, non est meum:</l>
+        <milestone ed="exclude" n="280" unit="line" />
+        <l n="280" real='uu-u---u---ux'>totiens nocens sum facta, sed numquam mihi. </l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="281" unit="line" />
+        <l real='--uuu--u--uux'>Iam exisse decuit, quid seris fando moras?</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="282" unit="line" />
+        <l real='--uu--u-u-ux'>Supplex recedens illud extremum precor,</l>
+        <milestone ed="exclude" n="283" unit="line" />
+        <l real='u-uu-uu---ux'>ne culpa natos matris insontes trahat.</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="284" unit="line" />
+        <l real='-u--uuu-uu-ux'>Vade: hos paterno ut genitor excipiam sinu.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="285" unit="line" />
+        <l n="285" real='u-uu-uuuuuuux'>Per ego auspicatos regii thalami toros, </l>
+        <pb id="p.129" />
+        <milestone ed="exclude" n="286" unit="line" />
+        <l real='--uu--u-u-ux'>per spes futuras perque regnorum status,</l>
+        <milestone ed="exclude" n="287" unit="line" />
+        <l real='uuuuuuuuuu-ux'>Fortuna varia dubia quos agitat vice,</l>
+        <milestone ed="exclude" n="288" unit="line" />
+        <l real='u-u--uuuu-uux'>precor, brevem largire fugienti moram,</l>
+        <milestone ed="exclude" n="289" unit="line" />
+        <l real='-uuu-uu-u-ux'>dum extrema natis mater infigo oscula,</l>
+        <milestone ed="exclude" n="290" unit="line" />
+        <l n="290" part="I" real='--uuux'>fortasse moriens.</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <l part="F" real='-u---ux'>Fraudibus tempus petis. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="291" unit="line" />
+        <l real='--uuu-u-uuux'>Quae fraus timeri tempore exiguo potest?</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="292" unit="line" />
+        <l real='--u---u---ux'>Nullum ad nocendum tempus angustum est malis.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="293" unit="line" />
+        <l real='-uuu--u-uu-ux'>Parumne miserae temporis lacrimis negas?</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <milestone ed="exclude" n="294" unit="line" />
+        <l real='-uu--uuu---ux'>Etsi repugnat precibus infixus timor,</l>
+        <milestone ed="exclude" n="295" unit="line" />
+        <l n="295" real='-u-uuuu-uuuux'>unus parando dabitur exilio dies. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="296" unit="line" />
+        <l real='u-uuuuuuu-uux'>Nimis est, recidas aliquid ex isto licet:</l>
+        <milestone ed="exclude" n="297" unit="line" />
+        <l part="I" real='u-uuux'>et ipsa propero.</l>
+      </sp>
+      <sp who="#creon">
+        <speaker>Cr.</speaker>
+        <l part="F" real='uuu-uu-ux'>Capite supplicium lues,</l>
+        <milestone ed="exclude" n="298" unit="line" />
+        <l real='u-u-u-u---ux'>clarum priusquam Phoebus attollat diem</l>
+        <milestone ed="exclude" n="299" unit="line" />
+        <l real='uuuu-x', 'uuuuuuux'>nisi cedis Isthmo. sacra me thalami vocant,</l>
+        <milestone ed="exclude" n="300" unit="line" />
+        <l n="300" real='u-uuu-uuu-uux'>vocat precari festus Hymenaeo dies. </l>
+      </sp>
+      <milestone n="301" unit="card" />
+      <sp who="#chorus">
+        <speaker>Chorus</speaker>
+        <milestone ed="exclude" n="301" unit="line" />
+        <l real='u-uu--uuux'>Audax nimium qui freta primus</l>
+        <milestone ed="exclude" n="302" unit="line" />
+        <l real='uu-uuu-uuux'>rate tam fragili perfida rupit</l>
+        <milestone ed="exclude" n="303" unit="line" />
+        <l real='--uu-u-uux'>terrasque suas posterga videns</l>
+        <milestone ed="exclude" n="304" unit="line" />
+        <l real='uu-uu-uuu-x'>animam levibus credidit auris,</l>
+        <milestone ed="exclude" n="305" unit="line" />
+        <l n="305" real='uuuuu--uu-x'>dubioque secans aequora cursu </l>
+        <milestone ed="exclude" n="306" unit="line" />
+        <l real='uu-uuuuuu-x'>potuit tenui fidere ligno</l>
+        <milestone ed="exclude" n="307" unit="line" />
+        <l real='--u---uux'>inter vitae mortisque vias</l>
+        <milestone ed="exclude" n="308" unit="line" />
+        <l real='uu-uuuuuu-x'>nimium gracili limite ducto. </l>
+        <milestone ed="exclude" n="329" unit="line" />
+        <l real='-uu-u-uuux'>Candida nostri saecula patres </l>
+        <milestone ed="exclude" n="330" unit="line" />
+        <l n="330" real='uuuu--uuux'>videre, procul fraude remota. </l>
+        <milestone ed="exclude" n="331" unit="line" />
+        <l real='uu-uu-uuu-x'>sua quisque piger litora tangens</l>
+        <milestone ed="exclude" n="332" unit="line" />
+        <l real='uuuuu--uu-x'>patrioque senex factus in arvo,</l>
+        <milestone ed="exclude" n="333" unit="line" />
+        <l real='-uu-uu-uux'>parvo dives, nisi quas tulerat</l>
+        <pb id="p.130" />
+        <milestone ed="exclude" n="334" unit="line" />
+        <l real='uuuu--uuux'>natale solum, non norat opes: </l>
+        <milestone ed="exclude" n="309" unit="line" />
+        <l real='----uuuux'>nondum quisquam sidera norat. </l>
+        <milestone ed="exclude" n="310" unit="line" />
+        <l n="310" real='--uu--uu-x'>stellisque quibus pingitur aether </l>
+        <milestone ed="exclude" n="311" unit="line" />
+        <l real='uuuux', '--uux'>non erat usus. nondum pluvias</l>
+        <milestone ed="exclude" n="312" unit="line" />
+        <l real='uu-uu-uuuux'>Hyadas poterat vitare ratis.</l>
+        <milestone ed="exclude" n="313" unit="line" />
+        <l real='uuuu-uuuux'>non Oleniae lumina caprae,</l>
+        <milestone ed="exclude" n="314" unit="line" />
+        <l real='--uu---uux'>nec quae sequitur flectitque senex</l>
+        <milestone ed="exclude" n="315" unit="line" />
+        <l n="315" real='-uu---uuux'>Attica tardus plaustra Bootes, </l>
+        <milestone ed="exclude" n="316" unit="line" />
+        <l real='-uuux'>nondum Boreas,</l>
+        <milestone ed="exclude" n="317" unit="line" />
+        <l real='-uuu-uuuux'>nondum Zephyrus nomen habebant.</l>
+        <milestone ed="exclude" n="318" unit="line" />
+        <l real='uuu--uu-x'>Ausus Tiphys pandere vasto</l>
+        <milestone ed="exclude" n="319" unit="line" />
+        <l real='-uu-x'>carbasa ponto</l>
+        <milestone ed="exclude" n="320" unit="line" />
+        <l n="320" real='u-uu-uuu-x'>legesque novas scribere ventis: </l>
+        <milestone ed="exclude" n="321" unit="line" />
+        <l real='-uuuu-uuux'>nunc lina sinu tendere toto,</l>
+        <milestone ed="exclude" n="322" unit="line" />
+        <l real='-uuuuu--x'>nunc prolato pede transversos</l>
+        <milestone ed="exclude" n="323" unit="line" />
+        <l real='-uuu----x'>captare notos, nunc antemnas</l>
+        <milestone ed="exclude" n="324" unit="line" />
+        <l real='uuuu-uuuux'>medio tutas ponere malo,</l>
+        <milestone ed="exclude" n="325" unit="line" />
+        <l n="325" real='---uuuuuux'>nunc in summo religare loco, </l>
+        <milestone ed="exclude" n="326" unit="line" />
+        <l real='--uuuu-uux'>cum iam totos avidus nimium</l>
+        <milestone ed="exclude" n="327" unit="line" />
+        <l real='uu-uu-uu-x'>navita flatus optat et alto</l>
+        <milestone ed="exclude" n="328" unit="line" />
+        <l real='uu-uu-uuuux'>rubicunda tremunt sipara velo. </l>
+        <milestone ed="exclude" n="335" unit="line" />
+        <l n="335" real='u--u-uu-x'>b«ne dissaepti foedera mundi </l>
+        <milestone ed="exclude" n="336" unit="line" />
+        <l real='-uuuu-uuux'>traxit in unum Thessala pinus</l>
+        <milestone ed="exclude" n="337" unit="line" />
+        <l real='--uuu-uu-x'>iussitque pati verbera pontum,</l>
+        <milestone ed="exclude" n="338" unit="line" />
+        <l real='--uu-uuu-x'>partemque metus fieri nostri</l>
+        <milestone ed="exclude" n="339" unit="line" />
+        <l real='uuuuux'>mare sepositum.</l>
+        <milestone ed="exclude" n="340" unit="line" />
+        <l n="340" real='uu-uuu-uu-x'>dedit illa graves improba poenas </l>
+        <milestone ed="exclude" n="341" unit="line" />
+        <l real='-----uuux'>per tam longos ducta timores,</l>
+        <milestone ed="exclude" n="342" unit="line" />
+        <l real='-uu---uu-x'>cum duo montes, claustra profundi,</l>
+        <milestone ed="exclude" n="343" unit="line" />
+        <l real='----uu--x'>hinc atque illinc subito impulsu</l>
+        <milestone ed="exclude" n="344" unit="line" />
+        <l real='uu-uuuuu-uux'>velut aetherio gemerent sonitu,</l>
+        <milestone ed="exclude" n="345" unit="line" />
+        <l real='u--x'>nubesque ipsas</l>
+        <milestone ed="exclude" n="345" unit="line" />
+        <l n="345" real='uuu---uu-x'>mare deprensum spargeret austris. </l>
+        <pb id="p.131" />
+        <milestone ed="exclude" n="346" unit="line" />
+        <l real='-uu-uuuu-x'>palluit audax Tiphys et omnes</l>
+        <milestone ed="exclude" n="347" unit="line" />
+        <l real='u-uuuuuuux'>labente manu misit habenas,</l>
+        <milestone ed="exclude" n="348" unit="line" />
+        <l real='--uu---uux'>Orpbeus tacuit torpente lyra</l>
+        <milestone ed="exclude" n="349" unit="line" />
+        <l real='-uuu--uu-x'>ipsaque vocem perdidit Argo.</l>
+        <milestone ed="exclude" n="350" unit="line" />
+        <l n="350" real='-uuuu-uuux'>quid cum Siculi virgo Pelori, </l>
+        <milestone ed="exclude" n="351" unit="line" />
+        <l real='uuuuuu--uux'>rabidos utero succincta canes,</l>
+        <milestone ed="exclude" n="352" unit="line" />
+        <l real='--uu--uuux'>omnis pariter solvit hiatus? '</l>
+        <milestone ed="exclude" n="353" unit="line" />
+        <l real='--uu-uu-x'>quis non totos horruit artus</l>
+        <milestone ed="exclude" n="354" unit="line" />
+        <l real='uu-uuu-uux'>totiens uno latrante malo?</l>
+        <milestone ed="exclude" n="355" unit="line" />
+        <l n="355" real='-uuuu-u--x'>quid cum Ausonium dirae pestes </l>
+        <milestone ed="exclude" n="356" unit="line" />
+        <l real='uuuuuuu-ux'>voce canora mare mulcerent.</l>
+        <milestone ed="exclude" n="357" unit="line" />
+        <l real='uuuuuuu-uux'>cum Pieria resonans cithara</l>
+        <milestone ed="exclude" n="358" unit="line" />
+        <l real='uuu-x'>Thracius Orpheus</l>
+        <milestone ed="exclude" n="359" unit="line" />
+        <l real='uu--uuuuuux'>solitam cantu retinere rates</l>
+        <milestone ed="exclude" n="360" unit="line" />
+        <l n="360" real='-uuuuuuuux'>paene coegit Sirena sequi? </l>
+        <milestone ed="exclude" n="361" unit="line" />
+        <l real='-uuuu-uu--x'>quod fuit huius pretium cursus?</l>
+        <milestone ed="exclude" n="361b" unit="line" />
+        <l n="361b" real='-uu-x'>aurea pellis</l>
+        <milestone ed="exclude" n="362" unit="line" />
+        <l real='uu-uuuuuuux'>maiusque mari Medea malum,</l>
+        <milestone ed="exclude" n="363" unit="line" />
+        <l real='--uu-uuux'>merces prima digna carina.</l>
+        <milestone ed="exclude" n="364" unit="line" />
+        <l real='-----uu-x'>Nunc iam cessit pontus et omnes</l>
+        <milestone ed="exclude" n="365" unit="line" />
+        <l n="365" real='uu-u-u-uux'>patitur leges: non Palladia </l>
+        <milestone ed="exclude" n="366" unit="line" />
+        <l real='--uuuu-uux'>compacta manu regum referens</l>
+        <milestone ed="exclude" n="367" unit="line" />
+        <l real='-uuu--uu-x'>inclita remos quaeritur Argo—</l>
+        <milestone ed="exclude" n="368" unit="line" />
+        <l real='-uu---uu-x'>quaelibet altum cumba pererrat;</l>
+        <milestone ed="exclude" n="369" unit="line" />
+        <l real='-uu--uuu-x'>terminus omnis motus et urbes</l>
+        <milestone ed="exclude" n="370" unit="line" />
+        <l n="370" real='u--uuuuuux'>muros terra posuere nova, </l>
+        <milestone ed="exclude" n="371" unit="line" />
+        <l real='-uuu-uuuux'>nil qua fuerat sede reliquit</l>
+        <milestone ed="exclude" n="372" unit="line" />
+        <l real='-uu-x'>pervius orbis:</l>
+        <milestone ed="exclude" n="373" unit="line" />
+        <l real='--uu-uuu-x'>Indus gelidum potat Araxen,</l>
+        <milestone ed="exclude" n="374" unit="line" />
+        <l real='-u--u-uux'>Albin Persae Rhenumque bibunt.</l>
+        <milestone ed="exclude" n="375" unit="line" />
+        <l n="375" real='uu----uuux'>venient annis saecula seris, </l>
+        <milestone ed="exclude" n="376" unit="line" />
+        <l real='uuuuu--uuux'>quibus Oceanus vincula rerum</l>
+        <milestone ed="exclude" n="377" unit="line" />
+        <l real='-uu--uu--x'>laxet et ingens pateat tellus</l>
+        <pb id="p.132" />
+        <milestone ed="exclude" n="378" unit="line" />
+        <l real='u-uu-uuu-x'>Tethysque novos detegat orbes</l>
+        <milestone ed="exclude" n="379" unit="line" />
+        <l real='---u-uuux'>nec sit terris ultima Thule.</l>
+      </sp>
+      <milestone n="380" unit="card" />
+      <stage>Nvtrix Medea</stage>
+      <sp who="#nutrix">
+        <milestone ed="exclude" n="380" unit="line" />
+        <l n="380" real='u-uuu-uu---ux'>Alumna, celerem quo rapis tectis pedem? </l>
+        <milestone ed="exclude" n="381" unit="line" />
+        <l real='u-uu--u-uu-ux'>resiste et iras comprime ac retine impetum.</l>
+        <milestone ed="exclude" n="382" unit="line" />
+        <l real='--uuu-u---ux'>Incerta qualis entheos gressus tulit</l>
+        <milestone ed="exclude" n="383" unit="line" />
+        <l real='--u-u-u-u-ux'>cum iam recepto maenas insanit deo</l>
+        <milestone ed="exclude" n="384" unit="line" />
+        <l real='-uuu--u-u-ux'>Pindi nivalis vertice aut Nysae iugis,</l>
+        <milestone ed="exclude" n="385" unit="line" />
+        <l n="385" real='u-u-uuu-u-ux'>talis recursat huc et huc motu effero, </l>
+        <milestone ed="exclude" n="386" unit="line" />
+        <l real='uuuuu-u-uuux'>furoris ore signa lymphati gerens,</l>
+        <milestone ed="exclude" n="387" unit="line" />
+        <l real='-uuuu-uuu-uux'>flammata facies spiritum ex alto citat,</l>
+        <milestone ed="exclude" n="388" unit="line" />
+        <l real='uuuuuuuu-uuux'>proclamat, oculos uberi fletu rigat,</l>
+        <milestone ed="exclude" n="389" unit="line" />
+        <l real='uuu--uuu---ux'>renidet: omnis specimen affectus capit,</l>
+        <milestone ed="exclude" n="391" unit="line" />
+        <l real='-uuuu-uuuu-ux'>quo pondus animi vergat, ubi ponat minas, </l>
+        <milestone ed="exclude" n="390" unit="line" />
+        <l n="390" real='--uuu-u-uu-ux'>haeret: minatur aestuat queritur gemit. </l>
+        <milestone ed="exclude" n="392" unit="line" />
+        <l real='uu-----u---ux'>ubi se iste fluctus franget? exundat furor. </l>
+        <milestone ed="exclude" n="393" unit="line" />
+        <l real='uuuu--u-uu-ux'>non facile secum versat aut medium scelus;</l>
+        <milestone ed="exclude" n="394" unit="line" />
+        <l real='u-uu-uu-uu-ux'>se vincet: irae novimus veteris notas,</l>
+        <milestone ed="exclude" n="395" unit="line" />
+        <l n="395" real='-uuu-u-u-u-ux'>magnum aliquid instat, efferum immane impium: </l>
+        <milestone ed="exclude" n="396" unit="line" />
+        <l real='--uu--uu--ux'>vultum furoris cerno, di fallant metum!</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="397" unit="line" />
+        <l real='uuuuuuu-uu-ux'>Si quaeris odio, misera, quem statuas modum :</l>
+        <milestone ed="exclude" n="398" unit="line" />
+        <l real='uuuu-uuuuu-ux'>imitare amorem, regias egone ut faces</l>
+        <milestone ed="exclude" n="399" unit="line" />
+        <l real='u-uuu--uuu-ux'>inulta patiar? segnis hic ibit dies,</l>
+        <milestone ed="exclude" n="400" unit="line" />
+        <l n="400" real='-uuuu-uu-uux'>tanto petitus ambitu, tanto datus? </l>
+        <milestone ed="exclude" n="401" unit="line" />
+        <l real='--u--uuuuu-ux'>dum terra caelum media libratum feret</l>
+        <milestone ed="exclude" n="402" unit="line" />
+        <l real='uu-u---uu--ux'>nitidusque certas mundus evolvet vices</l>
+        <milestone ed="exclude" n="403" unit="line" />
+        <l real='uu-uu-uu-u-ux'>numerosque harenis derit et solem dies,</l>
+        <milestone ed="exclude" n="404" unit="line" />
+        <l real='--u-u-u---ux'>noctem sequentur astra, dum siccas polus</l>
+        <pb id="p.133" />
+        <milestone ed="exclude" n="405" unit="line" />
+        <l n="405" real='-uu--uu---ux'>versabit Arctos, flumina in pontum cadent. </l>
+        <milestone ed="exclude" n="406" unit="line" />
+        <l real='----uu---ux'>numquam meus cessabit in poenas furor</l>
+        <milestone ed="exclude" n="407" unit="line" />
+        <l real='--u---uu-uux'>crescetque semper, quae ferarum immanitas,</l>
+        <milestone ed="exclude" n="408" unit="line" />
+        <l real='--u-u-uuuu-ux'>quae Scylla, quae Charybdis Ausonium mare</l>
+        <milestone ed="exclude" n="409" unit="line" />
+        <l real='uu-u---uu--ux'>Siculumque sorbens quaeve anhelantem premens</l>
+        <milestone ed="exclude" n="410" unit="line" />
+        <l n="410" real='uuu-u-u-u-ux'>Titana tantis Aetna fervebit minis? </l>
+        <milestone ed="exclude" n="411" unit="line" />
+        <l real='-uuu---u-u-ux'>non rapidus amnis, non procellosum mare</l>
+        <milestone ed="exclude" n="412" unit="line" />
+        <l real='--uuu-u-u-ux'>Pontusve coro saevus aut vis ignium</l>
+        <milestone ed="exclude" n="413" unit="line" />
+        <l real='-u-uu-uuuu-ux'>adiuta flatu possit inhibere impetum</l>
+        <milestone ed="exclude" n="414" unit="line" />
+        <l real='u-u---uu--ux'>irasque nostras: sternam et evertam omnia.</l>
+        <milestone ed="exclude" n="415" unit="line" />
+        <l n="415" real='uuu---u-uuuux'>Timuit Creontem ac bella Thessalici ducis? </l>
+        <milestone ed="exclude" n="416" unit="line" />
+        <l real='u-uuuuu-u-ux'>amor timere neminem verus potest,</l>
+        <milestone ed="exclude" n="417" unit="line" />
+        <l real='--u-u-u-uu-ux'>sed cesserit coactus et dederit manus:</l>
+        <milestone ed="exclude" n="418" unit="line" />
+        <l real='uuu---u-uuuux'>adire certe et coniugem extremo alioqui</l>
+        <milestone ed="exclude" n="419" unit="line" />
+        <l real='uuuuu-u-uu-ux'>sermone potuit— hoc quoque extimuit ferox;</l>
+        <milestone ed="exclude" n="420" unit="line" />
+        <l n="420" real='-uu-u-u-u-ux'>laxare certe tempus immitis fugae </l>
+        <milestone ed="exclude" n="421" unit="line" />
+        <l real='uuuuu-uuuu-ux'>genero licebat— liberis unus dies</l>
+        <milestone ed="exclude" n="422" unit="line" />
+        <l real='uu-uu--u---ux'>datus est duobus, non queror tempus breve:</l>
+        <milestone ed="exclude" n="423" unit="line" />
+        <l real='--uux', 'uuu-uu-ux'>multum patebit. faciet hic faciet dies</l>
+        <milestone ed="exclude" n="424" unit="line" />
+        <l real='--u--uuu-u-ux'>quod nullus umquam taceat— invadam deos</l>
+        <milestone ed="exclude" n="425" unit="line" />
+        <l n="425" part="I" real='--uuux'>et cuncta quatiam.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <l part="F" real='uuu-u-ux'>Recipe turbatum malis. </l>
+        <milestone ed="exclude" n="426" unit="line" />
+        <l part="I" real='uu-uuu-uux'>era, pectus, animum mitiga.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='u-ux'>Sola est quies,</l>
+        <milestone ed="exclude" n="427" unit="line" />
+        <l real='u-uuu-uuuuuux'>mecum ruina cuncta si video obruta:</l>
+        <milestone ed="exclude" n="428" unit="line" />
+        <l real='u-uuux', 'uuu-uu-ux'>mecum omnia abeant. trahere, cum pereas, libet.</l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="429" unit="line" />
+        <l real='--u-u-uu--ux'>Quam multa sint timenda, si perstas, vide:</l>
+        <milestone ed="exclude" n="430" unit="line" />
+        <l n="430" real='uuu-u-uuu-ux'>nemo potentes aggredi tutus potest. </l>
+      </sp>
+      <stage>Iason Medea</stage>
+      <sp who="#iason">
+        <milestone ed="exclude" n="431" unit="line" />
+        <l real='uuuuu-u---ux'>O dura fata semper et sortem asperam,</l>
+        <milestone ed="exclude" n="432" unit="line" />
+        <l real='--u---uu-uux'>cum saevit et cum parcit ex aequo malam!</l>
+        <pb id="p.134" />
+        <milestone ed="exclude" n="433" unit="line" />
+        <l real='uuuuu--u-u-ux'>remedia quotiens invenit nobis deus</l>
+        <milestone ed="exclude" n="434" unit="line" />
+        <l real='uuu--uuu--ux'>periculis peiora: si vellem fidem</l>
+        <milestone ed="exclude" n="435" unit="line" />
+        <l n="435" real='-uuuu--u-uuux'>praestare meritis coniugis, leto fuit </l>
+        <milestone ed="exclude" n="436" unit="line" />
+        <l real='uu-u--uuu--ux'>caput offerendum; si mori nollem, fide</l>
+        <milestone ed="exclude" n="437" unit="line" />
+        <l real='uuuu---u-u-ux'>misero carendum, non timor vicit fidem,</l>
+        <milestone ed="exclude" n="438" unit="line" />
+        <l real='uuuu--uuuu-ux'>sed trepida pietas: quippe sequeretur necem</l>
+        <milestone ed="exclude" n="439" unit="line" />
+        <l real='u-u---uu--ux'>proles parentum, sancta si caelum incolis</l>
+        <milestone ed="exclude" n="440" unit="line" />
+        <l n="440" real='-uuuuu-u---ux'>Iustitia, numen invoco ac testor tuum: </l>
+        <milestone ed="exclude" n="441" unit="line" />
+        <l real='uuu-uux', 'u--ux'>nati patrem vicere. quin ipsam quoque,</l>
+        <milestone ed="exclude" n="442" unit="line" />
+        <l real='-uuu--u-uu-ux'>etsi ferox est corde nec patiens iugi,</l>
+        <milestone ed="exclude" n="443" unit="line" />
+        <l real='uuuu--u-uu-ux'>consulere natis malle quam thalamis reor.</l>
+        <milestone ed="exclude" n="444" unit="line" />
+        <l real='uuuu-uuuuu-ux'>constituit animus precibus iratam aggredi.</l>
+        <milestone ed="exclude" n="445" unit="line" />
+        <l n="445" real='--uuuuu-uu-ux'>atque ecce, viso memet exiluit, furit, </l>
+        <milestone ed="exclude" n="446" unit="line" />
+        <l real='-uuu-uuu---ux'>fert odia prae se: totus in vultu est dolor.</l>
+      </sp>
+      <milestone n="447" unit="card" />
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="447" unit="line" />
+        <l real='uuuu-uuu-u-ux'>Fugimus, Iason: fugimus— hoc non est novum,</l>
+        <milestone ed="exclude" n="448" unit="line" />
+        <l real='uuuu--uuu-uux'>mutare sedes; causa fugiendi nova est:</l>
+        <milestone ed="exclude" n="449" unit="line" />
+        <l real='uuuu-uuu-u-ux'>pro te solebam fugere, discedo exeo,</l>
+        <milestone ed="exclude" n="450" unit="line" />
+        <l n="450" real='uuu-uuuu-u-ux'>penatibus profugere quam cogis tuis: </l>
+        <milestone ed="exclude" n="451" unit="line" />
+        <l real='-uu-uuuu--ux'>at quo remittas? Phasin et Colchos petam</l>
+        <milestone ed="exclude" n="452" unit="line" />
+        <l real='uu-u----u--ux'>patriumque regnum quaeque fraternus cruor</l>
+        <milestone ed="exclude" n="453" unit="line" />
+        <l real='-uu-u-uu--ux'>perfudit arva? quas peti terras iubes?</l>
+        <milestone ed="exclude" n="454" unit="line" />
+        <l real='-uuu-u-uu--ux'>quae maria monstras? Pontici fauces freti</l>
+        <milestone ed="exclude" n="455" unit="line" />
+        <l n="455" real='--u-uuu-u-uux'>per quas revexi nobilem regum manum 455</l>
+        <milestone ed="exclude" n="456" unit="line" />
+        <l real='u-u-uuuu-uux'>adulterum secuta per Symplegadas?</l>
+        <milestone ed="exclude" n="457" unit="line" />
+        <l real='--u-u-uu-uux'>parvamne lolcon, Thessala an Tempe petam?</l>
+        <milestone ed="exclude" n="458" unit="line" />
+        <l real='-uuuuuuu--uux'>quascumque aperui tibi vias, clausi mihi—</l>
+        <milestone ed="exclude" n="459" unit="line" />
+        <l real='uuu-u-u-uu-ux'>quo me remittis? exuli exilium imperas</l>
+        <pb id="p.135" />
+        <milestone ed="exclude" n="460" unit="line" />
+        <l n="460" real='-x', 'uux', 'uu---ux'>nec das. eatur. regius iussit gener: </l>
+        <milestone ed="exclude" n="461" unit="line" />
+        <l real='u-uuuuu-uu-ux'>nihil recuso, dira supplicia ingere:</l>
+        <milestone ed="exclude" n="462" unit="line" />
+        <l real='uuuu---u---ux'>merui cruentis paelicem poenis premat</l>
+        <milestone ed="exclude" n="463" unit="line" />
+        <l real='uuuuu-uuuu-ux'>regalis ira, vinculis oneret manus</l>
+        <milestone ed="exclude" n="464" unit="line" />
+        <l real='--u-u-u--uux'>clausamque saxo noctis aeternae obruat:</l>
+        <milestone ed="exclude" n="465" unit="line" />
+        <l n="465" real='uuuu-uuu-u-ux'>minora meritis patiar— ingratum caput, </l>
+        <milestone ed="exclude" n="466" unit="line" />
+        <l real='u-uuuu-u--uux'>revolvat animus igneos tauri halitus</l>
+        <milestone ed="exclude" n="467" unit="line" />
+        <l real='--u---u-uu-ux'>[interque saevos gentis indomitae metus</l>
+        <milestone ed="exclude" n="468" unit="line" />
+        <l real='uuu--uuuuu-ux'>armifero in arvo flanimeum Aeetae pecus,]</l>
+        <milestone ed="exclude" n="469" unit="line" />
+        <l real='--uuuuuu--uux'>hostisque subiti tela, cum iussu meo</l>
+        <milestone ed="exclude" n="470" unit="line" />
+        <l n="470" real='-uuuu-uuu--ux'>terrigena miles mutua caede occidit; </l>
+        <milestone ed="exclude" n="471" unit="line" />
+        <l real='u-uuuuuu-uuux'>adice expetita spolia Phrixei arietis</l>
+        <milestone ed="exclude" n="472" unit="line" />
+        <l real='-uu--uu-uuux'>somnoque iussum lumina ignoto dare</l>
+        <milestone ed="exclude" n="473" unit="line" />
+        <l real='--u--uu-u-ux'>insomne monstrum, traditum fratrem neci</l>
+        <milestone ed="exclude" n="474" unit="line" />
+        <l real='-uuuuu-u---ux'>et scelere in uno non semel factum scelus,</l>
+        <milestone ed="exclude" n="475" unit="line" />
+        <l n="475" real='--uu--uu--ux'>ausasqne natas fraude deceptas mea </l>
+        <milestone ed="exclude" n="476" unit="line" />
+        <l real='uuu-u-u-uuux'>secare membra non revicturi senis:</l>
+        <milestone ed="exclude" n="478" unit="line" />
+        <l real='--uu-uu---ux'>per spes tuorum liberum et certum larem, </l>
+        <milestone ed="exclude" n="479" unit="line" />
+        <l real='--u-u-u-uuux'>per victa monstra, per manus, pro te quibus</l>
+        <milestone ed="exclude" n="480" unit="line" />
+        <l n="480" real='--u-u-uuuu-ux'>numquam peperci, perque prseteritos metus, </l>
+        <milestone ed="exclude" n="481" unit="line" />
+        <l real='--u---uu--x'>per caelum et undas, coniugi testes mei,</l>
+        <milestone ed="exclude" n="482" unit="line" />
+        <l real='uuuu-u-uuu-ux'>miserere, redde supplici felix vicem. </l>
+        <milestone ed="exclude" n="477" unit="line" />
+        <l real='uuuu---uu-uux'>aliena quaerens regna deserni mea: </l>
+        <milestone ed="exclude" n="483" unit="line" />
+        <l real='uuuu---u--uux'>ex opibus illis, quas procul raptas Scythae </l>
+        <milestone ed="exclude" n="484" unit="line" />
+        <l real='-uu-u-u-uuuux'>usque a perustis Indiae populis agunt,</l>
+        <milestone ed="exclude" n="485" unit="line" />
+        <l n="485" real='-uuu-u-u--uux'>quas quia referta vix domus gaza capit, </l>
+        <milestone ed="exclude" n="486" unit="line" />
+        <l real='-uu-uuuuu--ux'>ornamus auro nemora, nil exul tuli</l>
+        <milestone ed="exclude" n="487" unit="line" />
+        <l real='u-uu-u-u--uux'>nisi fratris artus: hos quoque impendi tibi;</l>
+        <milestone ed="exclude" n="488" unit="line" />
+        <l real='uuu--uuu-u-ux'>tibi patria cessit, tibi pater, frater, pudor—</l>
+        <milestone ed="exclude" n="489" unit="line" />
+        <l real='-uu-x', '-uuu-uux'>hac dote nupsi. redde fugienti sua.</l>
+      </sp>
+      <pb id="p.136" />
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="490" unit="line" />
+        <l n="490" real='uuuu-u-u--uux'>Perimere cum te vellet infestus Creo, </l>
+        <milestone ed="exclude" n="491" unit="line" />
+        <l real='uu--u-u-uu-ux'>lacrimis meis evictus exilium dedit.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="492" unit="line" />
+        <l real='--uu-uu-uu-ux'>Poenam putabam: munus ut video est fuga.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="493" unit="line" />
+        <l real='uuuuuuuuu-uux'>Dum licet abire, profuge teque hinc eripe:</l>
+        <milestone ed="exclude" n="494" unit="line" />
+        <l part="I" real='uuuuu--x'>gravis ira regum est semper,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-uu-ux'>Hoc suades mihi,</l>
+        <milestone ed="exclude" n="495" unit="line" />
+        <l n="495" real='-uu--u-uuux'>praestas Creusae: paelicem invisam amoves. </l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="496" unit="line" />
+        <l part="I" real='uuuuuuux'>Medea amores obicit?</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='---ux'>Et caedem et dolos.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="497" unit="line" />
+        <l real='uuuu---u-u-ux'>Obicere tandem quod potes crimen mihi?</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="498" unit="line" />
+        <l part="I" real='--uux'>Quodcumque feci.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <l part="F" real='-uuu-ux'>Restat hoc unum insuper,</l>
+        <milestone ed="exclude" n="499" unit="line" />
+        <l real='uuuu-uuu-u-ux'>tuis ut etiam sceleribus fiam nocens.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="500" unit="line" />
+        <l n="500" real='u-uuu--u-u-ux'>Tua illa, tua sunt illa: cui prodest scelus </l>
+        <milestone ed="exclude" n="501" unit="line" />
+        <l real='-uu---u-u-x'>is fecit— omnes coniugem infamem arguant,</l>
+        <milestone ed="exclude" n="502" unit="line" />
+        <l real='u-uuuuu---ux'>solus tuere, solus insontem voca:</l>
+        <milestone ed="exclude" n="503" unit="line" />
+        <l real='u-u---u-uuux'>tibi innocens sit quisquis est pro te nocens.</l>
+      </sp>
+      <milestone n="504" unit="card" />
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="504" unit="line" />
+        <l real='-uuu-uuu---ux'>Ingrata vita est cuius acceptae pudet.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="505" unit="line" />
+        <l n="505" real='uuuu-uuu---ux'>Retineuda non est cuius acceptae pudet. </l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="506" unit="line" />
+        <l real='-uuuuu-u---ux'>Quin potius ira concitum pectus doma,</l>
+        <milestone ed="exclude" n="507" unit="line" />
+        <l part="I" real='uuuux'>placare natis.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-u-u-ux'>Abdico eiuro abnuo—</l>
+        <milestone ed="exclude" n="508" unit="line" />
+        <l real='-uuuu-u-ux'>meis Creusa liberis fratres dabit?</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="509" unit="line" />
+        <l real='uuuuu-u---ux'>Regina natis exulum, afflictis potens.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="510" unit="line" />
+        <l n="510" real='uuu---u-uu-ux'>Ne veniat umquam tam malus miseris dies, </l>
+        <milestone ed="exclude" n="511" unit="line" />
+        <l real='uuu-u-u-u-ux'>qui prole foeda misceat prolem inclitam.</l>
+        <milestone ed="exclude" n="512" unit="line" />
+        <l real='-uuuuuuuuuux'>[Phoebi nepotes Sisyphi nepotibus]</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="513" unit="line" />
+        <l real='uuuuuuu-uu-ux'>Quid, misera, meque teque in exitium trahis?</l>
+        <milestone ed="exclude" n="514" unit="line" />
+        <l part="I" real='-uu-x'>abscede quaeso,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-u-uuux'>Supplicem audivit Creo.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="515" unit="line" />
+        <l part="I" real='-uuu--uux'>Quid facere possim, loquere,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='uux'>Pro me? vel.</l>
+        <milestone ed="exclude" n="515" unit="line" />
+        <l n="515" real='ux'>scelus. </l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="516" unit="line" />
+        <l part="I" real='-uu-x'>Hinc rex et illinc—</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='uu-uu-ux'>Est (et hic maior metus)</l>
+        <milestone ed="exclude" n="517" unit="line" />
+        <l real='uuux'>Medea, nos † confligere, certemus sine,</l>
+        <milestone ed="exclude" n="518" unit="line" />
+        <l part="I" real='-uuuux'>sit pretium Iason.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <l part="F" real='uuu--ux'>Cedo defessus malis.</l>
+        <pb id="p.137" />
+        <milestone ed="exclude" n="519" unit="line" />
+        <l real='u-uu--u---ux'>et ipsa casus saepe iam expertos time.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="520" unit="line" />
+        <l n="520" real='-uu-u-u-uuux'>Fortuna semper omnis infra me stetit. </l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="521" unit="line" />
+        <l part="I" real='u-u-x'>Acastus instat,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='uuu--uux'>Propior est hostis Creo:</l>
+        <milestone ed="exclude" n="522" unit="line" />
+        <l real='u-uuux', 'uu-uu-ux'>utrumque profuge. non ut in socerum manus</l>
+        <milestone ed="exclude" n="523" unit="line" />
+        <l real='--u-u-u-u-ux'>armes nec ut te caede cognata inquines</l>
+        <milestone ed="exclude" n="524" unit="line" />
+        <l real='uuuuu-u-u-ux'>Medea cogit: innocens mecum fuge.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="525" unit="line" />
+        <l n="525" real='--u--uuuu--ux'>Et quis resistet, gemina si bella ingruant, </l>
+        <milestone ed="exclude" n="526" unit="line" />
+        <l real='u-uu-u-uu--ux'>Creo atque Acastus arma si iungant sua?</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="527" unit="line" />
+        <l real='uuu-uuuuuu-ux'>His adice Colchos, adice et Aeeten ducem,</l>
+        <milestone ed="exclude" n="528" unit="line" />
+        <l real='uuu---uu--ux'>Scythas Pelasgis iunge: demersos dabo.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="529" unit="line" />
+        <l part="I" real='--u-u-x'>Alta extimesco sceptra,</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='uuu-ux'>Ne cupias vide.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="530" unit="line" />
+        <l n="530" real='--uu--u-uu-ux'>Suspecta ne sint, longa colloquia amputa. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="531" unit="line" />
+        <l real='--uuu-u--uux'>Nunc summe toto Iuppiter caelo tona,</l>
+        <milestone ed="exclude" n="532" unit="line" />
+        <l real='--u---u---ux'>intende dextram, vindices flammas para</l>
+        <milestone ed="exclude" n="533" unit="line" />
+        <l real='--u--uu---ux'>omnemque ruptis nubibus mundum quate.</l>
+        <milestone ed="exclude" n="534" unit="line" />
+        <l real='-uu-uuuu--ux'>nec deligenti tela librentur manu</l>
+        <milestone ed="exclude" n="535" unit="line" />
+        <l n="535" real='uuuu---uuu-ux'>rei me vel istum: quisquis e nobis cadet </l>
+        <milestone ed="exclude" n="536" unit="line" />
+        <l real='u-uu--u---ux'>nocens peribit, non potest in nos tuum</l>
+        <milestone ed="exclude" n="537" unit="line" />
+        <l part="I" real='-uu-x'>errare fulmen,</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <l part="F" real='uuuuu-ux'>Sana meditari incipe</l>
+        <milestone ed="exclude" n="538" unit="line" />
+        <l real='uuuuuuu-uuuux'>et placida fare, si quod ex soceri domo</l>
+        <milestone ed="exclude" n="539" unit="line" />
+        <l real='u-u-uuuuu-ux'>potest fugam levare solamen, pete.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="540" unit="line" />
+        <l n="540" real='--uuu-uuu-uux'>Contemnere animus regias, ut scis, opes </l>
+        <milestone ed="exclude" n="541" unit="line" />
+        <l real='u-u-uuu---ux'>potest soletque; liberos tantum fugae</l>
+        <milestone ed="exclude" n="542" unit="line" />
+        <l real='uuuu-uuu-u-ux'>habere comites liceat in quorum' sinu</l>
+        <milestone ed="exclude" n="543" unit="line" />
+        <l real='uu-u-x', 'uuuuuux'>lacrimas profundam. te novi nati manent.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="544" unit="line" />
+        <l real='x', 'uuu-uuuuuu-ux'>.Parere precibus cupere me fateor tuis;</l>
+        <milestone ed="exclude" n="545" unit="line" />
+        <l n="545" real='uu-u---u---ux'>pietas vetat: namque istud ut possim pati, </l>
+        <milestone ed="exclude" n="546" unit="line" />
+        <l real='u-uu-uu-u-ux'>non ipse memet cogat et rex et socer.</l>
+        <milestone ed="exclude" n="547" unit="line" />
+        <l real='--uu--u-u-ux'>haec causa vitae est, hoc perusti pectoris</l>
+        <milestone ed="exclude" n="548" unit="line" />
+        <l real='u-uux', 'uuuuu-ux'>curis levamen. spiritu citius queam</l>
+        <milestone ed="exclude" n="549" unit="line" />
+        <l part="I" real='uuu--ux'>carere, membris, luce.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-uuux'>Sic natos amat?</l>
+        <pb id="p.138" />
+        <milestone ed="exclude" n="550" unit="line" />
+        <l n="550" real='u-uu--uuuu-ux'>bene est, tenetur, vulneri patuit locus.— </l>
+        <milestone ed="exclude" n="551" unit="line" />
+        <l real='uuu-uuuuu--ux'>suprema certe liceat abeuntem loqui</l>
+        <milestone ed="exclude" n="552" unit="line" />
+        <l real='-uuuuu-u---ux'>mandata, liceat ultimum amplexum dare:</l>
+        <milestone ed="exclude" n="553" unit="line" />
+        <l real='u-u--uu-uuux'>gratum est et illud, voce iam extrema peto,</l>
+        <milestone ed="exclude" n="554" unit="line" />
+        <l real='uuu--uuu-u-ux'>ne, si qua noster dubius effudit dolor,</l>
+        <milestone ed="exclude" n="555" unit="line" />
+        <l n="555" real='-uuuu-uuuu-ux'>maneant in animo verba: melioris tibi </l>
+        <milestone ed="exclude" n="556" unit="line" />
+        <l real='uuu-uuuu-u-ux'>memoria nostri sedeat; haec irae data</l>
+        <milestone ed="exclude" n="557" unit="line" />
+        <l part="I" real='--u-x'>oblitterentur.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <l part="F" real='-uuuu-ux'>Omnia ex animo expuli</l>
+        <milestone ed="exclude" n="558" unit="line" />
+        <l real='u-u-u-u---ux'>precorque et ipse, fervidam ut mentem regas</l>
+        <milestone ed="exclude" n="559" unit="line" />
+        <l real='uuu--uuu-u-ux'>placideque tractes: miserias lenit quies.</l>
+      </sp>
+      <milestone n="560" unit="card" />
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="560" unit="line" />
+        <l n="560" real='--uuu-uu-u-x'>Discessit, itane est? vadis oblitus mei </l>
+        <milestone ed="exclude" n="561" unit="line" />
+        <l real='-uu-uuu-uu-ux'>et tot meorum facinorum? excidimus tibi?</l>
+        <milestone ed="exclude" n="562" unit="line" />
+        <l real='--uux', 'uu-u-ux'>numquam excidemus. hoc age, omnis advoca</l>
+        <milestone ed="exclude" n="563" unit="line" />
+        <l real='uuu---u-uu-ux'>vires et artes, fructus est scelerum tibi</l>
+        <milestone ed="exclude" n="564" unit="line" />
+        <l real='--u-uuu---ux'>nullum scelus putare, vix fraudi est locus:</l>
+        <milestone ed="exclude" n="565" unit="line" />
+        <l n="565" real='uux', 'u-uuuuuuux'>timemur. hac aggredere, qua nemo potest </l>
+        <milestone ed="exclude" n="566" unit="line" />
+        <l real='--uuu-u---ux'>quicquam timere, perge, nunc aude, incipe</l>
+        <milestone ed="exclude" n="567" unit="line" />
+        <l real='--u-uuu---ux'>quicquid potest Medea, quicquid non potest.</l>
+        <milestone ed="exclude" n="568" unit="line" />
+        <l real='uuuu-uuu-u-x'>Tu, fida nutrix, socia maeroris mei</l>
+        <milestone ed="exclude" n="569" unit="line" />
+        <l real='uuu-uuu-uu-ux'>variique casus, misera consilia adiuva,</l>
+        <milestone ed="exclude" n="570" unit="line" />
+        <l n="570" real='--uu-uu-uu-ux'>est palla nobis, munus aetherium, domus </l>
+        <milestone ed="exclude" n="571" unit="line" />
+        <l real='u-u-u-uuu-ux'>decusque regni, pignus Aeetae datum</l>
+        <milestone ed="exclude" n="572" unit="line" />
+        <l real='uuuuuu-u-u-ux'>a Sole generis, est et auro textili</l>
+        <milestone ed="exclude" n="573" unit="line" />
+        <l real='uuu---u-u-ux'>monile fulgens quodque gemmarum nitor</l>
+        <milestone ed="exclude" n="574" unit="line" />
+        <l real='-----uu--uux'>distinguit aurum, quo solent cingi comae,</l>
+        <milestone ed="exclude" n="575" unit="line" />
+        <l n="575" real='--uuuuuu-uux'>haec nostra nati dona nubenti ferant, </l>
+        <milestone ed="exclude" n="576" unit="line" />
+        <l real='u-uuu-u---ux'>sed ante diris inlita ac tincta artibus,</l>
+        <milestone ed="exclude" n="577" unit="line" />
+        <l real='uuuuuuuuuu-ux'>vocetur Hecate, sacra letifica appara:</l>
+        <milestone ed="exclude" n="578" unit="line" />
+        <l real='uu-uu--u---ux'>statuantur arae, flamma iam tectis sonet.</l>
+        <pb id="p.139" />
+        <milestone ed="exclude" n="579" unit="line" />
+        <l real='-u---uuuu-x'>Nulla vis flammae tumidive venti</l>
+        <milestone ed="exclude" n="580" unit="line" />
+        <l n="580" real='-u-uuuu-u-x'>tanta, nec teli metuenda torti, </l>
+        <milestone ed="exclude" n="581" unit="line" />
+        <l real='-u---uuuu-x'>quanta cum coniunx viduata taedis</l>
+        <milestone ed="exclude" n="582" unit="line" />
+        <l real='-uuux'>ardet et odit;</l>
+        <milestone ed="exclude" n="583" unit="line" />
+        <l real='uuu--uuuu-x'>non ubi hibernos nebulosus imbres</l>
+        <milestone ed="exclude" n="584" unit="line" />
+        <l real='-u---uu-u-x'>Auster advexit properatque torrens</l>
+        <milestone ed="exclude" n="585" unit="line" />
+        <l n="585" real='-u---uu-u-x'>Hister et iunctos vetat esse pontes </l>
+        <milestone ed="exclude" n="586" unit="line" />
+        <l real='-uu-x'>ac vagus errat;</l>
+        <milestone ed="exclude" n="587" unit="line" />
+        <l real='uu--uuu-u-x'>non ubi impellit Rhodanus profundum,</l>
+        <milestone ed="exclude" n="588" unit="line" />
+        <l real='-u-u-uu-uux'>aut ubi in rivos nivibus solutis</l>
+        <milestone ed="exclude" n="589" unit="line" />
+        <l real='uu--uuuuuux'>sole iam forti medioque vere</l>
+        <milestone ed="exclude" n="590" unit="line" />
+        <l n="590" real='uuu-x'>tabuit Haemus. </l>
+        <milestone ed="exclude" n="591" unit="line" />
+        <l real='-u---uuuuux'>caecus est ignis stimulatus ira</l>
+        <milestone ed="exclude" n="592" unit="line" />
+        <l real='-uuu-uu--ux'>nec regi curat patiturve frenos</l>
+        <milestone ed="exclude" n="593" unit="line" />
+        <l real='-u---uuuu-x'>aut timet mortem: cupit ire in ipsos</l>
+        <milestone ed="exclude" n="594" unit="line" />
+        <l real='-uu-x'>obvius enses.</l>
+        <milestone ed="exclude" n="595" unit="line" />
+        <l n="595" real='-uuuuuu-uux'>parcite, o divi, veniam precamur, </l>
+        <milestone ed="exclude" n="596" unit="line" />
+        <l real='uu-u-uuuuux'>vivat ut tutus mare qui subegit,</l>
+        <milestone ed="exclude" n="597" unit="line" />
+        <l real='-u--uuu-u-x'>sed furit vinci dominus profundi</l>
+        <milestone ed="exclude" n="598" unit="line" />
+        <l real='-uu-x'>regna secunda.</l>
+        <milestone ed="exclude" n="599" unit="line" />
+        <l real='-u--uuuuu-x'>ausus aeternos agitare currus</l>
+        <milestone ed="exclude" n="600" unit="line" />
+        <l n="600" real='-u-u-uu-u-x'>immemor metae iuvenis paternae </l>
+        <milestone ed="exclude" n="601" unit="line" />
+        <l real='-uu--uuuu-x'>quos polo sparsit furiosus ignes</l>
+        <milestone ed="exclude" n="602" unit="line" />
+        <l real='-uuux'>ipse recepit.</l>
+        <pb id="p.140" />
+        <milestone ed="exclude" n="603" unit="line" />
+        <l real='-u--uuuuu-x'>constitit nulli via nota magno:</l>
+        <milestone ed="exclude" n="604" unit="line" />
+        <l real='uuuu-uuuuux'>vade qua tutum populo priori,</l>
+        <milestone ed="exclude" n="605" unit="line" />
+        <l n="605" real='-u-uuu-u-x'>rumpe nec sacro vidente sancta </l>
+        <milestone ed="exclude" n="606" unit="line" />
+        <l real='-uu-x'>foedera mundi.</l>
+        <milestone ed="exclude" n="607" unit="line" />
+        <l real='-u-u-uu-uux'>Quisquis audacis tetigit carinae</l>
+        <milestone ed="exclude" n="608" unit="line" />
+        <l real='uu-u-uu-uux'>nobiles remos nemorisque sacri</l>
+        <milestone ed="exclude" n="609" unit="line" />
+        <l real='uu--uuuuu-x'>Pelion densa spoliavit umbra,</l>
+        <milestone ed="exclude" n="610" unit="line" />
+        <l n="610" real='-u-u-uu-u-x'>quisquis intravit scopulos vagantes </l>
+        <milestone ed="exclude" n="611" unit="line" />
+        <l real='-uu--uuuuux'>et tot emensus pelagi labores</l>
+        <milestone ed="exclude" n="612" unit="line" />
+        <l real='-uuu-uuuuux'>barbara funem religavit ora</l>
+        <milestone ed="exclude" n="613" unit="line" />
+        <l real='-u--uuuuu-x'>raptor externi rediturus auri,</l>
+        <milestone ed="exclude" n="614" unit="line" />
+        <l real='-uuuuuuuu-x'>exitu diro temerata ponti</l>
+        <milestone ed="exclude" n="615" unit="line" />
+        <l n="615" real='uuuux'>iura piavit. </l>
+        <milestone ed="exclude" n="616" unit="line" />
+        <l real='-u---uuuuux'>exigit poenas mare provocatum:</l>
+        <milestone ed="exclude" n="617" unit="line" />
+        <l real='uu-u-uu-u-x'>Tiphys in primis, domitor profundi,</l>
+        <milestone ed="exclude" n="618" unit="line" />
+        <l real='uu--uuu-u-x'>liquit indocto regimen magistro;</l>
+        <milestone ed="exclude" n="619" unit="line" />
+        <l real='uu--uuuuu-x'>litore externo, procul a paternis</l>
+        <milestone ed="exclude" n="620" unit="line" />
+        <l n="620" real='-u---uuuuux'>occidens regnis tumuloque vili </l>
+        <milestone ed="exclude" n="621" unit="line" />
+        <l real='-u-u-uu-u-x'>tectus ignotas iacet inter umbras.</l>
+        <milestone ed="exclude" n="622" unit="line" />
+        <l real='uuu-uuu-uux'>Aulis amissi memor inde regis</l>
+        <milestone ed="exclude" n="623" unit="line" />
+        <l real='-u---uu-uux'>portibus lentis retinet carinas</l>
+        <milestone ed="exclude" n="624" unit="line" />
+        <l real='uuu-x'>stare querentes.</l>
+        <milestone ed="exclude" n="625" unit="line" />
+        <l n="625" real='-uuuuuuuuux'>ille vocali genitus Camena, </l>
+        <milestone ed="exclude" n="626" unit="line" />
+        <l real='uuu---uu-u-x'>cuius ad chordas modulante plectro</l>
+        <milestone ed="exclude" n="627" unit="line" />
+        <l real='-u---uuuu-x'>restitit torrens, siluere venti,</l>
+        <milestone ed="exclude" n="628" unit="line" />
+        <l real='uuuu-uuu-u-x'>cura suo cantu volucris relicto</l>
+        <milestone ed="exclude" n="629" unit="line" />
+        <l real='-u-uuuu-u-x'>adfuit tota comitante silva,</l>
+        <milestone ed="exclude" n="630" unit="line" />
+        <l n="630" real='uu---uu-uux'>Thracios sparsus iacuit per agros, </l>
+        <pb id="p.141" />
+        <milestone ed="exclude" n="631" unit="line" />
+        <l real='-u---uuuuux'>at caput tristi fluitavit Hebro:</l>
+        <milestone ed="exclude" n="632" unit="line" />
+        <l real='-u-uuuu-u-x'>contigit notam Styga Tartarumque,</l>
+        <milestone ed="exclude" n="633" unit="line" />
+        <l real='-uuux'>non rediturus.</l>
+        <milestone ed="exclude" n="634" unit="line" />
+        <l real='uu-uuuuuuux'>stravit Alcides Aquilone natos,</l>
+        <milestone ed="exclude" n="635" unit="line" />
+        <l n="635" real='uu-uuuu-uux'>patre Neptuno genitum necavit </l>
+        <milestone ed="exclude" n="636" unit="line" />
+        <l real='uu-uu-uu-uux'>sumere innumeras solitum figuras:</l>
+        <milestone ed="exclude" n="637" unit="line" />
+        <l real='-u---uuuuux'>ipse post terrae pelagique pacem,</l>
+        <milestone ed="exclude" n="638" unit="line" />
+        <l real='-uuu-uu-u-x'>post feri Ditis patefacta regna,</l>
+        <milestone ed="exclude" n="639" unit="line" />
+        <l real='uu--uuu-uux'>vivus ardenti recubans in Oeta</l>
+        <milestone ed="exclude" n="640" unit="line" />
+        <l n="640" real='-u---uu---x'>praebuit saevis sua membra flammis, </l>
+        <milestone ed="exclude" n="641" unit="line" />
+        <l real='uu---uuuuux'>tabe consumptus gemini cruoris</l>
+        <milestone ed="exclude" n="642" unit="line" />
+        <l real='uuu-x'>munere nuptae.</l>
+        <milestone ed="exclude" n="643" unit="line" />
+        <l real='uu---uu-u-x'>stravit Ancaeum violentus ictu</l>
+        <milestone ed="exclude" n="644" unit="line" />
+        <l real='-u-uuuuuuux'>saetiger; fratrem, Meleagre, matris</l>
+        <milestone ed="exclude" n="645" unit="line" />
+        <l n="645" real='-ux'>impius m actas morerisque dextra </l>
+        <milestone ed="exclude" n="646" unit="line" />
+        <l real='uuuu-uuuu-x'>matris iratae, meruere cuncti</l>
+        <milestone ed="exclude" n="647" unit="line" />
+        <l real='-u-u-uu-uux'>morte quod crimen tener expiavit</l>
+        <milestone ed="exclude" n="648" unit="line" />
+        <l real='-uu-uuu-u-x'>Herculi magno puer inrepertus,</l>
+        <milestone ed="exclude" n="649" unit="line" />
+        <l real='-uuu-uu-u-x'>raptus, heu, tutas puer inter undas,</l>
+        <milestone ed="exclude" n="650" unit="line" />
+        <l n="650" real='uu---uuuu-x'>ite nunc, fortes, perarate pontum </l>
+        <milestone ed="exclude" n="651" unit="line" />
+        <l real='-uu-x'>fonte timendo.</l>
+        <milestone ed="exclude" n="652" unit="line" />
+        <l real='-u---uuuu-x'>Idmonem, quamvis bene fata nosset,</l>
+        <milestone ed="exclude" n="653" unit="line" />
+        <l real='-u---uuuuux'>condidit serpens Libycis harenis;</l>
+        <milestone ed="exclude" n="654" unit="line" />
+        <l real='-u-u-uu-uux'>omnibus verax, sibi falsus uni</l>
+        <milestone ed="exclude" n="655" unit="line" />
+        <l n="655" real='-uu--uu-uux'>concidit Mopsus caruitque Thebis. </l>
+        <milestone ed="exclude" n="656" unit="line" />
+        <l real='-uuuuuu-uux'>ille si vere cecinit futura,</l>
+        <milestone ed="exclude" n="657" unit="line" />
+        <l real='-u-uuuu-uux'>exul errabit Thetidis maritus </l>
+        <pb id="p.142" />
+        <milestone ed="exclude" n="661" unit="line" />
+        <l real='-u--uuu-uux'>fulmine et ponto moriens Oileus </l>
+        <milestone ed="exclude" n="660" unit="line" />
+        <l n="660" real='uuuu-x'>* * patrioque pendet </l>
+        <milestone ed="exclude" n="661" unit="line" />
+        <l real='uuu-x'>crimine poenas:</l>
+        <milestone ed="exclude" n="658" unit="line" />
+        <l real='-u-uuuuuu-x'>igne fallaci nociturus Argis </l>
+        <milestone ed="exclude" n="659" unit="line" />
+        <l real='-u---uu-u-x'>Nauplius praeceps cadet in profundum, </l>
+        <milestone ed="exclude" n="662" unit="line" />
+        <l real='-u-u-uu-u-x'>coniugis fatum redimens Pheraei </l>
+        <milestone ed="exclude" n="663" unit="line" />
+        <l real='-u--uuu-uux'>uxor impendes animam marito,</l>
+        <milestone ed="exclude" n="664" unit="line" />
+        <l real='-uu--uu-u-x'>ipse qui praedam spoliumque iussit</l>
+        <milestone ed="exclude" n="665" unit="line" />
+        <l n="665" real='--uuuuuuux'>aureum prima revehi carina, </l>
+        <milestone ed="exclude" n="666" unit="line" />
+        <l real='-u--uuuu-x'>arsit accenso Pelias aeno.</l>
+        <milestone ed="exclude" n="667" unit="line" />
+        <l real='-u---uu-u-x'>[ustus angustas vagus inter undas.]</l>
+        <milestone ed="exclude" n="668" unit="line" />
+        <l real='-u-uuuu-u-x'>iam satis, divi, mare vindicastis:</l>
+        <milestone ed="exclude" n="669" unit="line" />
+        <l real='-uu-x'>parcite iusso.</l>
+      </sp>
+      <milestone n="670" unit="card" />
+      <sp who="#nutrix">
+        <speaker>Nvtrix</speaker>
+        <milestone ed="exclude" n="670" unit="line" />
+        <l n="670" real='uuu---u-uuuux'>Pavet animus, horret, magna pernicies adest. </l>
+        <milestone ed="exclude" n="671" unit="line" />
+        <l real='-uu---u-u-ux'>immane quantum augescit et semet dolor</l>
+        <milestone ed="exclude" n="672" unit="line" />
+        <l real='--u-u-u-uu-ux'>accendit ipse vimque praeteritam integrat.</l>
+        <milestone ed="exclude" n="673" unit="line" />
+        <l real='uuu---u---ux'>vidi furentem saepe et aggressam deos,</l>
+        <milestone ed="exclude" n="674" unit="line" />
+        <l real='-u--uuu-uu-ux'>caelum trahentem: maius his, maius parat</l>
+        <milestone ed="exclude" n="675" unit="line" />
+        <l n="675" real='uuu---u-uuuux'>Medea monstrum, namque ut attonito gradu </l>
+        <milestone ed="exclude" n="676" unit="line" />
+        <l real='uuu-uuuuu--ux'>evasit et penetrale funestam attigit,</l>
+        <milestone ed="exclude" n="677" unit="line" />
+        <l real='uuuu--u---ux'>totas opes effundit et quicquid diu</l>
+        <milestone ed="exclude" n="678" unit="line" />
+        <l real='u-uuu-uu---ux'>etiam ipsa timuit promit atque omnem explicat</l>
+        <milestone ed="exclude" n="679" unit="line" />
+        <l real='--uu-uuuu-ux'>turbam malorum, arcana secreta abdita,</l>
+        <pb id="p.143" />
+        <milestone ed="exclude" n="680" unit="line" />
+        <l n="680" real='--u-u-u-u-ux'>et triste laeva congregans sacrum manu </l>
+        <milestone ed="exclude" n="681" unit="line" />
+        <l real='--u---u---ux'>pestes vocat quascumque ferventes creat</l>
+        <milestone ed="exclude" n="682" unit="line" />
+        <l real='uuuu--u-uuuux'>harena Libyae quasque perpetua nive</l>
+        <milestone ed="exclude" n="683" unit="line" />
+        <l real='--u--uuu-uuux'>Taurus cohercet frigore Arctoo rigens,</l>
+        <milestone ed="exclude" n="684" unit="line" />
+        <l real='u-u---uuu--ux'>et omne monstrum, tracta magicis cantibus</l>
+        <milestone ed="exclude" n="685" unit="line" />
+        <l n="685" real='uuuuu--uu-uux'>squamifera latebris turba desertis adest. </l>
+        <milestone ed="exclude" n="686" unit="line" />
+        <l real='--u---u---ux'>hic saeva serpens corpus immensum trahit</l>
+        <milestone ed="exclude" n="687" unit="line" />
+        <l real='uu-u---u---ux'>trifidamque linguam exertat et quaerit quibus</l>
+        <milestone ed="exclude" n="688" unit="line" />
+        <l real='uuuuu--u-uuux'>mortifera veniat: carmine audito stupet</l>
+        <milestone ed="exclude" n="689" unit="line" />
+        <l real='uu-uu--u---ux'>tumidumque nodis corpus aggestis plicat</l>
+        <milestone ed="exclude" n="690" unit="line" />
+        <l n="690" real='u-ux', '-u---ux'>cogitque in orbεs. 'parva sunt' inquit 'mala </l>
+        <milestone ed="exclude" n="691" unit="line" />
+        <l real='-uuux', 'uu---ux'>et vile telum est. ima quod tellus creat:</l>
+        <milestone ed="exclude" n="692" unit="line" />
+        <l real='-uu-uuu---ux'>caelo petam venena, iam iam tempus est</l>
+        <milestone ed="exclude" n="693" unit="line" />
+        <l real='uu-uu--u-u-ux'>aliquid movere fraude vulgari altius.</l>
+        <milestone ed="exclude" n="694" unit="line" />
+        <l real='u-u-uuu---ux'>huc ille vasti more torrentis iacens</l>
+        <milestone ed="exclude" n="695" unit="line" />
+        <l n="695" real='--u--uuu---ux'>descendat anguis, cuius immensos duae. </l>
+        <milestone ed="exclude" n="696" unit="line" />
+        <l real='uu-u-u-u-u-ux'>maior minorque, sentiunt nodos ferae</l>
+        <milestone ed="exclude" n="697" unit="line" />
+        <l real='uuuu-u-x', 'uuu-ux'>(maior Pelasgis apta. Sidoniis minor)</l>
+        <milestone ed="exclude" n="698" unit="line" />
+        <l real='--u---uuuu-ux'>pressasque tandem solvat Ophiuchus manus</l>
+        <milestone ed="exclude" n="699" unit="line" />
+        <l real='u-u-u-u---ux'>virusque fundat; adsit ad cantus meos</l>
+        <milestone ed="exclude" n="700" unit="line" />
+        <l n="700" real='u-u--uuuu-uux'>lacessere ausus gemina Python numina. </l>
+        <milestone ed="exclude" n="701" unit="line" />
+        <l real='uu--uuu-uuuux'>et Hydra et omnis redeat Herculea manu</l>
+        <milestone ed="exclude" n="702" unit="line" />
+        <l real='-uu---uuuu-ux'>succisa serpens, caede se reparans sua.</l>
+        <milestone ed="exclude" n="703" unit="line" />
+        <l real='uuuu---uu-uux'>tu quoque relictis pervigil Colchis ades,</l>
+        <milestone ed="exclude" n="704" unit="line" />
+        <l real='uuuu--u---x'>sopite primum cantibus, serpens, meis.'</l>
+        <milestone ed="exclude" n="705" unit="line" />
+        <l n="705" real='-uuuu-u---ux'>Postquam evocavit omne serpentum genus, </l>
+        <milestone ed="exclude" n="706" unit="line" />
+        <l real='-uuuu-uu---ux'>congerit in unum frugis infaustae mala:</l>
+        <milestone ed="exclude" n="707" unit="line" />
+        <l real='--uuuu-u--uux'>quaecumque generat invius saxis Eryx,</l>
+        <milestone ed="exclude" n="708" unit="line" />
+        <l real='-u-uuuu-uuuux'>quae fert opertis hieme perpetua iugis</l>
+        <pb id="p.144" />
+        <milestone ed="exclude" n="709" unit="line" />
+        <l real='--uuu-uuuux'>sparsus cruore Caucasus Promethei,</l>
+        <milestone ed="exclude" n="711" unit="line" />
+        <l real='--u--uuuuu-ux'>et quis sagittas divites Arabes linunt </l>
+        <milestone ed="exclude" n="710" unit="line" />
+        <l n="710" real='uuu-uuuu--uux'>pharetraque pugnax Mediis aut Parthi leves, </l>
+        <milestone ed="exclude" n="712" unit="line" />
+        <l real='--u--uuuu-ux'>aut quos sub axe frigido sucos legunt </l>
+        <milestone ed="exclude" n="713" unit="line" />
+        <l real='uuuu-uuu-uux'>lucis Suebae nobiles Hyrcaniis;</l>
+        <milestone ed="exclude" n="714" unit="line" />
+        <l real='--u--uuuuuuux'>quodcumque tellus vere nidifico creat</l>
+        <milestone ed="exclude" n="715" unit="line" />
+        <l n="715" real='-uuu--uu--ux'>aut rigida cum iam bruma discnssit decus </l>
+        <milestone ed="exclude" n="716" unit="line" />
+        <l real='uu-uuu-u---ux'>nemorum et nivali cuncta constrinxit gelu,</l>
+        <milestone ed="exclude" n="717" unit="line" />
+        <l real='--uu-uu-uuuux'>quodcumque gramen flore mortifero viret</l>
+        <milestone ed="exclude" n="718" unit="line" />
+        <l real='uu-u--uu-uuux'>cuiusve fortis sucus in radicibus</l>
+        <milestone ed="exclude" n="719" unit="line" />
+        <l real='--u-u-u---ux'>causas nocendi gignit, attrectat manu.</l>
+        <milestone ed="exclude" n="720" unit="line" />
+        <l n="720" real='-uuu---u--uux'>Haemonius illas contulit pestes Athos, </l>
+        <milestone ed="exclude" n="721" unit="line" />
+        <l real='u-u---u--uux'>has Pindus ingens, illa Pangaei iugis</l>
+        <milestone ed="exclude" n="722" unit="line" />
+        <l real='u-u-u-uuuu-ux'>teneram cruenta falce deposuit comam;</l>
+        <milestone ed="exclude" n="723" unit="line" />
+        <l real='uuuu---uuu-ux'>has aluit altum gurgitem Tigris premens,</l>
+        <milestone ed="exclude" n="724" unit="line" />
+        <l real='uuuu-u-uu--ux'>Danuvius illas, has per arentes plagas</l>
+        <milestone ed="exclude" n="725" unit="line" />
+        <l n="725" real='uuuu---u---ux'>tepidis Hydaspes gemmifer currens aquis, </l>
+        <milestone ed="exclude" n="726" unit="line" />
+        <l real='u-u--uuu--ux'>nomenque terris qui dedit Baetis suis</l>
+        <milestone ed="exclude" n="727" unit="line" />
+        <l real='uuu--uuu--uux'>Hesperia pulsans maria languenti vado.</l>
+        <milestone ed="exclude" n="728" unit="line" />
+        <l real='--u---uu--ux'>haec passa ferrum est, dum parat Phoebus diem,</l>
+        <milestone ed="exclude" n="729" unit="line" />
+        <l real='-uu-u-u-u-ux'>illius alta nocte succisus frutex;</l>
+        <milestone ed="exclude" n="730" unit="line" />
+        <l n="730" real='uuuu-u-u-uuux'>at huius ungue secta cantato seges. </l>
+        <milestone ed="exclude" n="731" unit="line" />
+        <l real='-uuu--uu---ux'>Mortifera carpit gramina ac serpentium</l>
+        <milestone ed="exclude" n="732" unit="line" />
+        <l real='uu-u---u-uuux'>saniem exprimit miscetque et obscenas aves</l>
+        <milestone ed="exclude" n="733" unit="line" />
+        <l real='-uu-uuu---ux'>maestique cor bubonis et raucae strigis</l>
+        <milestone ed="exclude" n="734" unit="line" />
+        <l real='--uu--u-uu-ux'>exsecta vivae viscera, haec scelerum artifex</l>
+        <milestone ed="exclude" n="735" unit="line" />
+        <l n="735" real='-uuuu-u-u-ux'>discreta ponit; his rapax vis ignium, </l>
+        <milestone ed="exclude" n="736" unit="line" />
+        <l real='uuuu-uu-uuuux'>his gelida pigri frigoris glacies inest.</l>
+        <pb id="p.145" />
+        <milestone ed="exclude" n="737" unit="line" />
+        <l real='--uu--uu--ux'>addit venenis verba non illis minus</l>
+        <milestone ed="exclude" n="738" unit="line" />
+        <l real='u-uuuu-u-uuux'>metuenda, sonuit ecce vaesano gradu</l>
+        <milestone ed="exclude" n="739" unit="line" />
+        <l real='u-x', '--uu-u-ux'>canitque. mundus vocibus primis tremit.</l>
+      </sp>
+      <milestone n="740" unit="card" />
+      <sp who="#medea">
+        <speaker>Medea</speaker>
+        <milestone ed="exclude" n="740" unit="line" />
+        <l n="740" real='---u---uuu-ux'>Compreeor vulgus silentum vosque ferales deos </l>
+        <milestone ed="exclude" n="741" unit="line" />
+        <l real='---uuuuu-uuux'>et Chaos caecum atque opacam Ditis umbrosi domum.</l>
+        <milestone ed="exclude" n="742" unit="line" />
+        <l real='uu-uu-uuu--ux'>Tartari ripis ligatae squalido Mortis specu</l>
+        <milestone ed="exclude" n="743" unit="line" />
+        <l real='-ux', 'u-u---u-uu-ux'>supplicis. animae, remissis currite ad thalamos novos:</l>
+        <milestone ed="exclude" n="744" unit="line" />
+        <l real='---u---uuuuux'>rota resistat membra torquens, tangat Ixion humum,</l>
+        <milestone ed="exclude" n="745" unit="line" />
+        <l n="745" real='-uuu-u-uuuuux'>Tantalus securus undas hauriat Pirenidas. </l>
+        <milestone ed="exclude" n="748" unit="line" />
+        <l real='---uuu-u-u-ux'>vos quoque, urnis quas foratis inritus ludit labor, </l>
+        <milestone ed="exclude" n="749" unit="line" />
+        <l real='uuu-uuu-ux', 'u---ux'>Danaides, coite: vestras hic. dies quaerit manus. </l>
+        <milestone ed="exclude" n="746" unit="line" />
+        <l real='u-uuu--u-uuux'>gravior uni poena sedeat coniugis socero mei: </l>
+        <milestone ed="exclude" n="747" unit="line" />
+        <l real='---uuuuu---ux'>lubricus per saxa retro Sisyphum volvat lapis,</l>
+        <milestone ed="exclude" n="750" unit="line" />
+        <l n="750" real='-uuuu--u-u-ux'>nunc meis vocata sacris, noctium sidus, veni </l>
+        <milestone ed="exclude" n="751" unit="line" />
+        <l real='u-uu---uuuuux'>pessimos induta vultus, fronte non una minax.</l>
+        <milestone ed="exclude" n="752" unit="line" />
+        <l real='uuuu---uu--ux'>Tibi move gentis vinculo solvens comam</l>
+        <milestone ed="exclude" n="753" unit="line" />
+        <l real='uuuuuuuu-uuux'>secreta nudo nemora lustravi pede</l>
+        <milestone ed="exclude" n="754" unit="line" />
+        <l real='uuuuuuu--uux'>et evocavi nubibus siccis aquas</l>
+        <milestone ed="exclude" n="755" unit="line" />
+        <l n="755" real='uuu-uuuuuu-ux'>egique ad imum maria, et Oceanus graves </l>
+        <milestone ed="exclude" n="756" unit="line" />
+        <l real='--u-u-u---ux'>interius undas aestibus victis dedit;</l>
+        <milestone ed="exclude" n="757" unit="line" />
+        <l real='uu-u--uu-u-ux'>pariterque mundus lege confusa aetheris</l>
+        <milestone ed="exclude" n="758" unit="line" />
+        <l real='-uu-uuu-uu-ux'>et solem et astra vidit et vetitum mare</l>
+        <milestone ed="exclude" n="759" unit="line" />
+        <l real='uu-u-x', '-u--uux'>tetigistis, ursae. temporum flexi vices:</l>
+        <milestone ed="exclude" n="760" unit="line" />
+        <l n="760" real='-uu--uu--uux'>aestiva tellus floruit cantu meo, </l>
+        <milestone ed="exclude" n="761" unit="line" />
+        <l real='u-u--uuu-uux'>coacta messem vidit hibernam Ceres;</l>
+        <milestone ed="exclude" n="762" unit="line" />
+        <l real='uu-uu--u---ux'>violenta Phasis vertit in fontem vada</l>
+        <pb id="p.146" />
+        <milestone ed="exclude" n="763" unit="line" />
+        <l real='u-u-uuuuu-ux'>et Hister, in tot ora divisus, truces</l>
+        <milestone ed="exclude" n="764" unit="line" />
+        <l real='--u-u-u-u-ux'>compressit undas omnibus ripis piger.</l>
+        <milestone ed="exclude" n="765" unit="line" />
+        <l n="765" real='uu---uuu-u-ux'>Sonuere fluctus, tumuit insanum mare </l>
+        <milestone ed="exclude" n="766" unit="line" />
+        <l real='u-u-uuuu-uuux'>tacente vento; nemoris antiqui domus</l>
+        <milestone ed="exclude" n="767" unit="line" />
+        <l real='uuu--uu-uuuux'>emisit umbras vocis imperio meae.</l>
+        <milestone ed="exclude" n="768" unit="line" />
+        <l real='uuu-u-u-uuuux'>die relicto Phoebus in medio stetit</l>
+        <milestone ed="exclude" n="769" unit="line" />
+        <l real='uu-u---u-u-ux'>Hyadesque nostris cantibus motae labant:</l>
+        <milestone ed="exclude" n="770" unit="line" />
+        <l n="770" real='u-uu--u--uux'>adesse sacris tempus est, Phoebe, tuis. </l>
+        <milestone ed="exclude" n="771" unit="line" />
+        <l real='u-u-u-u---ux'>tibi haec cruenta serta texuntur manu,</l>
+        <milestone ed="exclude" n="772" unit="line" />
+        <l real='uuu---ux'>no vena quae serpens ligat,</l>
+        <milestone ed="exclude" n="773" unit="line" />
+        <l real='u-u--u--x'>tibi haec Typhoeus membra quae discors</l>
+        <milestone ed="exclude" n="774" unit="line" />
+        <l real='u-u--uux'>qui regna concussit Iovis,</l>
+        <milestone ed="exclude" n="775" unit="line" />
+        <l n="775" real='-uu---uu--ux'>vectoris istic perfidi sanguis inest, </l>
+        <milestone ed="exclude" n="776" unit="line" />
+        <l real='u-u-u-ux'>quem Nessus expirans dedit.</l>
+        <milestone ed="exclude" n="777" unit="line" />
+        <l real='u-u-uuuuuu-ux'>Oetaeus isto cinere defecit rogus,</l>
+        <milestone ed="exclude" n="778" unit="line" />
+        <l real='uuu-u-ux'>qui virus Herculeum bibit,</l>
+        <milestone ed="exclude" n="779" unit="line" />
+        <l real='u-uuu-u-u-ux'>piae sororis, impiae matris, facem</l>
+        <milestone ed="exclude" n="780" unit="line" />
+        <l n="780" real='-uu---ux'>ultricis Althaeae vides, </l>
+        <milestone ed="exclude" n="781" unit="line" />
+        <l real='uuu-u-uuu-ux'>reliquit istas invio plumas specu</l>
+        <milestone ed="exclude" n="782" unit="line" />
+        <l real='-uuuuu-ux'>Harpyia, dum Zeten fugit,</l>
+        <milestone ed="exclude" n="783" unit="line" />
+        <l real='uuuu---u--uux'>his adice pinnas sauciae Stymphalidos</l>
+        <milestone ed="exclude" n="784" unit="line" />
+        <l real='--u--uux'>Lernaea passae spicula,</l>
+        <milestone ed="exclude" n="785" unit="line" />
+        <l n="785" real='u-uu-uuu--uux'>sonuistis, arae, tripodas agnosco meos </l>
+        <milestone ed="exclude" n="786" unit="line" />
+        <l real='u-u-u-ux'>favente commotos dea.</l>
+        <milestone ed="exclude" n="787" unit="line" />
+        <l real='uuuuu--uuux'>Video Triviae currus agiles,</l>
+        <milestone ed="exclude" n="788" unit="line" />
+        <l real='--uuuuu-x'>non quos pleno lucida vultu</l>
+        <milestone ed="exclude" n="789" unit="line" />
+        <l real='-uuux'>pernox agitat,</l>
+        <pb id="p.147" />
+        <milestone ed="exclude" n="790" unit="line" />
+        <l n="790" real='--uuuuuu-x'>sed quos facie Iurida maesta, </l>
+        <milestone ed="exclude" n="791" unit="line" />
+        <l real='u-uu--uuux'>cum Thessalicis vexata minis</l>
+        <milestone ed="exclude" n="792" unit="line" />
+        <l real='--uuuuuuux'>caelum freno propiore legit.</l>
+        <milestone ed="exclude" n="793" unit="line" />
+        <l real='-uu---uuux'>sic face tristem pallida lucem</l>
+        <milestone ed="exclude" n="793b" unit="line" />
+        <l n="793b" real='-uu-x'>funde per auras,</l>
+        <milestone ed="exclude" n="794" unit="line" />
+        <l real='-uuuu-uuux'>horrore novo terre populos</l>
+        <milestone ed="exclude" n="795" unit="line" />
+        <l n="795" real='--uuu--uux'>inque auxilium, Dictynna, tuum </l>
+        <milestone ed="exclude" n="796" unit="line" />
+        <l real='uuuuu--uu-x'>pretiosa sonent aera Corinthi.</l>
+        <milestone ed="exclude" n="797" unit="line" />
+        <l real='uu--uu-uuux'>tibi sanguineo caespite sacrum</l>
+        <milestone ed="exclude" n="798" unit="line" />
+        <l real='--uux'>sollemne damus,</l>
+        <milestone ed="exclude" n="799" unit="line" />
+        <l real='uuuuuu-uu-x'>tibi de medio rapta sepulchro</l>
+        <milestone ed="exclude" n="800" unit="line" />
+        <l n="800" real='-----uu-x'>fax nocturnos sustulit ignes, </l>
+        <milestone ed="exclude" n="800b" unit="line" />
+        <l n="800b" real='uuuuux'>tibi mota caput </l>
+        <milestone ed="exclude" n="801" unit="line" />
+        <l real='u-uu--uuux'>fiexa voces cervice dedi,</l>
+        <milestone ed="exclude" n="802" unit="line" />
+        <l real='uuuuuuuuuux'>tibi funereo de more iacens</l>
+        <milestone ed="exclude" n="803" unit="line" />
+        <l real='-----uu-x'>passos cingit vitta capillos,</l>
+        <milestone ed="exclude" n="804" unit="line" />
+        <l real='uu-ux'>tibi iactatur</l>
+        <milestone ed="exclude" n="805" unit="line" />
+        <l n="805" real='-uuuuuuu-x'>tristis Stygia ramus ab unda, </l>
+        <milestone ed="exclude" n="806" unit="line" />
+        <l real='uuuuu-uu-x'>tibi nudato pectore maenas</l>
+        <milestone ed="exclude" n="807" unit="line" />
+        <l real='uuuu--uu-x'>sacro feriam bracchia cultro.</l>
+        <milestone ed="exclude" n="808" unit="line" />
+        <l real='u-----uux'>manet noster sanguis ad aras:</l>
+        <milestone ed="exclude" n="809" unit="line" />
+        <l real='-u-uu--uu-x'>assuesce, manus, stringere ferrum</l>
+        <milestone ed="exclude" n="810" unit="line" />
+        <l n="810" real='u-uuu-uuux'>carosque pati posse cruores. </l>
+        <milestone ed="exclude" n="811" unit="line" />
+        <l real='u-uu---uux'>sacrum laticem percussa dedi.</l>
+        <milestone ed="exclude" n="812" unit="line" />
+        <l real='-uuu--uuux'>quodsi nimium saepe vocari</l>
+        <milestone ed="exclude" n="813" unit="line" />
+        <l real='u-uu--uux'>querens votis, ignosce precor:</l>
+        <milestone ed="exclude" n="814" unit="line" />
+        <l real='-uu-u--ux'>causa vocandi, Persei, tuos</l>
+        <milestone ed="exclude" n="815" unit="line" />
+        <l n="815" real='-uu-uu-uux'>saepius arcus una atque eadem est </l>
+        <milestone ed="exclude" n="816" unit="line" />
+        <l real='-uux'>semper Iason.</l>
+        <milestone ed="exclude" n="817" unit="line" />
+        <l real='u----uux'>tu nunc vestes tinge Creusae,</l>
+        <milestone ed="exclude" n="818" unit="line" />
+        <l real='--u--uuux'>quas cum primum sumpserit, imas</l>
+        <milestone ed="exclude" n="819" unit="line" />
+        <l real='u----uu-x'>urat serpens flamma medullas.</l>
+        <milestone ed="exclude" n="820" unit="line" />
+        <l n="820" real='---uuuu-x'>ignis fulvo elusus in auro </l>
+        <milestone ed="exclude" n="821" unit="line" />
+        <l real='uu-u--uu-x'>latet obscurus, quem mihi caeli</l>
+        <pb id="p.148" />
+        <milestone ed="exclude" n="822" unit="line" />
+        <l real='u-uu--uuux'>qui furta luit viscere feto</l>
+        <milestone ed="exclude" n="823" unit="line" />
+        <l real='uu-uu--uuux'>dedit et docuit condere vires</l>
+        <milestone ed="exclude" n="824" unit="line" />
+        <l real='-uuu-uu-uux'>arte, Prometheus, dedit et tenui</l>
+        <milestone ed="exclude" n="825" unit="line" />
+        <l n="825" real='-uu-u-uu-x'>sulphure tectos Mulciber ignes, </l>
+        <milestone ed="exclude" n="826" unit="line" />
+        <l real='-uu--u--x'>et vivacis fulgura flammae</l>
+        <milestone ed="exclude" n="827" unit="line" />
+        <l real='u-uu--uux'>de cognato Phaethonte tuli.</l>
+        <milestone ed="exclude" n="828" unit="line" />
+        <l real='uu-u-uuu-x'>habeo en dirae dona Chimaerae,</l>
+        <milestone ed="exclude" n="829" unit="line" />
+        <l real='uu--x'>habeo flammas</l>
+        <milestone ed="exclude" n="830" unit="line" />
+        <l n="830" real='-u-u-uu-x'>usto tauri gutture raptas, </l>
+        <milestone ed="exclude" n="831" unit="line" />
+        <l real='---u-uuux'>quas permixto felle Medusae</l>
+        <milestone ed="exclude" n="832" unit="line" />
+        <l real='uu--u-uuux'>tacitum iussi servare malum,</l>
+        <milestone ed="exclude" n="833" unit="line" />
+        <l real='-uuu-uuuuux'>adde venenis stimulos, Hecate,</l>
+        <milestone ed="exclude" n="834" unit="line" />
+        <l real='u-ux'>donisque meis</l>
+        <milestone ed="exclude" n="835" unit="line" />
+        <l n="835" real='uu----uu-x'>semina flammae condita serva. </l>
+        <milestone ed="exclude" n="836" unit="line" />
+        <l real='--u---uux'>fallant visus tactusque ferant,</l>
+        <milestone ed="exclude" n="837" unit="line" />
+        <l real='uu---u-uux'>meet in pectus venasque calor,</l>
+        <milestone ed="exclude" n="838" unit="line" />
+        <l real='---u-uuux'>stillent artus ossaque tument</l>
+        <milestone ed="exclude" n="838b" unit="line" />
+        <l n="838b" real='--uux'>vincatque suas</l>
+        <milestone ed="exclude" n="849 " unit="line" />
+        <l real='u-uuuuu-uux'>flagrante coma nova nupta faces.</l>
+        <milestone ed="exclude" n="840" unit="line" />
+        <l n="840" real='uuu---uux'>Vota tenentur: ter latratus </l>
+        <milestone ed="exclude" n="841" unit="line" />
+        <l real='-uuuuuu-ux'>audax Hecate dedit et sacros</l>
+        <milestone ed="exclude" n="842" unit="line" />
+        <l real='uuu--uuuuux'>edidit ignes face lucifera.</l>
+        <milestone ed="exclude" n="843" unit="line" />
+        <l real='u-uu--u-u-ux'>Peracta vis est omnis: huc natos voca,</l>
+        <milestone ed="exclude" n="844" unit="line" />
+        <l real='uuuu--uuu-uux'>pretiosa per quos dona nubenti feram,</l>
+        <milestone ed="exclude" n="845" unit="line" />
+        <l n="845" real='uuuuuuu---ux'>ite, ite, nati, matris infaustae genus, </l>
+        <milestone ed="exclude" n="846" unit="line" />
+        <l real='uuuu-uu--uux'>placate vobis munere et multa prece</l>
+        <milestone ed="exclude" n="847" unit="line" />
+        <l real='uu-u-x', 'uu-uu-ux'>dominam ac novercam.. vadite et celeres domum</l>
+        <milestone ed="exclude" n="848" unit="line" />
+        <l real='u-u-u-u---ux'>referte gressus, ultimo amplexu ut fruar,</l>
+      </sp>
+      <milestone n="848" unit="card" />
+      <sp who="#chorus">
+        <speaker>Chorus</speaker>
+        <milestone ed="exclude" n="849" unit="line" />
+        <l real='u-u-u-x'>Quonam cruenta maenas</l>
+        <milestone ed="exclude" n="850" unit="line" />
+        <l n="850" real='--uuu-x'>praeceps amore saevo </l>
+        <milestone ed="exclude" n="851" unit="line" />
+        <l real='uu-u-u-x'>rapitur? quod impotenti</l>
+        <pb id="p.149" />
+        <milestone ed="exclude" n="852" unit="line" />
+        <l real='uuu-u-uux'>facilius parat furore?—</l>
+        <milestone ed="exclude" n="853" unit="line" />
+        <l real='--uuuux'>vultus citatus ira</l>
+        <milestone ed="exclude" n="854" unit="line" />
+        <l real='uu-u-uux'>riget et caput feroci</l>
+        <milestone ed="exclude" n="855" unit="line" />
+        <l n="855" real='uu-u-uux'>quatiens superba motu </l>
+        <milestone ed="exclude" n="856" unit="line" />
+        <l real='uuuuu-x'>regi minatur ultro.</l>
+        <milestone ed="exclude" n="857" unit="line" />
+        <l real='-uu-ux'>quis credat exulem?</l>
+        <milestone ed="exclude" n="858" unit="line" />
+        <l real='u-u-u-x'>flagrant genae rubentes.</l>
+        <milestone ed="exclude" n="859" unit="line" />
+        <l real='--u-uux'>pallor fugat ruborem,</l>
+        <milestone ed="exclude" n="860" unit="line" />
+        <l n="860" real='--u-u-x'>nullum vagante forma </l>
+        <milestone ed="exclude" n="861" unit="line" />
+        <l real='--uuuux'>servat diu colorem.—</l>
+        <milestone ed="exclude" n="862" unit="line" />
+        <l real='--uuu-x'>huc fert pedes et illuc,</l>
+        <milestone ed="exclude" n="863" unit="line" />
+        <l real='-uu-uux'>ut tigris orba natis</l>
+        <milestone ed="exclude" n="864" unit="line" />
+        <l real='-uu-u-x'>cursu furente lustrat</l>
+        <milestone ed="exclude" n="865" unit="line" />
+        <l n="865" real='-uu-ux'>Grangeticum nemus. </l>
+        <milestone ed="exclude" n="866" unit="line" />
+        <l real='uuu-uux'>frenare nescit iras</l>
+        <milestone ed="exclude" n="867" unit="line" />
+        <l real='uuuuuux'>Medea, non amores;</l>
+        <milestone ed="exclude" n="868" unit="line" />
+        <l real='-uu-u-x'>nunc ira amorque causam</l>
+        <milestone ed="exclude" n="869" unit="line" />
+        <l real='-uu-uux'>iunxere: quid sequetur?</l>
+        <milestone ed="exclude" n="870" unit="line" />
+        <l n="870" real='--uuu-x'>quando efferet Pelasgis </l>
+        <milestone ed="exclude" n="871" unit="line" />
+        <l real='u-u-u-x'>nefanda Colchis arvis</l>
+        <milestone ed="exclude" n="872" unit="line" />
+        <l real='--uuu-x'>gressum metuque solvet</l>
+        <milestone ed="exclude" n="873" unit="line" />
+        <l real='--u-uux'>regnum simulque reges?—</l>
+        <milestone ed="exclude" n="874" unit="line" />
+        <l real='--u-u-x'>nunc, Phoebe, mitte currus</l>
+        <milestone ed="exclude" n="875" unit="line" />
+        <l n="875" real='-uu-uux'>nullo morante loro, </l>
+        <milestone ed="exclude" n="876" unit="line" />
+        <l real='--u-uux'>nox condat alma lucem,</l>
+        <milestone ed="exclude" n="877" unit="line" />
+        <l real='--u-u-x'>mergat diem timendum</l>
+        <milestone ed="exclude" n="878" unit="line" />
+        <l real='--u-ux'>dux noctis Hesperus.</l>
+      </sp>
+      <stage>nuntius chorus nutrix medea iason</stage>
+      <sp who="#nuntius">
+        <milestone ed="exclude" n="879" unit="line" />
+        <l real='uuuu-u-u--uux'>Periere cuncta, concidit regni status,</l>
+        <milestone ed="exclude" n="880" unit="line" />
+        <l n="880" real='-uuu-uuu--uux'>nata atque, genitor cinere permixto iacent. </l>
+      </sp>
+      <pb id="p.150" />
+      <sp who="#chorus">
+        <speaker>Chor.</speaker>
+        <milestone ed="exclude" n="881" unit="line" />
+        <l part="I" real='--u-x'>Qua fraude capti?</l>
+      </sp>
+      <sp who="#nuntius">
+        <speaker>Nvnt.</speaker>
+        <l part="F" real='uu-u-ux'>Qua solent reges capi:</l>
+        <milestone ed="exclude" n="882" unit="line" />
+        <l part="I" real='ux'>donis.</l>
+      </sp>
+      <sp who="#chorus">
+        <speaker>Chor.</speaker>
+        <l part="F" real='u-u-u-uu-ux'>In illis esse quis potuit dolus?</l>
+      </sp>
+      <sp who="#nuntius">
+        <speaker>Nvnt.</speaker>
+        <milestone ed="exclude" n="883" unit="line" />
+        <l real='u-uu--u--uux'>Et ipse miror vixque iam facto malo</l>
+        <milestone ed="exclude" n="884" unit="line" />
+        <l part="I" real='uu-uuuuux'>potuisse fieri credo.</l>
+      </sp>
+      <sp who="#chorus">
+        <speaker>Chor.</speaker>
+        <l part="F" real='-u-ux'>Quis cladis modus?</l>
+      </sp>
+      <sp who="#nuntius">
+        <speaker>Nvnt.</speaker>
+        <milestone ed="exclude" n="885" unit="line" />
+        <l n="885" real='uu-u--uu---ux'>Avidus per omnem regiae partem furit . </l>
+        <milestone ed="exclude" n="886" unit="line" />
+        <l real='--u---u-u-ux'>ut iussus ignis: iam domus tota occidit,</l>
+        <milestone ed="exclude" n="887" unit="line" />
+        <l part="I" real='-uuux'>urbi timetur.</l>
+      </sp>
+      <sp who="#chorus">
+        <speaker>Chor.</speaker>
+        <l part="F" real='--u-ux'>Vnda flammas opprimat.</l>
+      </sp>
+      <sp who="#nuntius">
+        <speaker>Nvnt.</speaker>
+        <milestone ed="exclude" n="888" unit="line" />
+        <l real='uuu-uuuu--ux'>Et hoc in ista clade mirandum accidit:</l>
+        <milestone ed="exclude" n="889" unit="line" />
+        <l real='u----uuuuu-ux'>alit unda flammas, quoque prohibetur magis,</l>
+        <milestone ed="exclude" n="890" unit="line" />
+        <l n="890" real='u-u-u-u-uu-ux'>magis ardet ignis: ipsa praesidia occupat. </l>
+      </sp>
+      <sp who="#nutrix">
+        <speaker>Nvtr.</speaker>
+        <milestone ed="exclude" n="891" unit="line" />
+        <l real='--uu-uuuuuuux'>Effer citatum sede Pelopea gradum,</l>
+        <milestone ed="exclude" n="892" unit="line" />
+        <l real='uuu---u---ux'>Medea, praeceps quaslibet terras pete.</l>
+      </sp>
+      <milestone n="893" unit="card" />
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="893" unit="line" />
+        <l real='uu-uu-uuu--ux'>Egone ut recedam? si profugissem prius,</l>
+        <milestone ed="exclude" n="894" unit="line" />
+        <l real='u-uu--u--uux'>ad hoc redirem, nuptias specto novas,</l>
+        <milestone ed="exclude" n="895" unit="line" />
+        <l n="895" real='uuu--uuuuu-ux'>quid, anime, cessas? sequere felicem impetum. </l>
+        <milestone ed="exclude" n="896" unit="line" />
+        <l real='--uuu-uu--ux'>pars ultionis ista, qua gaudes, quota est?</l>
+        <milestone ed="exclude" n="897" unit="line" />
+        <l real='uu-uuuuuuu-ux'>amas adhuc, furiosa, si satis est tibi</l>
+        <milestone ed="exclude" n="898" unit="line" />
+        <l real='--u--u-u-ux'>caelebs Iason, quaere poenarum genus</l>
+        <milestone ed="exclude" n="899" unit="line" />
+        <l real='-uuu--u-u-ux'>haut usitatum iamque sic temet para:</l>
+        <milestone ed="exclude" n="900" unit="line" />
+        <l n="900" real='u-uuuuuu---ux'>fas omne cedat, abeat expulsus pudor; </l>
+        <milestone ed="exclude" n="901" unit="line" />
+        <l real='--uuu--u-u-ux'>vindicta levis est quam ferunt purae manus,</l>
+        <milestone ed="exclude" n="902" unit="line" />
+        <l real='--uu-uu---ux'>incumbe in iras teque languentem excita</l>
+        <milestone ed="exclude" n="903" unit="line" />
+        <l real='u-uuu--uuu-ux'>penitusque veteres pectore ex imo impetus</l>
+        <milestone ed="exclude" n="904" unit="line" />
+        <l real='uu-u-x', '-u---ux'>violenter hauri. quicquid admissum est adhuc,</l>
+        <milestone ed="exclude" n="905" unit="line" />
+        <l n="905" real='uu-uuuuu--uux'>pietas vocetur, hoc agam et faxo sciant </l>
+        <milestone ed="exclude" n="906" unit="line" />
+        <l real='uuuuu--u-u-ux'>quam levia fuerint quamque vulgaris notae</l>
+        <milestone ed="exclude" n="907" unit="line" />
+        <l real='--uuuuuuuu-ux'>quae commodavi scelera, prolusit dolor</l>
+        <milestone ed="exclude" n="908" unit="line" />
+        <l real='u-u---u-uu-ux'>per ista noster: quid manus poterant rudes</l>
+        <milestone ed="exclude" n="909" unit="line" />
+        <l real='-uu---u-u-ux'>audere magnum? quid puellaris furor?</l>
+        <milestone ed="exclude" n="910" unit="line" />
+        <l n="910" real='uuu--uu-uu-ux'>Medea nunc sum; crevit ingenium malis. </l>
+        <pb id="p.151" />
+        <milestone ed="exclude" n="911" unit="line" />
+        <l real='u-u-uu--u--ux'>Iuvat, iuvat rapuisse fraternum caput;</l>
+        <milestone ed="exclude" n="912" unit="line" />
+        <l real='--u-uu-u-uuux'>artus iuvat secuisse et arcano patrem</l>
+        <milestone ed="exclude" n="913" unit="line" />
+        <l real='-uuuuuu-uu-ux'>spoliasse sacro, iuvat in exitium senis</l>
+        <milestone ed="exclude" n="914" unit="line" />
+        <l real='--uu--uuuu-ux'>armasse natas, quaere materiam, dolor:</l>
+        <milestone ed="exclude" n="915" unit="line" />
+        <l n="915" real='u-uuu--u---ux'>ad omne facinus non rudem dextram afferes. </l>
+        <milestone ed="exclude" n="916" unit="line" />
+        <l real='uuuuuu-u---ux'>Quo te igitur, ira, mittis, aut quae perfido</l>
+        <milestone ed="exclude" n="917" unit="line" />
+        <l real='--u-uuu-uu-ux'>intendis hosti tela? nescio quid ferox</l>
+        <milestone ed="exclude" n="918" unit="line" />
+        <l real='uuuuuu-u---ux'>decrevit animus intus et nondum sibi</l>
+        <milestone ed="exclude" n="919" unit="line" />
+        <l real='--uuu-uuuuuux'>audet fateri, stulta properavi nimis:</l>
+        <milestone ed="exclude" n="920" unit="line" />
+        <l n="920" real='--uuu-uuu--x'>ex paelice utinam liberos hostis meus</l>
+        <milestone ed="exclude" n="921" unit="line" />
+        <l real='uuuuu--uu-uux'>aliquos haberet— quicquid ex illo tuum est,</l>
+        <milestone ed="exclude" n="922" unit="line" />
+        <l real='uuuu-uuu---ux'>Creusa peperit, placuit hoc poenae genus,</l>
+        <milestone ed="exclude" n="923" unit="line" />
+        <l real='uuuuuu-u--uux'>meritoque placuit: ultimum, agnosco, scelus</l>
+        <milestone ed="exclude" n="924" unit="line" />
+        <l real='uuuu--uuu--x'>animo parandum est— liberi quondam mei,</l>
+        <milestone ed="exclude" n="925" unit="line" />
+        <l n="925" real='-uu--uuu---ux'>vos pro paternis sceleribus poenas date. </l>
+        <milestone ed="exclude" n="926" unit="line" />
+        <l real='-uuu---u---ux'>Cor pepulit horror, membra torpescunt gelu</l>
+        <milestone ed="exclude" n="927" unit="line" />
+        <l real='--uuux', 'uu---ux'>pectusque tremuit. ira discessit loco</l>
+        <milestone ed="exclude" n="928" unit="line" />
+        <l real='u-uuu-u--uux'>materque tota coniuge expulsa redit,</l>
+        <milestone ed="exclude" n="929" unit="line" />
+        <l real='uu-uu-uu-u-ux'>egone ut meorum liberum ac prolis meae</l>
+        <milestone ed="exclude" n="930" unit="line" />
+        <l n="930" real='--uu-uuuuu-ux'>fundam cruorem? melius, a, demens furor! </l>
+        <milestone ed="exclude" n="931" unit="line" />
+        <l real='--u--uuu-u-ux'>incognitum istud facinus ac dirum nefas</l>
+        <milestone ed="exclude" n="932" unit="line" />
+        <l real='uuuu--u-uuuux'>a me quoque absit; quod scelus miseri luent?</l>
+        <milestone ed="exclude" n="933" unit="line" />
+        <l real='u-u-uuu-uu-ux'>scelus est Iason genitor et maius scelus</l>
+        <milestone ed="exclude" n="934" unit="line" />
+        <l real='uuuuu-u---x'>Medea mater— occidant, non sunt mei;</l>
+        <milestone ed="exclude" n="935" unit="line" />
+        <l n="935" real='uu--x', 'uu--uux'>pereant, mei sunt. crimine et culpa carent, </l>
+        <milestone ed="exclude" n="936" unit="line" />
+        <l real='--u--uuu-u-ux'>sunt innocentes: fateor, et frater fuit.</l>
+        <milestone ed="exclude" n="937" unit="line" />
+        <l real='uuuuuuu-uu-ux'>quid, anime, titubas? ora quid lacrimae rigant</l>
+        <milestone ed="exclude" n="938" unit="line" />
+        <l real='uu-u-uuu--uux'>variamque nunc huc ira, nunc illuc amor</l>
+        <milestone ed="exclude" n="939" unit="line" />
+        <l real='uuu---u---ux'>diducit? anceps aestus incertam rapit;</l>
+        <milestone ed="exclude" n="940" unit="line" />
+        <l n="940" real='--uuuu-u--uux'>ut saeva rapidi bella cum venti gerunt </l>
+        <milestone ed="exclude" n="941" unit="line" />
+        <l real='u----uuu--uux'>utrimque fluctus maria discordes agunt</l>
+        <milestone ed="exclude" n="942" unit="line" />
+        <l real='u-u--uuu-uu-x'>dubiumque fervet pelagus, haut aliter meum</l>
+        <pb id="p.152" />
+        <milestone ed="exclude" n="943" unit="line" />
+        <l real='--uux', 'uuuuu-ux'>cor fluctuatur. ira pietatem fugat</l>
+        <milestone ed="exclude" n="944" unit="line" />
+        <l real='-uuu-uuuuuuux'>iramque pietas— cede pietati, dolor.</l>
+        <milestone ed="exclude" n="945" unit="line" />
+        <l n="945" real='-uuuuuu---ux'>Huc, cara proles, unicum afflictae domus </l>
+        <milestone ed="exclude" n="946" unit="line" />
+        <l real='uuu---u-u-ux'>solamen, huc vos ferte et infusos mihi</l>
+        <milestone ed="exclude" n="947" unit="line" />
+        <l real='-u-uuuu-uu-ux'>coniungite artus, habeat incolumes pater,</l>
+        <milestone ed="exclude" n="948" unit="line" />
+        <l real='uuuuu-u-uu-ux'>dum et mater habeat, urguet exilium ac fuga.</l>
+        <milestone ed="exclude" n="949" unit="line" />
+        <l real='--uuuu-uu-uux'>iam iam meo rapientur avulsi e sinu,</l>
+        <milestone ed="exclude" n="950" unit="line" />
+        <l n="950" real='--u-u-u-uu-ux'>flentes, gementes osculis pereant patri, </l>
+        <milestone ed="exclude" n="951" unit="line" />
+        <l real='-uuuu-u---ux'>periere matri, rursus increscit dolor</l>
+        <milestone ed="exclude" n="952" unit="line" />
+        <l real='-uuu-uuu-u-ux'>et fervet odium, repetit invitam manum</l>
+        <milestone ed="exclude" n="953" unit="line" />
+        <l real='-uuuux', 'uuuu-ux'>antiqua Erinys. ira, qua ducis, sequor,</l>
+        <milestone ed="exclude" n="954" unit="line" />
+        <l real='u-u---u-uu-ux'>utinam superbae turba Tantalidos meo</l>
+        <milestone ed="exclude" n="955" unit="line" />
+        <l n="955" real='--uuuu-u-u-ux'>exisset utero bisque septenos parens </l>
+        <milestone ed="exclude" n="956" unit="line" />
+        <l real='u-u--uuu---ux'>natos tulissem! sterilis in poenas fui—</l>
+        <milestone ed="exclude" n="957" unit="line" />
+        <l real='uuuuu-u-uuuux'>fratri patri que quod sat est, peperi duos.</l>
+        <milestone ed="exclude" n="958" unit="line" />
+        <l real='u-u---uuuu-ux'>Quonam ista tendit turba Furiarum impotens?</l>
+        <milestone ed="exclude" n="959" unit="line" />
+        <l real='--u---uu--ux'>quem quaerit aut quo flammeos ictus parat,</l>
+        <milestone ed="exclude" n="960" unit="line" />
+        <l n="960" real='--u-u-u---ux'>aut cui cruentas agmen infernum faces </l>
+        <milestone ed="exclude" n="961" unit="line" />
+        <l real='--u------uux'>intentat? ingens anguis excusso sonat</l>
+        <milestone ed="exclude" n="962" unit="line" />
+        <l real='--u-u-u--uux'>tortus flagello, quem trabe infesta petit</l>
+        <milestone ed="exclude" n="963" unit="line" />
+        <l real='u-uuuu-u---ux'>Megaera? cuius umbra dispersis venit</l>
+        <milestone ed="exclude" n="964" unit="line" />
+        <l real='--u--uu---ux'>incerta membris? frater est, poenas petit:</l>
+        <milestone ed="exclude" n="965" unit="line" />
+        <l n="965" real='uux'>dabimus., sed omnes, fige luminibus faces, </l>
+        <milestone ed="exclude" n="966" unit="line" />
+        <l real='uuuuu-uuuu-ux'>lania, perure, pectus en Furiis patet.</l>
+        <milestone ed="exclude" n="967" unit="line" />
+        <l real='-uuu-uu-u-ux'>Discedere a me, frater, ultrices deas</l>
+        <milestone ed="exclude" n="968" unit="line" />
+        <l real='u-uuuuuuu-ux'>manesque ad imos ire securas iube:</l>
+        <milestone ed="exclude" n="969" unit="line" />
+        <l real='uuuu-uuu-u-ux'>mihi me relinque et utere hac, frater, manu</l>
+        <milestone ed="exclude" n="970" unit="line" />
+        <l n="970" real='--u---uuu-ux'>quae strinxit ensem— victima manes tuos </l>
+        <milestone ed="exclude" n="971" unit="line" />
+        <l real='uuu-x', '-u---ux'>placamus ista. quid repens affert sonus?</l>
+        <pb id="p.153" />
+        <milestone ed="exclude" n="972" unit="line" />
+        <l real='u-u-uuu-uu-ux'>parentur arma meque in exitium petunt.</l>
+        <milestone ed="exclude" n="973" unit="line" />
+        <l real='--u---u---ux'>excelsa nostrae tecta conscendam domus</l>
+        <milestone ed="exclude" n="974" unit="line" />
+        <l real='--uuu-uuu-ux'>caede incohata, perge tu mecum comes.</l>
+        <milestone ed="exclude" n="975" unit="line" />
+        <l n="975" real='u-u-u-u-uuux'>tuum quoque ipsa corpus hinc mecum aveham. </l>
+        <milestone ed="exclude" n="976" unit="line" />
+        <l real='-uuuuuuu--uux'>nunc hoc age, anime: non in occulto tibi est</l>
+        <milestone ed="exclude" n="977" unit="line" />
+        <l real='--u-u-uuuuuux'>perdenda virtus; approba populo manum.</l>
+      </sp>
+      <milestone n="978" unit="card" />
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="978" unit="line" />
+        <l real='--uu-uu-u-ux'>Quicumque regum cladibus fidus doles,</l>
+        <milestone ed="exclude" n="979" unit="line" />
+        <l real='--u--uuu-u-ux'>concurre, ut ipsam sceleris auctorem horridi</l>
+        <milestone ed="exclude" n="980" unit="line" />
+        <l n="980" real='uuuu--u-uuuux'>capiamus, huc, huc fortis, armiferi cohors </l>
+        <milestone ed="exclude" n="981" unit="line" />
+        <l real='--uuu-uuuuux'>conferte tela, vertite ex imo domum.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="982" unit="line" />
+        <l real='--uuu-u-u-ux'>Iam iam recepi sceptra germanum patrem,</l>
+        <milestone ed="exclude" n="983" unit="line" />
+        <l real='u-u-uuuu-u-ux'>spoliumque Colchi pecudis auratae tenent;</l>
+        <milestone ed="exclude" n="984" unit="line" />
+        <l real='-uu-u-u-uu-ux'>rediere regna, rapta virginitas redit,</l>
+        <milestone ed="exclude" n="985" unit="line" />
+        <l n="985" real='uuuu--uuu--ux'>o placida tandem numina, o festum diem, </l>
+        <milestone ed="exclude" n="986" unit="line" />
+        <l real='u-uu-uu---ux'>o nuptialem! vade, perfectum est scelus,</l>
+        <milestone ed="exclude" n="987" unit="line" />
+        <l real='-u--uuu-uu-ux'>vindicta nondum: perage, dum faciunt manus,</l>
+        <milestone ed="exclude" n="988" unit="line" />
+        <l real='-uuuuuu-uu-ux'>quid nunc moreris, anime? quid dubitas potens?</l>
+        <milestone ed="exclude" n="989" unit="line" />
+        <l real='-uuuux', '-u--uux'>iam cecidit ira. paenitet facti, pudet,</l>
+        <milestone ed="exclude" n="990" unit="line" />
+        <l n="990" real='uuuuuuu-uu-ux'>quid, misera, feci? misera? paeniteat licet, </l>
+        <milestone ed="exclude" n="991" unit="line" />
+        <l real='uuu---u-u-ux'>feci— voluptas magna me invitam subit,</l>
+        <milestone ed="exclude" n="992" unit="line" />
+        <l real='u-u--uuuu-ux'>et ecce crescit, derat hoc unum mihi,</l>
+        <milestone ed="exclude" n="993" unit="line" />
+        <l real='-uu-x', 'uu--uux'>spectator iste. nil adhuc facti reor:</l>
+        <milestone ed="exclude" n="994" unit="line" />
+        <l real='--u-uuu-uu-ux'>quicquid sine isto fecimus sceleris perit.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="995" unit="line" />
+        <l n="995" real='u-u-u-u-uu-ux'>En ipsa tecti parte praecipiti imminet. </l>
+        <milestone ed="exclude" n="996" unit="line" />
+        <l real='uuu-uuuu---ux'>huc rapiat ignes aliquis, ut flammis cadat</l>
+        <milestone ed="exclude" n="997" unit="line" />
+        <l part="I" real='u-u-x'>suis perusta.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='-u-u-ux'>Congere extremum tuis</l>
+        <milestone ed="exclude" n="998" unit="line" />
+        <l real='uuu-uu-uu-ux'>' natis, Iason, funus, ac tumulum strue:</l>
+        <milestone ed="exclude" n="999" unit="line" />
+        <l real='--u-u-u--uux'>coniunx socerque iusta iam functis habent,</l>
+        <milestone ed="exclude" n="1000" unit="line" />
+        <l n="1000" real='uuu--uu-u-ux'>a me sepulti; gnatus hic fatum tulit, </l>
+        <milestone ed="exclude" n="1001" unit="line" />
+        <l real='uu-uuuu-uuuux'>hic te vidente dabitur exitio pari.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="1002" unit="line" />
+        <l real='-uu-u-u-u-ux'>Per numen omne perque communes fugas</l>
+        <pb id="p.154" />
+        <milestone ed="exclude" n="1003" unit="line" />
+        <l real='u-u---uuuu-ux'>torosque, quos non nostra violavit fides,</l>
+        <milestone ed="exclude" n="1004" unit="line" />
+        <l real='--uux', 'uu-u-x'>iam parce nato. si quod est crimen, meum est:</l>
+        <milestone ed="exclude" n="1005" unit="line" />
+        <l n="1005" real='uuu-u-u--uux'>me dedo morti; noxium macta caput. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="1006" unit="line" />
+        <l real='-uuu-uu---ux'>Hac qua recusas, qua doles, ferrum exigam.</l>
+        <milestone ed="exclude" n="1007" unit="line" />
+        <l real='u-u-u-u-uu-ux'>i nunc, superbe, virginum thalamos pete,</l>
+        <milestone ed="exclude" n="1008" unit="line" />
+        <l part="I" real='u-uux'>relinque matres,</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <l part="F" real='u---ux'>Vnus est poenae satis.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="1009" unit="line" />
+        <l real='u-uuu-uuuu-ux'>Si posset una caede satiari haec manus,</l>
+        <milestone ed="exclude" n="1010" unit="line" />
+        <l n="1010" real='--u-u-u-uu-ux'>nullam petisset, ut duos perimam, tamen </l>
+        <milestone ed="exclude" n="1011" unit="line" />
+        <l real='u-uuuuuu---ux'>nimium est dolori numerus angustus meo.</l>
+        <milestone ed="exclude" n="1012" unit="line" />
+        <l real='-uuu--uuu--ux'>[in matre si quod pignus etiamnunc latet,</l>
+        <milestone ed="exclude" n="1013" unit="line" />
+        <l real='uuu-u-u---ux'>scrutabor ense viscera et ferro extraham.]</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="1014" unit="line" />
+        <l real='uuu--uuu--uux'>Iam perage coeptum facinus, haut ultra precor,</l>
+        <milestone ed="exclude" n="1015" unit="line" />
+        <l n="1015" real='u-u---u-uux'>moramque saltem supplicis dona meis. </l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <milestone ed="exclude" n="1016" unit="line" />
+        <l real='uu-uuuuuuuuux'>Perfruere lento scelere, ne propera, dolor:</l>
+        <milestone ed="exclude" n="1017" unit="line" />
+        <l real='-uu--u--uux'>meus dies est; tempore accepto utimur.</l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="1018" unit="line" />
+        <l part="I" real='--uu-uux'>Infesta, memet perime.</l>
+      </sp>
+      <sp who="#medea">
+        <speaker>Med.</speaker>
+        <l part="F" real='uuuuux'>Misereri iubes.</l>
+        <milestone ed="exclude" n="1019" unit="line" />
+        <l real='u-u-x', 'uuuuuuux'>bene est, peractum est. plura non habui, dolor,</l>
+        <milestone ed="exclude" n="1020" unit="line" />
+        <l n="1020" real='-uuuux', 'uu-uu-ux'>quae tibi litarem. lumina huc tumida alleva, </l>
+        <milestone ed="exclude" n="1021" unit="line" />
+        <l real='-uuu--u---ux'>ingrate Iason, coniugem agnoscis tuam?</l>
+        <milestone ed="exclude" n="1022" unit="line" />
+        <l real='uuuuuuuu---ux'>sic fugere soleo, patuit in caelum via:</l>
+        <milestone ed="exclude" n="1023" unit="line" />
+        <l real='uuuuuu-u---ux'>squamosa gemini colla serpentes iugo</l>
+        <milestone ed="exclude" n="1024" unit="line" />
+        <l real='-u--uuu-uuuux'>summissa praebent, recipe iam gnatoa, parens;</l>
+        <milestone ed="exclude" n="1025" unit="line" />
+        <l n="1025" real='u-u-uuuu-uux'>ego inter auras aliti curru vehar. </l>
+      </sp>
+      <sp who="#iason">
+        <speaker>Ias.</speaker>
+        <milestone ed="exclude" n="1026" unit="line" />
+        <l real='u-uuuuuu-u-ux'>Per alta vade spatia sublimi aethere,</l>
+        <milestone ed="exclude" n="1027" unit="line" />
+        <l real='-uu-u-uuuu-ux'>testare nullos esse, qua veneris, deos.</l>
+      </sp>
+    </body>
+  </text>
+</TEI>

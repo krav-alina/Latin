@@ -1,0 +1,3297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://dracor.org/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="lat">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title n="St." type="work">Stichus</title>
+        <author key="wikidata:Q47160">T. Maccius Plautus</author>
+        <editor n="Leo" role="editor">F. Leo</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="dracor" xml:base="https://dracor.org/id/">rom000020</idno>
+        <availability>
+          <licence>
+            <ab>CC BY-SA 3.0 US</ab>
+            <ref target="https://creativecommons.org/licenses/by-sa/3.0/us/">Licence</ref>
+          </licence>
+        </availability>
+        <idno type="wikidata" xml:base="http://www.wikidata.org/entity/">Q1219666</idno>
+      </publicationStmt>
+      <extent>about 71Kb</extent>
+      <sourceDesc>
+        <biblStruct>
+          <bibl type="originalSource">
+            <author key="wikidata:Q47160">T. Maccius Plautus</author>
+            <editor role="editor">F. Leo</editor>
+            <imprint>
+              <pubPlace>Berlin</pubPlace>
+              <publisher>Weidmann</publisher>
+              <date>1895</date>
+            </imprint>
+          </bibl>
+        </biblStruct>
+      </sourceDesc>
+      <bibl type="digitalSource">
+        <name>Perseus Digital Library (http://www.perseus.tufts.edu)</name>
+        <idno type="URL">http://www.perseus.tufts.edu/hopper/opensource/download</idno>
+        <availability status="free">
+          <licence>
+            <ab>CC BY-SA 3.0 US</ab>
+            <ref target="https://creativecommons.org/licenses/by-sa/3.0/us/">Licence</ref>
+          </licence>
+        </availability>
+      </bibl>
+    </fileDesc>
+    <state unit="act" />
+    <state n="chunk" unit="scene" />
+    <state unit="TLN line" />
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="antipho">
+            <persName>Antipho</persName>
+          </person>
+          <person sex="FEMALE" xml:id="crocotivm">
+            <persName>Crocotivm</persName>
+          </person>
+          <person sex="MALE" xml:id="epignomvs">
+            <persName>Epignomvs</persName>
+          </person>
+          <person sex="MALE" xml:id="gelasimvs">
+            <persName>Gelasimvs</persName>
+          </person>
+          <person sex="MALE" xml:id="pamphilippvs">
+            <persName>Pamphilippvs</persName>
+          </person>
+          <person sex="FEMALE" xml:id="panegyris">
+            <persName>Panegyris</persName>
+          </person>
+          <person sex="MALE" xml:id="pinacivm">
+            <persName>Pinacivm</persName>
+          </person>
+          <person sex="MALE" xml:id="sangarinvs">
+            <persName>Sangarinvs</persName>
+          </person>
+          <person sex="FEMALE" xml:id="soror">
+            <persName>Soror</persName>
+          </person>
+          <person sex="FEMALE" xml:id="stephanivm">
+            <persName>Stephanivm</persName>
+          </person>
+          <person sex="MALE" xml:id="stichvs">
+            <persName>Stichvs</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term subtype="comedy" type="genreTitle">Comedy</term>
+        </keywords>
+      </textClass>
+      <langUsage>
+        <language id="la">Latin</language>
+        <language id="greek">Greek</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>7/15/97</date>
+        <respStmt>
+          <name>Anonymous</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <item>Base TEI tagging.
+</item>
+      </change>
+      <change>
+        <date>10 August 1999</date>
+        <respStmt>
+          <name>David Smith</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <item>$Log: pl.st_lat.xml,v $
+Revision 1.2  2010-02-26 21:44:38  rsingh04
+added back in TLN line chunking for latin texts
+Revision 1.1  2009/12/07 18:50:30  rsingh04
+moved more xml files around based on copyright status
+Revision 1.3  2009/06/17 20:57:55  rsingh04
+don't chunk by TLN line cause they don't seem to be correct and cause problems
+Revision 1.2  2005/08/01 16:22:23  packel
+new XML version
+Revision 1.1  2005/07/25 14:59:27  packel
+Converted to XML
+Revision 1.11  2005/03/07 19:29:47  mimno
+changed refsdecls from step to state
+Revision 1.10  2003/07/01 22:17:32  yorkc
+Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
+Revision 1.9  2002/05/23 18:11:28  amahoney
+mark all the apostrophe-s as abbreviations
+Revision 1.8  2002/05/21 17:55:30  amahoney
+use quote entities so the apostrophes are clearly distinct
+Revision 1.7  2001/08/02 19:22:48  amahoney
+correct accents in Greek, which got confounded with ictus marks
+Revision 1.6  2000/03/06 22:09:22  amahoney
+remove title headers so acts go into short toc
+Revision 1.5  2000/03/04 20:35:11  dasmith
+Added separate funder entity to TEI header.
+Revision 1.4  2000/01/28 17:27:40  amahoney
+correct parse errors (capital-U with acute can't be a V, can't put
+an ictus mark on "st" since no entity for t+acute)
+Revision 1.3  2000/01/13 00:04:49  dasmith
+Corrected Latin ID.
+Fixed Aulularia title.
+Revision 1.2  1999/08/10 21:53:36  dasmith
+Tagged through line numbers separately.
+Revision 1.1  1999/08/10 14:48:21  textgod
+Added to repository.
+</item>
+      </change>
+    </revisionDesc>
+    <change>
+      <date>2019-06-09</date>
+      <respStmt>
+        <name>Boris Orekhov</name>
+        <resp>ed.</resp>
+      </respStmt>
+      <item>converted to P.5 Dracor format</item>
+    </change>
+  </teiHeader>
+  <text>
+    <body>
+      <div1 n="1" type="act">
+        <div2 n="1" type="scene">
+          <sp who="#panegyris">
+            <speaker>Panegyris</speaker>
+            <lb ed="TLN" n="1" />
+            <l real='ux'>Crédo egó miserám</l>
+            <lb ed="TLN" n="1a" />
+            <l real='uuuux'>fuísse Penelopam,</l>
+            <lb ed="TLN" n="2" />
+            <l real='-uuuux'>sorór, suo ex animo,</l>
+            <lb ed="TLN" n="2a" />
+            <l real='--uuuux'>quae tám diu vidua</l>
+            <lb ed="TLN" n="3" />
+            <l n="5" real='uuuuux'>viró suo caruit;</l>
+            <lb ed="TLN" n="3a" />
+            <l real='-u-ux'>nam nós eius ánimum</l>
+            <lb ed="TLN" n="4" />
+            <l real='u-----u-x'>de nóstris factis nóscimus, quarúm viri hinc ápsunt,</l>
+            <lb ed="TLN" n="5" />
+            <l real='u-uuux'>quorúmque nos negótiis apséntum, ita ut aéquom est,</l>
+            <lb ed="TLN" n="6" />
+            <l real='--u-u--u-x'>sollícitae noctes ét dies, sorór, sumus sémper.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Soror</speaker>
+            <lb ed="TLN" n="7" />
+            <l n="10" real='-ux'>Nostrum ófficium</l>
+            <lb ed="TLN" n="7a" />
+            <l real='--x'>nos fácere aequomst,</l>
+            <lb ed="TLN" n="8" />
+            <l real='u--uux'>neque id mágis facimus</l>
+            <lb ed="TLN" n="8a" />
+            <l real='--u-x'>quam nós monet píetas.</l>
+            <lb ed="TLN" n="9" />
+            <l real='u-uuu-uuuux'>sed híc, soror, assíde dum: multá volo tecum</l>
+            <lb ed="TLN" n="10" />
+            <l n="15" part="I" real='uuuux'>loquí de re viri.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='uux'>Salvéne, amabo?</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="11" />
+            <l real='uu-uuu-u-x'>Speró quidem et volo; sed hóc, soror, crúcior,</l>
+            <lb ed="TLN" n="12" />
+            <l real='-u-uuuuuux'>patrém tuom meúmque adeo, unice qui unus †</l>
+            <lb ed="TLN" n="13" />
+            <l real='uu-u--uuux'>civíbus ex omnibus probús perhibetur,</l>
+            <lb ed="TLN" n="14" />
+            <l real='---uuuuux'>eúm nunc improbi viri ófficio uti,</l>
+            <lb ed="TLN" n="15" />
+            <l n="20" real='-u-u-x'>virís qui tantas apséntibus nóstris</l>
+            <lb ed="TLN" n="16" />
+            <l real='uuux'>facit íniurias immérito</l>
+            <lb ed="TLN" n="17" />
+            <l real='-uu-ux'>nosque áb eis abducére volt.</l>
+            <lb ed="TLN" n="18" />
+            <l real='--u-u-uux'>haec rés vitae me, sóror, saturant,</l>
+            <lb ed="TLN" n="19" />
+            <l real='-uuuu-ux'>haec míhi dividiae et sénio sunt.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="20" />
+            <l n="25" real='uuu-uuuuux'>Ne lácruma, soror, neu túo id animo</l>
+            <lb ed="TLN" n="21" />
+            <l real='--uu-u-uuux'>fac quod tíbi tuos pater faceré minatur:</l>
+            <lb ed="TLN" n="22" />
+            <l real='uu-uu-x'>spes ést eum melius fácturum.</l>
+            <lb ed="TLN" n="23" />
+            <l real='uu--uu--ux'>novi égo illum: ioculo istaec dicit,</l>
+            <lb ed="TLN" n="24" />
+            <l real='uuuuuuux'>neque illé sibi mereat Pérsarum</l>
+            <lb ed="TLN" n="25" />
+            <l n="30" real='----x'>montís, qui esse aurei pérhibentur,</l>
+            <lb ed="TLN" n="26" />
+            <l real='u-uu--uuux'>ut istúc faciat quod tú metuis.</l>
+            <lb ed="TLN" n="27" />
+            <l real='u-uuu-uuu-x'>tamen sí faciat, minime irasci</l>
+            <lb ed="TLN" n="28" />
+            <l real='u-u-uux'>decet, néque id immerito evéniet.</l>
+            <lb ed="TLN" n="29" />
+            <l real='-u-uuux'>nam víri nostri domo ut ábierunt,</l>
+            <lb ed="TLN" n="30" />
+            <l n="35" part="I" real='-u-x'>hic tértius annus.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='uu-uux'>Ita út memoras.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="31" />
+            <l real='-uu-uux'>Quom ipsi ínterea vivánt, valeant,</l>
+            <lb ed="TLN" n="32" />
+            <l real='uu-uu-uux'>ubi sínt, quid agant, ecquíd agant,</l>
+            <lb ed="TLN" n="33" />
+            <l real='uu--uux'>neque párticipant nos, néque redeunt.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="34-35" />
+            <l real='u--u-u-uuux'>An id dóles, soror, quia illi suom ófficium</l>
+            <lb ed="TLN" n="36" />
+            <l n="40" part="I" real='---uu-x'>non cólunt, quom tu tuom fácis?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='uux'>Ita pol.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="37" />
+            <l real='uu-uuuu-x'>Tace sís, cave sis audíam ego istuc</l>
+            <lb ed="TLN" n="38" />
+            <l part="I" real='u-x'>posthác ex te.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='--x'>Nam quíd iam?</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="39" />
+            <l real='-u-uuu--x'>Quia pól meo animo omnis sápientis</l>
+            <lb ed="TLN" n="40" />
+            <l real='u--uuu-uux'>suom offícium aequom est colere ét facere.</l>
+            <lb ed="TLN" n="41" />
+            <l n="45" real='-uu-u-u-u-uux'>quam ob rem égo te hoc, soror, tametsi és maior,</l>
+            <lb ed="TLN" n="42" />
+            <l real='uuu-u-uuuux'>moneo, út tuom memineris ófficium:</l>
+            <lb ed="TLN" n="43" />
+            <l real='-u-uu-uux'>etsi ílli improbi sint átque aliter</l>
+            <lb ed="TLN" n="44" />
+            <l real='-uu---x'>nobís faciant quam aequómst, tam pol</l>
+            <lb ed="TLN" n="45" />
+            <l real='u-u-ux'>ne quíd magis simus * omnibus obníxe opibus</l>
+            <lb ed="TLN" n="46" />
+            <l n="50" real='-u-uux'>nostrum ófficium meminísse decet.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="47" />
+            <l part="I" real='u-x'>Placet; táceo.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='-uuu-x'>At memineris fácito.</l>
+            <lb ed="TLN" n="48" />
+            <l part="I" real='x'>[</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='uuu-uu--uu-ux'>Nolo égo, soror, me credi esse immemorem viri,</l>
+            <lb ed="TLN" n="49" />
+            <l real='uuu-uuuuu--ux'>neque ille éos honores, mihi quos habuit, perdidit;</l>
+            <lb ed="TLN" n="50" />
+            <l real='-uuu--u--u-ux'>nam pol mihi grata acceptaque eiust benignitas.</l>
+            <lb ed="TLN" n="51" />
+            <l n="55" real='-uu--uuu---ux'>et me quidem haec condicio nunc non paenitet,</l>
+            <lb ed="TLN" n="52" />
+            <l real='---uu--u-uuux'>neque est cur [non] studeam has nuptias mutarier;</l>
+            <lb ed="TLN" n="53" />
+            <l real='u-uu-u-u-u-ux'>verum postremo in patris potestate est situm:</l>
+            <lb ed="TLN" n="54" />
+            <l real='uu--u--u-u-ux'>faciendum id nobis quod parentes imperant.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="55" />
+            <l real='u--uu-u-u-ux'>Scio, atque in cogitando maerore augeor,</l>
+            <lb ed="TLN" n="56" />
+            <l n="60" real='uuu----u---ux'>nam propemodum iam ostendit suam sententiam.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="57" />
+            <l real='uu--u-u---u-x'>Igitur quaeramus, nobis quid facto usus sit.]</l>
+          </sp>
+        </div2>
+        <div2 n="2" type="scene">
+          <sp who="#antipho">
+            <speaker>Antipho</speaker>
+            <lb ed="TLN" n="58" />
+            <l real='u----uu-uu-ux'>Quí manet ut moneatur semper servos homo officium suom</l>
+            <lb ed="TLN" n="59" />
+            <l real='uuuu--uuuu-ux'>nec voluntáte id facere meminit, servos is habitu hau probust.</l>
+            <lb ed="TLN" n="60" />
+            <l real='--u--uuuu--ux'>vos meministis quot kalendis petere demensum cibum:</l>
+            <lb ed="TLN" n="61" />
+            <l real='-uu---uuuu-ux'>qui minus méministis quod opus sit facto facere in aedibus?</l>
+            <lb ed="TLN" n="62" />
+            <l n="5" real='uuu-uuu-u--ux'>iam quidem in súo quicqué loco nisi erit mihi situm supellectilis,</l>
+            <lb ed="TLN" n="63" />
+            <l real='uu---uuuu-uux'>quom ego revortar, vos monimentis commonefaciam bubulis.</l>
+            <lb ed="TLN" n="64" />
+            <l real='uuuuu--u---ux'>non homines habitare mecum mi hic videntur, sed sues.</l>
+            <lb ed="TLN" n="65" />
+            <l real='uu--u---uu-ux'>facite sultis, nitidae ut aedes meae sint, quom redeam domum.</l>
+            <lb ed="TLN" n="66" />
+            <l real='u-uuu-uu-uuux'>iam ego domi adero: ad meam maiorem filiam inviso modo;</l>
+            <lb ed="TLN" n="67" />
+            <l n="10" real='uu-uuu-uuuuux'>siquis me quaéret, inde vocátote aliqui; aut iam egomet hic ero.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="68" />
+            <l part="I" real='uu-u-u-uu---x'>Quid agimus, soror, si óffirmabit pater adversum nos?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='ux'>Pati</l>
+            <lb ed="TLN" n="69" />
+            <l real='uuu-uu-u---ux'>nos oportet quod ille faciat, cuius potestas plus potest.</l>
+            <lb ed="TLN" n="70" />
+            <l real='----uu-uu--ux'>exorando, haud adversando sumendam operam censeo:</l>
+            <lb ed="TLN" n="71" />
+            <l real='uuu-uuuu-u-ux'>gratiam per si petimus, spero áb eo impetrassere;</l>
+            <lb ed="TLN" n="72" />
+            <l n="15" real='uuuu-uuu---ux'>adversari sine dedecore et scelere summo haud possumus,</l>
+            <lb ed="TLN" n="73" />
+            <l real='uuu-uu--uu-ux'>neque equidem id factura neque tu ut facias consilium dabo,</l>
+            <lb ed="TLN" n="74" />
+            <l real='uu-uux', 'uuu-u-uuux'>verum ut exoremus. novi ego nostros: exorabilest.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="75" />
+            <l real='-u-u-uu-uuuux'>Principium ego quo pacto cum illis occipiam, id ratiocinor:</l>
+            <lb ed="TLN" n="76" />
+            <l real='---u-uuuuu-ux'>utrum ego perplexim lacessam oratione ad hunc modum,</l>
+            <lb ed="TLN" n="77" />
+            <l n="20" real='u-uu-uuu--uux'>quasi numquam quicquam in eas simulem, quasi nil indaudiverim</l>
+            <lb ed="TLN" n="78" />
+            <l real='u-u--uu----ux'>eas in se meruisse culpam, an potius temptem saeviter,</l>
+            <lb ed="TLN" n="79" />
+            <l real='-uuux', 'uuu-uuuu-u-ux'>[an minaciter. scio litis fore, ego meas novi optume.]</l>
+            <lb ed="TLN" n="80" />
+            <l real='uuu-uu-uuuuux'>si manere hic sese malint potius quam alio nubere.</l>
+            <lb ed="TLN" n="81" />
+            <l real='-uux', '-u-u--u-uuu-x'>non faciam. quid mi ópust decurso aetatis spatio cum meis</l>
+            <lb ed="TLN" n="82" />
+            <l n="25" real='----uu-uu--ux'>gerere bellum, quom nil, quam ob rem id faciam, meruisse arbitror?</l>
+            <lb ed="TLN" n="83" />
+            <l real='u--u-u-u---ux'>minime, nolo turbas, séd hoc mihi optumum factu arbitror:</l>
+            <lb ed="TLN" n="84" />
+            <l real='uuuuu---u-uux'>[sic faciam: adsimulabo quasi quam culpam in sese admiserint.]</l>
+            <lb ed="TLN" n="85" />
+            <l real='uuuu-uuuu--ux'>perplexabilitér earum hodie perpavefaciam pectora;</l>
+            <lb ed="TLN" n="86" />
+            <l real='-uuu-uu-uu-ux'>post id [agam] igitur deinde, ut animus meus erit, faciam palam.</l>
+            <lb ed="TLN" n="87" />
+            <l n="30" real='-uuuuu-u-x', 'u-x', 'uu--ux'>multa scio faciunda verba. ibo intro. sed apertast foris.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="88" />
+            <l real='u--u-uuu-u-ux'>Certo enim míhi paternae vocis sonitus auris accidit.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="89" />
+            <l real='u-u-x', '---uu-uuu-ux'>Is est ecastor. ferre advorsum homini occupemus osculum.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="90" />
+            <l part="I" real='-uuux'>Salve, mi pater.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='-u-x', 'uu-uux'>Et vos ambae. ílico agite assidite.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="91" />
+            <l part="I" real='-ux'>Osculum—</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='u-uuu-x'>Sat est ósculi mihi vostri.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='uuuuux'>Quí, amabo, pater?</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="92" />
+            <l n="35" part="I" real='-uuuuu--uuux'>Quia ita meae animae salsura evenit.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='-u-ux'>Asside hic, pater.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="93" />
+            <l real='--uuuuuu---ux'>Non sedeo istic, vos sedete; ego sedero in subsellio.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="94" />
+            <l part="I" real='uu-ux'>Mane pulvinum.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='uuuux', 'uuu---x', 'ux'>Bene procuras. mihi satis sic fultumst. sede.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="95" />
+            <l part="I" real='uuux'>Sine, pater.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='-ux'>Quid opust?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='ux'>Opust.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='-uuux', '-u-ux'>Mórem tibi geram. atque hoc est satis.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="96" />
+            <l real='uuu--u-u--uux'>Numquam enim nímis curare possunt suom parentem filiae.</l>
+            <lb ed="TLN" n="97" />
+            <l n="40" real='uuuuu-uuuuuux'>quem aequiust nós potiorem habere quam te? postidea, pater,</l>
+            <lb ed="TLN" n="98" />
+            <l real='uuu-uu-u-uuux'>viros nostros, quibus tú voluisti ésse nos matres familias.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="99" />
+            <l real='uuuu--uu---ux'>Bonas ut aequomst facere facitis, quom tamen apsentis viros</l>
+            <lb ed="TLN" n="100" />
+            <l part="I" real='u-uu-uu---x'>proinde habetis quasi praesentes sint.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='uuuu-ux'>Pudicitiast, pater,</l>
+            <lb ed="TLN" n="101" />
+            <l real='uuuu-uu--u-ux'>eos nos magnificare, qui nos socias sumpserunt sibi.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="102" />
+            <l n="45" real='uuu----u---ux'>Num quis hic ést alienus nostris dictis auceps auribus?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="103" />
+            <l part="I" real='-----uux'>Nullus praeter nosque teque.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='-uuuuuuux'>Vostrum animum adhiberi volo;</l>
+            <lb ed="TLN" n="104" />
+            <l real='--uu-u-u-uuux'>nám ego ad vos nunc imperitus rerum et morum mulierum,</l>
+            <lb ed="TLN" n="105" />
+            <l real='u-u--u-uu-uux'>discipulus venio ad magistras: quibus matronas moribus,</l>
+            <lb ed="TLN" n="106" />
+            <l real='--u--uuu-u-ux'>quae optumae sunt, esse oportet? sed utraque ut dicat mihi.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="107" />
+            <l n="50" real='u-uu-uuu-u-ux'>Quid istuc est quod huc éxquaesitum mulierum mores venis?</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="108" />
+            <l real='u--u---uu--ux'>Pol ego uxorem quaero, postquam vostra mater mortuast.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="109" />
+            <l real='uu--u---uu-ux'>Facile invenies et peiorem et peius moratam, pater,</l>
+            <lb ed="TLN" n="110" />
+            <l real='-uuuuuu-uu-ux'>quam illa fuit: meliorem neque tu reperies neque sol videt.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="111" />
+            <l part="I" real='uu-u-u--uuuux'>At ego ex te éxquaero atque ex istac tua sorore.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='uu-ux'>Edepol pater,</l>
+            <lb ed="TLN" n="112" />
+            <l n="55" real='u-uu-uuu---ux'>scio ut oportet esse: si sint—ita ut ego aequom censeo.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>A.</speaker>
+            <lb ed="TLN" n="113" />
+            <l part="I" real='uuu-u---x'>Volo scire ergo, ut aequom censes.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>S.</speaker>
+            <l part="M" real='-u---ux'>Vt, per urbem quom ambulent,</l>
+            <lb ed="TLN" n="114" />
+            <l real='u-u-uuuuuu-ux'>omnibus os opturent, ne quis merito male dicat sibi.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="115" />
+            <l part="I" real='-u---u-x'>Dic vicissim nunciam tu.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='--uuu-ux'>Quid vis tibi dicam, pater?</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="116" />
+            <l real='u-u-uu--uu-ux'>Vbi facillime spectatur mulier, quae ingenio est bono?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="117" />
+            <l n="60" real='--u----uu--ux'>Quoi male faciundi est potestas, quae ne id faciat temperat.</l>
+            <lb ed="TLN" n="118" />
+            <l part="I" real='x'>[</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='-u-x', 'u-uuu--uuu-ux'>Hau male istuc. age tu altera, utra sit condicio pensior,</l>
+            <lb ed="TLN" n="119" />
+            <l part="I" real='-u--uuuux'>virginemne an viduam habere?</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='-uuuu-ux'>Quanta méa sapientiast,</l>
+            <lb ed="TLN" n="120" />
+            <l real='-u--uuu-uu-ux'>ex malis multis malum quod minimumst, id minimest malum.]</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="121" />
+            <l part="I" real='-u-uu-uuuuux'>Qui potest mulier vitare vitiis?</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='--uux'>Vt cottidie</l>
+            <lb ed="TLN" n="122" />
+            <l n="65" real='-uuu--uu-uuux'>pridie caveat ne faciat quod pigeat postridie.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="123" />
+            <l real='u-uu--uuu--ux'>Quae tibi muliér videtur multo sapientissuma?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="124" />
+            <l real='--u---uuu--ux'>Quae tamen, cum res secundae sunt, se poterit noscere,</l>
+            <lb ed="TLN" n="125" />
+            <l real='uuuu-u-u---ux'>et illa quae aequo animo patietur sibi esse peius quam fuit.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="126" />
+            <l real='uu-uu---uu-ux'>Edepol vos lepide temptavi vostrumque ingenium ingeni.</l>
+            <lb ed="TLN" n="127" />
+            <l n="70" real='-uuu-------ux'>sed hoc est quod ad vos venio quodque esse ambas conventas volo:</l>
+            <lb ed="TLN" n="128" />
+            <l real='uu-uu-u--u-ux'>mi auctores ita sunt amici, ut vos hinc abducam domum.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="129" />
+            <l real='-uuuuuuu-u-ux'>At enim nos, quarum res agitur, aliter auctores sumus.</l>
+            <lb ed="TLN" n="130" />
+            <l real='uuuuu--uuu-ux'>nam aut olim, nisi tibi placebant, non datas oportuit,</l>
+            <lb ed="TLN" n="131" />
+            <l real='-u-uuuu----ux'>aut nunc non aequomst abduci, pater, illisce apsentibus.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="132" />
+            <l n="75" real='u---u---uuuux'>Vosne ego patiar cum mendicis nuptas me vivo viris?</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="133" />
+            <l real='uu-u-u--uu-ux'>Placet ille meus mihi mendicus: suos rex reginae placet.</l>
+            <lb ed="TLN" n="134" />
+            <l real='---uuu-uuu-ux'>idem animust in paupertate qui olim in divitiis fuit:</l>
+            <lb ed="TLN" n="135" />
+            <l part="I" real='x'>[</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='u--uuuu--u-ux'>Vosne latrones et mendicos homines magni penditis?</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <lb ed="TLN" n="136" />
+            <l real='--uu-uu----ux'>] non tu me argento dedisti, opinor, nuptum, sed viro.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="137" />
+            <l n="80" real='-u-uu--u-u-ux'>Quid illos exspectatis, quí abhinc iam abierunt triennium?</l>
+            <lb ed="TLN" n="138" />
+            <l real='--uuu--uuuuux'>quin vos capitis condicionem ex pessuma primariam?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="139" />
+            <l real='-u-uu-uu-u-ux'>Stultitiast, pater, venatum ducere invitas canes.</l>
+            <lb ed="TLN" n="140" />
+            <l real='--u-uu-uu--ux'>hostis est uxor, invita quae viro nuptum datur.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="141" />
+            <l real='u--u--u-uu-ux'>Certumne est neutram vostrarum persequi imperium patris?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="142" />
+            <l n="85" real='--uu-u-uuuuux'>Persequimur, nam quo dedisti nuptum, abire nolumus.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="143" />
+            <l real='uuuux', 'u-uu--u-uuuux'>Bene valete. ibo atque amicis vostra consilia eloquar.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="144" />
+            <l real='-u-uu-uu--uux'>Probiores credo arbitrabunt, si probis narraveris.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="145" />
+            <l part="I" real='uuu-uuuu--u-x'>Curate igitur familiarem rem ut potestis.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='-ux'>Optume,</l>
+            <lb ed="TLN" n="146" />
+            <l real='---u---u--uux'>nunc places, quom recte monstras; nunc tibi auscultabimus.</l>
+            <lb ed="TLN" n="147" />
+            <l n="90" part="I" real='-uuuuuu-x'>nunc, soror, abeamus intro.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>Sor.</speaker>
+            <l part="M" real='--u-ux'>Ímmo intervisam domum.</l>
+            <lb ed="TLN" n="148" />
+            <l real='-uuu--u-uu-ux'>si a viro tibi forte veniet nuntius, facito ut sciam.—</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="149" />
+            <l real='uuuuuuuu---ux'>Neque ego te celabo, neque tu me celassis quod scias.</l>
+            <lb ed="TLN" n="150" />
+            <l real='uuuuuuuuu--ux'>eho, Crocotium, i, parasitum Gelasimum huc arcessito,</l>
+            <lb ed="TLN" n="151" />
+            <l real='uu-u---u---ux'>tecum adduce; nam illum ecastor mittere ad portum volo,</l>
+            <lb ed="TLN" n="152" />
+            <l n="95" real='uuuuuu-uuuuux'>si quae forte ex Asia navis heri aut hodie venerit.</l>
+            <lb ed="TLN" n="153" />
+            <l real='-uuu---uuu-ux'>nam dies totos apud pórtum servos unus assidet;</l>
+            <lb ed="TLN" n="154" />
+            <l real='-u-u--ux', 'uu--u-ux'>sed tamen volo intervisi. propera atque actutum redi.—</l>
+          </sp>
+        </div2>
+        <div2 n="3" type="scene">
+          <sp who="#gelasimvs">
+            <speaker>Gelasimvs</speaker>
+            <lb ed="TLN" n="155" />
+            <l real='uuuu-u-u-u-ux'>Famem ego fuisse suspicor matrem mihi,</l>
+            <lb ed="TLN" n="156" />
+            <l real='---u--u---ux'>nam postquam natus sum, satur numquam fui.</l>
+            <lb ed="TLN" n="157" />
+            <l real='--uu-uu-uuuux'>neque quisquam melius referet matri gratiam</l>
+            <lb ed="TLN" n="157a" />
+            <l real='uu-uuuuux'>[quam egó meae matri refero ínvitissimus.]</l>
+            <lb ed="TLN" n="158" />
+            <l n="5" real='u-uuuuuu-uuux'>neque rettulit, quam ego refero meae matri Fami.</l>
+            <lb ed="TLN" n="159" />
+            <l real='-uu-u---u-ux'>nam illa me in alvo menses gestavit decem,</l>
+            <lb ed="TLN" n="160" />
+            <l real='uu-u-u-uu--ux'>at ego illam in alvo gesto plus annos decem.</l>
+            <lb ed="TLN" n="161" />
+            <l real='--uuu-u-u--ux'>atque illa puerum me gestavit parvolum,</l>
+            <lb ed="TLN" n="162" />
+            <l real='uu-uu-u----ux'>quo minus laboris cepisse illam existumo:</l>
+            <lb ed="TLN" n="163" />
+            <l n="10" real='u---uuuuu-uux'>ego non pauxillulam in utero gesto famem,</l>
+            <lb ed="TLN" n="164" />
+            <l real='u-u-u-u-u-ux'>verum hercle multo maximam et gravissimam;</l>
+            <lb ed="TLN" n="165" />
+            <l real='uu-uuuu--uuux'>uteri dolores mihi oboriuntur cotidie, †</l>
+            <lb ed="TLN" n="166" />
+            <l real='-uuuuuu-uu-ux'>sed matrem parere nequeo, nec quid agam scio.</l>
+            <lb ed="TLN" n="167" />
+            <l real='u-uuu---uuux'>&lt;atque&gt; auditavi saepe hoc volgo dicier,</l>
+            <lb ed="TLN" n="168" />
+            <l n="15" real='uu--uu--uu-ux'>solere elephantum gravidam perpetuos decem</l>
+            <lb ed="TLN" n="169" />
+            <l real='--u-u----ux'>esse annos; eius ex sémine haec certost fames,</l>
+            <lb ed="TLN" n="170" />
+            <l real='---uu-uuu--ux'>nam iam complures annos utero haeret meo.</l>
+            <lb ed="TLN" n="171" />
+            <l real='-uuuuuu----ux'>nunc si ridiculum hominem quaerat quispiam,</l>
+            <lb ed="TLN" n="172" />
+            <l real='uuuuu--u-u-ux'>venalis ego sum cum ornamentis omnibus;</l>
+            <lb ed="TLN" n="173" />
+            <l n="20" real='uuu-u-u---ux'>inanimentis explementum quaerito.</l>
+            <lb ed="TLN" n="174" />
+            <l real='uuuuu--u--uux'>Gelasimo nomen mi indidit parvo pater,</l>
+            <lb ed="TLN" n="175" />
+            <l real='u--uuuuuuu-ux'>quia inde iam a pausillo puero ridiculus fui. †</l>
+            <lb ed="TLN" n="176" />
+            <l real='--uuuuuuu--ux'>propter pauperiem hoc adeo nomen repperi,</l>
+            <lb ed="TLN" n="177" />
+            <l real='uu---u-uuu-ux'>eo quía paupertas fecit ridiculus forem;</l>
+            <lb ed="TLN" n="178" />
+            <l n="25" real='--u---uuuu-ux'>nam illa artis omnis perdocet, ubi quem attigit.</l>
+            <lb ed="TLN" n="179" />
+            <l real='u-u---uu-ux'>per annónam caram dixit me natum pater:</l>
+            <lb ed="TLN" n="180" />
+            <l real='-uuuuu--uuux'>propterea, credo, nunc essurio ácrius.</l>
+            <lb ed="TLN" n="181" />
+            <l real='-uuu---u-u-ux'>sed generi nostro haec redditast benignitas:</l>
+            <lb ed="TLN" n="182" />
+            <l real='-uuuuuuuu--ux'>nulli negare soleo, siquis me essúm vocat.</l>
+            <lb ed="TLN" n="183" />
+            <l n="30" real='uuuu--uuu--ux'>oratio una interiit hominum pessume,</l>
+            <lb ed="TLN" n="184" />
+            <l real='--u-uuuu-u-ux'>atque optuma hercle meo animo et scitissuma,</l>
+            <lb ed="TLN" n="185" />
+            <l real='-uu----u--ux'>qua ante utebantur: ‘véni illo ad cenam, sic face,</l>
+            <lb ed="TLN" n="186" />
+            <l real='u-uuuuuux', '--ux'>promitte vero, ne gravare. est commodum?</l>
+            <lb ed="TLN" n="187" />
+            <l real='u--uuuuu--uux'>volo inquam fieri, non amittam quin eas.’</l>
+            <lb ed="TLN" n="188" />
+            <l n="35" real='--uu---uuuux'>nunc reppererunt iam ei verbo vicarium</l>
+            <lb ed="TLN" n="189" />
+            <l real='uuuu-u-u-u-ux'>(nihili quidem hercle verbumst ac vilissimum):</l>
+            <lb ed="TLN" n="190" />
+            <l real='u--u-uuu-u-ux'>‘vocem te ad cenam, nisi egomet cenem foris.’</l>
+            <lb ed="TLN" n="191" />
+            <l real='uu-u-----ux'>ei hércle ego verbo lumbos diffractos velim,</l>
+            <lb ed="TLN" n="192" />
+            <l real='uuu-u-uu--ux'>ni vere perierit, si cenassit domi.</l>
+            <lb ed="TLN" n="193" />
+            <l n="40" real='-uuu-uuuu--ux'>haec verba subigunt mé uti mores barbaros</l>
+            <lb ed="TLN" n="194" />
+            <l real='---uu--u---ux'>discam atque ut faciam praeconis compendium</l>
+            <lb ed="TLN" n="195" />
+            <l real='uu-uu--u---ux'>itaque auctionem praedicem, ipse ut venditem.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Crocotivm</speaker>
+            <lb ed="TLN" n="196" />
+            <l real='u-uuu---u--ux'>Hic illést parasitus, quem arcessitum missa sum.</l>
+            <lb ed="TLN" n="197" />
+            <l real='uuu--uuu---ux'>quae loquitur auscultabo prius quam conloquar.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="198" />
+            <l n="45" real='-uuuu---u-ux'>Sed curiosi sunt hic complures mali,</l>
+            <lb ed="TLN" n="199" />
+            <l real='uu--uu-uuu-ux'>alienas res qui curant studio maximo,</l>
+            <lb ed="TLN" n="200" />
+            <l real='uu------uu-ux'>quibus ipsis nullast res, quam procurent, sua:</l>
+            <lb ed="TLN" n="201" />
+            <l real='--u-uu--u-ux'>ei quando quem auctionem facturum sciunt,</l>
+            <lb ed="TLN" n="202" />
+            <l real='u--u----uux'>adeunt, perquirunt quid sit causae ilico:</l>
+            <lb ed="TLN" n="203" />
+            <l n="50" real='uuu-uu-uu--ux'>alienum aes cogat an pararit praedium,</l>
+            <lb ed="TLN" n="204" />
+            <l real='-u----u-u-ux'>uxorin sit reddenda dos divortio.</l>
+            <lb ed="TLN" n="205" />
+            <l real='uu-u------uux'>eos ómnis tametsi hercle haud indignos iudico</l>
+            <lb ed="TLN" n="206" />
+            <l real='u--uuu-uu--ux'>qui multum miseri sint, laborent, nil moror:</l>
+            <lb ed="TLN" n="207" />
+            <l real='u-uu----u-ux'>dicam auctionis causam, ut damno gaudeant;</l>
+            <lb ed="TLN" n="208" />
+            <l n="55" real='-uuu-u---uuux'>nam curiosus nemo est quin sit malevolus.</l>
+            <lb ed="TLN" n="208a" />
+            <l real='-uu----ux'>[ipse egomet quam ob rem aúctionem praedicem]</l>
+            <lb ed="TLN" n="209" />
+            <l real='-uuu--uuuuuux'>damna evenerunt maxuma misero mihi,</l>
+            <lb ed="TLN" n="210" />
+            <l real='u-uuuuu-uu-ux'>ita me mancupia miserum adfecerunt male,</l>
+            <lb ed="TLN" n="211" />
+            <l real='uuuu-uu-u-ux'>potationes plurumae demortuae,</l>
+            <lb ed="TLN" n="212" />
+            <l n="60" real='uuuuu---uu-ux'>quot adeo cenae, quas deflevi, mortuae,</l>
+            <lb ed="TLN" n="213" />
+            <l real='-uuu--u---ux'>quot potiones mulsi, quae autem prandia,</l>
+            <lb ed="TLN" n="214" />
+            <l real='---uu--uuu-ux'>quae inter continuom perdidi triennium.</l>
+            <lb ed="TLN" n="215" />
+            <l real='-uuuuuu--uuux'>prae maerore adeo miser atque aegritudine</l>
+            <lb ed="TLN" n="216" />
+            <l real='-uuu-u-uu-ux'>consenui; paene sum famé emortuos.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="217" />
+            <l n="65" real='uuuu-u-u--uux'>Ridiculus aeque nullus est quando esurit.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="218" />
+            <l real='--uu-uuuuu-ux'>Nunc auctionem facere decretumst mihi:</l>
+            <lb ed="TLN" n="219" />
+            <l real='u-u---uuuu-ux'>foras necessumst quidquid habeo vendere.</l>
+            <lb ed="TLN" n="220" />
+            <l real='u-u---u---ux'>adeste sultis, praeda erit praesentium.</l>
+            <lb ed="TLN" n="221" />
+            <l real='u-uuu--x', 'uuuux'>logos ridiculos vendo. áge licemini.</l>
+            <lb ed="TLN" n="222" />
+            <l n="70" real='uuu-u-u---ux'>qui cena poscit? ecqui poscit prandio?</l>
+            <lb ed="TLN" n="223" />
+            <l real='--uuu-uuuuux'>hercle aestumavi prandio, cena tibi.</l>
+            <lb ed="TLN" n="224" />
+            <l real='u-u--uuuuu-ux'>ehem, adnuistin? nemo meliores dabit.</l>
+            <lb ed="TLN" n="225" />
+            <l real='uuuuu-uuuuuux'>[nulli meliores esse parasito sinam.]</l>
+            <lb ed="TLN" n="226" />
+            <l real='u-uuu--uuuux'>vel unctiones Graecas sudatorias</l>
+            <lb ed="TLN" n="227" />
+            <l n="75" real='uuuu-uu-uuuux'>vendo vel alias malacas, crapularias;</l>
+            <lb ed="TLN" n="228" />
+            <l real='u--uu-ux'>cavillátiones, adsentatiunculas</l>
+            <lb ed="TLN" n="229" />
+            <l real='--uuu-u-uuuux'>ac perieratiunculas parasiticas;</l>
+            <lb ed="TLN" n="230" />
+            <l real='uuuu-uu---uux'>robiginosam strigilem, ampullam rubidam,</l>
+            <lb ed="TLN" n="231" />
+            <l real='uuuu-uu--uuux'>parasitum inanem quo recondas reliquias.</l>
+            <lb ed="TLN" n="232" />
+            <l n="80" real='-uu-uu---ux'>haec veniisse iám opus est quantum potest,</l>
+            <lb ed="TLN" n="233" />
+            <l real='-uu--uu-uux'>ut decumam partem Hérculi polluceam.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="234-235" />
+            <l real='u-u-uu--uux'>Ecastor auctionem haúd magni preti.</l>
+            <lb ed="TLN" n="236" />
+            <l real='u-uuuu-u---ux'>adhaesit homini ad infimum ventrem fames.</l>
+            <lb ed="TLN" n="237" />
+            <l part="I" real='uuuuux'>adibo ad hominem.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='------ux'>Quis haec est quae advorsum it mihi?</l>
+            <lb ed="TLN" n="238" />
+            <l n="85" real='---u-uuux'>Epignómi ancilla haéc quidem est Crocotium.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="239" />
+            <l part="I" real='uuuu-x'>Gelasime, salve.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uu-u-ux'>Non id est nomen mihi.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="240" />
+            <l real='-uu-u-u-u-ux'>Certo mecastor id fuit nomen tibi.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="241" />
+            <l real='u-u--uuuu-ux'>Fuit disertim, verum id usu perdidi:</l>
+            <lb ed="TLN" n="242" />
+            <l real='--uu-uuuuuux'>nunc Miccotrogus nomine e vero vocor.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>C.</speaker>
+            <lb ed="TLN" n="243" />
+            <l n="90" part="I" real='u--uuuuu-x'>† Eu ecastor, risi te hodie multum.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='---ux'>Quando aut quo in loco?</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="244-245" />
+            <l part="I" real='--uu--uux'>Hic quom auctionem praedicabas,</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-ux'>Pessuma,</l>
+            <lb ed="TLN" n="246" />
+            <l part="I" real='uu-u-x'>eho an audivisti?</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <l part="M" real='uu---ux'>Te quidem dignissumam.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="247" />
+            <l part="I" real='u-x'>Quo nunc is?</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>C.</speaker>
+            <l part="M" real='-x'>Ad te.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='-ux'>Quid venis?</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>C.</speaker>
+            <l part="M" real='uuux'>Panegyris</l>
+            <lb ed="TLN" n="248" />
+            <l real='uuu--uuuuu-ux'>rogare iussit ted ut opere maximo,</l>
+            <lb ed="TLN" n="249" />
+            <l n="95" real='u-uuuuu-uuux'>mecum simitu ut ires ad sese domum.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="250" />
+            <l real='u-uu-uuuu--ux'>Ego illo mehercle vero eo quantum potest.</l>
+            <lb ed="TLN" n="251" />
+            <l real='--u-u-u--uux'>iamne exta cocta sunt? quot agnis fecerat?</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="252" />
+            <l part="I" real='-uu---uuuux'>Illa quidem nullum sacrificavit.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uux'>Quo modo?</l>
+            <lb ed="TLN" n="253" />
+            <l part="I" real='uuu-ux'>quid igitur me volt?</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <l part="M" real='uuuuu-ux'>Tritici modios decem</l>
+            <lb ed="TLN" n="254" />
+            <l n="100" part="I" real='uuuu-ux'>rogare, opinor [te volt].</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uu-uuux'>Mene, ut ab sese petam?</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="255" />
+            <l real='-uuu-uu-u-ux'>Immo ut a vobis mutuom nobis dares.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="256" />
+            <l real='u-u---uu-uux'>Nega esse quod dem nec mihi nec mutuom,</l>
+            <lb ed="TLN" n="257" />
+            <l real='u---u-uuuu-ux'>neque aliud quicquam nisi hoc quod habeo pallium;</l>
+            <lb ed="TLN" n="258" />
+            <l part="I" real='--uuu--uuuuux'>linguam quoque etiam vendidi datariam.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <l part="M" real='x'>Au,</l>
+            <lb ed="TLN" n="259-260" />
+            <l n="105" part="I" real='--uu-x'>nullan tibi lingua est?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-u-u-ux'>Quae quidem dicat ‘dabo’;</l>
+            <lb ed="TLN" n="261" />
+            <l real='-uuu-uu--u-ux'>ventri reliqui eccam aliam quae dicat ‘cedo’.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="262" />
+            <l part="I" real='u-u-ux'>Malum quidem sí vis—</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-uu-u-ux'>Haec eadem dicit tibi.</l>
+          </sp>
+          <sp who="#crocotivm">
+            <speaker>Croc.</speaker>
+            <lb ed="TLN" n="263" />
+            <l part="I" real='--uuu-x'>
+              Quid nunc? 
+              <abbr expan="iturus es">ituru's</abbr>
+               an non?
+            </l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uuuuux'>Abi sane domum,</l>
+            <lb ed="TLN" n="264-265" />
+            <l real='-u-u-uux', 'uu-ux'>iam illo venturum dicito. propera atque abi.—</l>
+            <lb ed="TLN" n="266" />
+            <l n="110" real='uu-u-----u-ux'>demiror quid illaec me ad se arcessi iusserit,</l>
+            <lb ed="TLN" n="267" />
+            <l real='----------ux'>quae numquam iussit me ad se arcessi ante hunc diem,</l>
+            <lb ed="TLN" n="268" />
+            <l real='--u-u-x', 'u--ux'>postquam vir abiit eius. miror quid siet,</l>
+            <lb ed="TLN" n="269" />
+            <l real='u-uu-u-u--ux'>nisi ut periclum fiat: visam quid velit.</l>
+            <lb ed="TLN" n="270" />
+            <l real='u-uuuu--uux', '-ux'>sed eccum Pinacium eius puerum. hoc vide,</l>
+            <lb ed="TLN" n="271" />
+            <l n="115" real='u-uuu----u-ux'>satin ut facete, &lt;aeque&gt; atque ex pictura, astitit?</l>
+            <lb ed="TLN" n="272" />
+            <l real='-uu-u-uuu--ux'>ne iste edepol vinum poculo pauxillulo</l>
+            <lb ed="TLN" n="273" />
+            <l real='---u--u-u-ux'>saepe exanclavit submerum scitissume.</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="2" type="act">
+        <div2 n="1" type="scene">
+          <sp who="#pinacivm">
+            <speaker>Pinacivm</speaker>
+            <lb ed="TLN" n="274" />
+            <l real='uu-u----ux'>Mercúrius, Iovis qui núntius perhibétur, numquam aequé patri</l>
+            <lb ed="TLN" n="275" />
+            <l real='u-uuu-uu-uu-x'>suo núntium lepidum áttulit quam égo nunc meae erae núntiabo:</l>
+            <lb ed="TLN" n="276" />
+            <l real='u----uux'>ítaque onustum péctus porto laétitia lubéntiaque</l>
+            <lb ed="TLN" n="277" />
+            <l real='uuuuu--uuuu-x'>néque lubet nisi gloriose quicquam proloqui profecto.</l>
+            <lb ed="TLN" n="278" />
+            <l n="5" real='u-u-uu-u-u-ux'>amoénitates omnium venerum et venustatum adfero</l>
+            <lb ed="TLN" n="279" />
+            <l real='u--u-----uuux'>ripísque superat mi atque abundat pectus laetitia meum.</l>
+            <lb ed="TLN" n="280" />
+            <l real='u-uu-uu-u-u-x'>própera, Pinacium, pedes hortare, honesta dicta factis</l>
+            <lb ed="TLN" n="281" />
+            <l real='uuu---uu---ux'>(nunc tíbi potestas adipiscendist gloriam laudem decus)</l>
+            <lb ed="TLN" n="282" />
+            <l real='-uuuu-uuuu-ux'>eraéque egenti subveni, [benefacta maiorum tuom]</l>
+            <lb ed="TLN" n="283" />
+            <l n="10" real='-uuu-u-u---ux'>quae mísera in exspectatione est Epignomi adventum viri.</l>
+            <lb ed="TLN" n="284" />
+            <l real='-uuu--u-uu-ux', '-uuux'>proinde út decet, amat vírum suom, cupide expetit. nunc, Pinacium,</l>
+            <lb ed="TLN" n="285" />
+            <l real='---u-uu--uuux'>age út placet, curre ut lubet, cave quémquam flocci feceris,</l>
+            <lb ed="TLN" n="286" />
+            <l real='-uuuu-----uux'>cubitis depulsa de via, tranquillam concinna viam;</l>
+            <lb ed="TLN" n="287" />
+            <l real='u-u-u--u---ux'>si rex obstabit obviam, regem ipsum prius pervortito.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="288" />
+            <l n="15" real='-uux'>Quídnam dicam Pínacium</l>
+            <lb ed="TLN" n="288a" />
+            <l real='--u---ux'>lascívibundum tam lubentem currere?</l>
+            <lb ed="TLN" n="289" />
+            <l real='---u-uuu--uux'>harúndinem fert sportulamque et hamulum piscarium.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="290" />
+            <l real='uu-u-u-u-u-ux'>Sed tandem, opinor, aequiust eram mihi esse supplicem</l>
+            <lb ed="TLN" n="291" />
+            <l real='--u-uuuu--uux'>atque óratores mittere ad me donaque ex auro et quadrigas,</l>
+            <lb ed="TLN" n="292" />
+            <l n="20" real='uu--uuuuu-ux', '-u-u-x'>quí vehar, nam pedibus ire non queo. ergo iam revortar.</l>
+            <lb ed="TLN" n="293" />
+            <l real='uu--uuu----ux'>ad me adiri et supplicari égomet mi aequom censeo.</l>
+            <lb ed="TLN" n="294" />
+            <l real='-u-uu-uuuu-ux'>an véro nugas censeas, nihil esse quod ego nunc scio?</l>
+            <lb ed="TLN" n="295" />
+            <l real='--uu---u---ux'>tantum a portu adporto bonum, tam gaudium grande adfero,</l>
+            <lb ed="TLN" n="296" />
+            <l real='uuuu--u-uu-ux'>vix ipsa domina hoc, nisi sciat, exoptare ab deis audeat.</l>
+            <lb ed="TLN" n="297" />
+            <l n="25" real='--u-u-u-uu-ux'>nunc ultro id deportem? hau placet, neque id viri officium arbitror.</l>
+            <lb ed="TLN" n="298" />
+            <l real='uu-uuu-uu--ux'>sic hoc videtur mihi magis meo cónvenire huic nuntio:</l>
+            <lb ed="TLN" n="299" />
+            <l real='uu-u---uu--ux'>adversum veniat, opsecret, se ut nuntio hoc impertiam;</l>
+            <lb ed="TLN" n="300" />
+            <l real='u---u-u-u-ux'>secundas fortunas decent superbiae.</l>
+            <lb ed="TLN" n="301" />
+            <l real='uuuuuuu-u-uux'>sed tandem cum recogito, qui potuit scire haec scire me?</l>
+            <lb ed="TLN" n="302" />
+            <l n="30" real='--u---u-uu--x'>nón enim póssum quin revortar, quin loquar, quin edissertem</l>
+            <lb ed="TLN" n="303" />
+            <l real='u-u-uu-uuuu-x'>erámque ex maerore eximam, bene facta maiorum meum</l>
+            <lb ed="TLN" n="304" />
+            <l real='---u-uu--uuux'>exaugeam atque illam augeam insperato opportuno bono:</l>
+            <lb ed="TLN" n="305" />
+            <l real='-u-uu------ux'>contundam facta Talthubi contemnamque omnis nuntios;</l>
+            <lb ed="TLN" n="306" />
+            <l real='u-uuu--uuu-ux'>símulque [ad] cursuram meditabor [me] ad ludos Olympios.</l>
+            <lb ed="TLN" n="307" />
+            <l n="35" real='u-u--uuu-u-ux'>sed spátium hoc occidit: brevest curriculo; quam me paenitet.</l>
+            <lb ed="TLN" n="308" />
+            <l real='uu-u-uu-uux', 'u--uuux'>quid hoc? occlusam ianuam video. ibo et pultabo fores.</l>
+            <lb ed="TLN" n="309" />
+            <l real='uu-uuu-uu-uux'>aperíte atque adproperáte, fores facite út pateant, removéte moram;</l>
+            <lb ed="TLN" n="310" />
+            <l real='uu--uuuuux', 'uu-uu-u--x'>nimis haéc res sine curá geritur. vide quám dudum hic asto ét pulto.</l>
+            <lb ed="TLN" n="311" />
+            <l real='-uu-uu-u--uux'>somnóne operam datis? éxperiar, fores án cubiti ac pedes plús valeant.</l>
+            <lb ed="TLN" n="312" />
+            <l n="40" real='uuu--uuuuu--x'>nimis véllem hae fores erum fúgissent, ea caúsa ut haberent ma&lt;lum mag&gt;num;</l>
+            <lb ed="TLN" n="313" />
+            <l real='--x'>deféssus sum pultándo.</l>
+            <lb ed="TLN" n="314" />
+            <l real='-x', '-ux'>hoc póstremumst. vae vobis.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="315" />
+            <l real='uu-x'>Ibo átque hunc compellábo.</l>
+            <lb ed="TLN" n="316" />
+            <l part="I" real='-x'>salvós sis.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='-ux'>Et tu sálve.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="317" />
+            <l n="45" real='-u-u--x'>
+              Iam tú piscator 
+              <abbr expan="factus es">fáctu's</abbr>
+              ?
+            </l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="318" />
+            <l real='--ux'>Quam prídem non edísti?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="319-320" />
+            <l part="I" real='u----x'>Vnde ís? quid fers? quid féstinas?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>P.</speaker>
+            <l part="M" real='uu--u-uux'>Tua quód nil refert, né cures.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="321" />
+            <l part="I" real='-uux'>Quid istíc inest?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>P.</speaker>
+            <l part="M" real='--uux'>Quas tu edés colubras.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='-uu-x'>
+              Quid tam 
+              <abbr expan="iracundus es">íracundu's</abbr>
+              ?
+            </l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='u-x'>Si ín te</l>
+            <lb ed="TLN" n="322" />
+            <l real='uu--x'>pudor ádsit, non me appélles.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="323" />
+            <l n="50" real='-u-ux'>Possúm scire ex te vérum?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="324-325" />
+            <l real='uuu-x'>Potes: hódie non cenábis.</l>
+          </sp>
+        </div2>
+        <div2 n="2" type="scene">
+          <sp who="#panegyris">
+            <speaker>Panegyris</speaker>
+            <lb ed="TLN" n="326" />
+            <l real='-u---uux'>Quisnam, ópsecro, has frangit fóres? ubi est?</l>
+            <lb ed="TLN" n="326a" />
+            <l real='u-u--uu-ux'>tun haéc facis? tun mihi huc hóstis venis?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="327" />
+            <l part="I" real='uuuuux'>Salvé, tuo arcessitú venio huc.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='u-uuux'>Ean grátia fores effríngis?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="328" />
+            <l real='uuuuu-uu-u--x'>Tuos ínclama, tui délinquont: ego quíd me velles vísebam;</l>
+            <lb ed="TLN" n="329" />
+            <l n="5" part="I" real='-uuu-x'>nam mé quidem harum míserebat.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='--uux'>Ergo aúxilium properé latumst.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pa.</speaker>
+            <lb ed="TLN" n="330" />
+            <l part="I" real='--uu--ux'>Quisnam híc loquitur tam própe nos?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pi.</speaker>
+            <l part="M" real='uuux'>Pinacium.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pa.</speaker>
+            <l part="M" real='ux'>Úbi is est?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="331" />
+            <l real='--u--ux'>Réspice ad me et relínque egentem párasitum, Panégyris.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="332" />
+            <l part="I" real='uuux'>Pinacium.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='u-uu-u-uuu-ux'>Istuc indiderunt nomen maiores mihi.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="333" />
+            <l part="I" real='-ux'>Quid agis?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='-u-uux'>Quid agam rogitas?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='-uuux'>Quidni rogitem?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='-u-ux'>Quid mecum est tibi?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="334" />
+            <l n="10" real='uuuuuuuuuuuux'>Mein fastidis, propudiose? eloquere propere, Pinacium.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pi.</speaker>
+            <lb ed="TLN" n="335" />
+            <l part="I" real='uuu-uuuu-uuux'>Iube me omittere igitur hos, qui retinent.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pa.</speaker>
+            <l part="M" real='-uux'>Qui retinent?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>PI.</speaker>
+            <l part="M" real='ux'>Rogas?</l>
+            <lb ed="TLN" n="336" />
+            <l part="I" real='-uu-u-uuuuuux'>omnia membra lassitudo mihi tenet.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='--ux'>Linguam quidem</l>
+            <lb ed="TLN" n="337" />
+            <l part="I" real='-uuuu-uux'>sat scio tibi non tenere.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='uuuuu-uuuux'>Ita celeri curriculo fui</l>
+            <lb ed="TLN" n="338" />
+            <l part="I" real='uuu-uuuu--x'>propere a portu, tui honoris causa.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='-u---ux'>Ecquid adportas boni?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="339" />
+            <l n="15" part="I" real='uux'>Nimio † inparti multo tanto plus quam speras.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='-ux'>Salva sum.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="340" />
+            <l real='uuuu---uuu-ux'>At ego perii, quoi medullam lassitudo perbibit.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="341" />
+            <l real='uuuu-----u-ux'>Quid ego, quoi misero medullam ventris percepit fames.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="342" />
+            <l part="I" real='---u-x'>Ecquem convenisti?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='-x'>Multos.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='-ux'>At virum?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='uu-uux'>Equidem plurimos:</l>
+            <lb ed="TLN" n="343" />
+            <l part="I" real='u---uuu---ux'>verum ex multis nequiorem nullum quám hic est.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uux'>Quo modo?</l>
+            <lb ed="TLN" n="344" />
+            <l n="20" real='uu-uu-uu--uux'>iam dudum ego ístum patior dicere iniuste mihi.</l>
+            <lb ed="TLN" n="345" />
+            <l part="I" real='-u-u-u-x'>praeterhac si me inritassis—</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='uuu-uu-ux'>Edepol essuries male.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="346" />
+            <l real='uu--u-uuu--ux'>Animum inducam, ut istuc verum te elocutum esse arbitrer.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="347" />
+            <l real='-uu-uuuux', '---u-u-u-ux'>Munditias volo fieri. ecferte huc scopas simulque harundinem,</l>
+            <lb ed="TLN" n="348" />
+            <l real='-uuuu----u-ux'>ut operam omnem araneorum perdam et texturam improbem</l>
+            <lb ed="TLN" n="349" />
+            <l n="25" part="I" real='uuu-uuu-ux'>deiciamque eorum ómnis telas.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uu-u-uux'>Miseri algebunt postea.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="350" />
+            <l real='--u--uuu--uux'>Quid? illos itidemne esse censes quasi te, cum veste unica?</l>
+            <lb ed="TLN" n="351" />
+            <l part="I" real='u--ux'>cape illas scopas.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uux'>Cápiam.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='uuu----x'>Hoc egomet, tu hoc converre.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uuuux'>Ego fecero.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="352" />
+            <l part="I" real='-uu---u--ux'>Ecquis huc effert nassiternam cúm aqua?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uu-uux'>Sine suffragio</l>
+            <lb ed="TLN" n="353" />
+            <l part="I" real='uuuuu-uuu--x'>populi tamen aedilitatem hic quidém gerít.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='uuuux'>Age tu ocius</l>
+            <lb ed="TLN" n="354" />
+            <l n="30" part="I" real='-u-----x'>† pinge, humum consperge ante aedis.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='uux'>Faciam.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>P.</speaker>
+            <l part="M" real='-u-ux'>Factum oportuit.</l>
+            <lb ed="TLN" n="355" />
+            <l real='uuu-uuu-uuuux'>ego hinc araneas de foribus deiciam et de pariete.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="356" />
+            <l part="I" real='uu--uuuux'>Edepol rem negotiosam.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='--uuu-ux'>Quid sit, nil etiam scio,</l>
+            <lb ed="TLN" n="357" />
+            <l part="I" real='uu--u--uux'>nisi forte hospites venturi sunt.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='u---ux'>&lt;Vos&gt; lectos sternite.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="358" />
+            <l part="I" real='-uu-u-u-x'>Principium placet de lectis.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='uuu-u-ux'>Alii ligna caedite,</l>
+            <lb ed="TLN" n="359" />
+            <l n="35" real='--u-uu--uu-ux'>alii piscis depurgate, quos piscatu rettuli,</l>
+            <lb ed="TLN" n="360" />
+            <l part="I" real='---u-uuux'>pernam et glandium deicite.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u-uuuu-ux'>Hic hercle homo nimium sapit.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="361" />
+            <l real='uuuu-uuu-u-ux'>Non ecastor, ut ego opinor, satis erae morem geris.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="362" />
+            <l real='--u-uuuu--uux'>Immo res omnis relictas habeo prae quod tu velis.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="363" />
+            <l real='-u-u-uu--u-ux'>Tum tu igitur, qua causa missus es ad portum, id expedi.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="364" />
+            <l n="40" real='ux', '--uu-----uuux'>Dicam. postquam me misisti ad portum, cum luci simul,</l>
+            <lb ed="TLN" n="365" />
+            <l real='uu-uu-uuuu-ux'>commodum radiosus sese sol superabat ex mari.</l>
+            <lb ed="TLN" n="366" />
+            <l real='---uuu--u-uux'>dum percontor portitores, ecquae navis venerit</l>
+            <lb ed="TLN" n="367" />
+            <l real='uu-u-u-uu--ux'>ex Asia, negant venisse, conspicatus sum interim</l>
+            <lb ed="TLN" n="368" />
+            <l real='uuuuu--u-u-ux'>cercurum, quo ego me maiorem non vidisse censeo.</l>
+            <lb ed="TLN" n="369" />
+            <l n="45" real='--uu-uuu-u-ux'>in portum vento secundo, velo passo pervenit.</l>
+            <lb ed="TLN" n="370" />
+            <l real='---u-uu-u--ux'>alius alium percontamur: quoiast navis? quid vehit?</l>
+            <lb ed="TLN" n="371" />
+            <l real='--uuuu-u--uux'>interibi Epignomúm conspicio tuom virum et servom Stichum.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="372" />
+            <l part="I" real='-uu-uuuux'>
+              Hem quid? Epignomum 
+              <abbr expan="elocutus es">elocutu's</abbr>
+              ?
+            </l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='u-ux'>Tuom virum.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-u-ux'>Et vitam meam.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="373" />
+            <l part="I" real='uu-x'>Venit inquam.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='uu-u--u-x'>Tutin ipsus ipsum vidisti?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='ux'>Lubens.</l>
+            <lb ed="TLN" n="374" />
+            <l n="50" part="I" real='u-u---uux'>argentí aurique advexit nimium.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u---ux'>Nimis factum bene.</l>
+            <lb ed="TLN" n="375" />
+            <l real='uuu-uu-----ux'>hercle vero capiam scopas atque hoc convorram lubens.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="376" />
+            <l part="I" real='u--u-u-x'>Lanam purpuramque multam.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-u---ux'>Em qui ventrem vestiam.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="377" />
+            <l part="I" real='-uuuuu-ux'>Lectos eburatos, auratos.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-uuuuux'>Accubabo regie.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="378" />
+            <l real='-u-uu-uu--uux'>Tum Babylonica et peristroma tonsilia et tappetia</l>
+            <lb ed="TLN" n="379" />
+            <l n="55" part="I" real='---uu-u-ux'>advexit, nimium bonae rei.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-u---ux'>Hercle rem gestam bene.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="380" />
+            <l real='uu-uuuuu-uuux'>Poste, ut occepi narrare, fidicinas, tibicinas,</l>
+            <lb ed="TLN" n="381" />
+            <l part="I" real='-uu---u---uux'>sambucas advexit secum forma eximia.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uux'>Eugepae,</l>
+            <lb ed="TLN" n="382" />
+            <l real='uuuuu--uuu-ux'>quando adbibero, adludiabo: tum sum ridiculissumus.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="383" />
+            <l part="I" real='---u-uuu--x'>Poste unguenta multigenerum multa.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='--uux'>Non vendo logos.</l>
+            <lb ed="TLN" n="384" />
+            <l n="60" real='--uu--uuuuux'>iam non facio aúctionem, mi optigit hereditas:</l>
+            <lb ed="TLN" n="385" />
+            <l real='u-uuuu-uu--ux'>malivoli, perquisitores auctionum, perierint.</l>
+            <lb ed="TLN" n="386" />
+            <l real='u-u--uu-uuuux'>Hercules, decumam esse adauctam tibi quam vovi gratulor.</l>
+            <lb ed="TLN" n="387" />
+            <l real='---u-uuuuuuux'>[spes est, tandem aliquando inportunam exigere ex utero famem.]</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="388" />
+            <l part="I" real='-----uuu-ux'>Poste autem advexit parasitos secum.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u-uux'>Ei, perii miser.</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="389" />
+            <l n="65" part="I" real='uuu-ux'>Ridiculissumos.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u------uux'>Revorram hercle hoc quod converri modo.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="390" />
+            <l part="I" real='u--u-uuu-ux'>Vidistin virum sororis Pamphilum?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <l part="M" real='x'>Non.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='uux'>Non adest?</l>
+          </sp>
+          <sp who="#pinacivm">
+            <speaker>Pin.</speaker>
+            <lb ed="TLN" n="391" />
+            <l real='--uuuuuu-u-ux'>Immo venisse eum simitu aiebat ille: ego huc citus</l>
+            <lb ed="TLN" n="392" />
+            <l real='---uu--u--uux'>praecucurri, ut nuntiarem nuntium exoptabilem.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="393" />
+            <l real='-uu--u-uu--ux'>Venales logi sunt illi, quos negabam vendere.</l>
+            <lb ed="TLN" n="394" />
+            <l n="70" real='uuu--uuu---ux'>ilicet, iam meo malost quod malevolentes gaudeant.</l>
+            <lb ed="TLN" n="395" />
+            <l real='uu--uu---u-ux'>Hercules, qui deus sis, sane discessisti non bene.</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <lb ed="TLN" n="396" />
+            <l real='uu-uu--uu--ux'>I intro, Pinacium, iube fámulos rem divinam mi apparent.</l>
+            <lb ed="TLN" n="397" />
+            <l part="I" real='uuux'>bene vale.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u-u-x'>Vin administrem?</l>
+          </sp>
+          <sp who="#panegyris">
+            <speaker>Pan.</speaker>
+            <l part="M" real='--uuuuux'>Sat servorum habeo domi.—</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="398" />
+            <l real='uuuuu-uu-u-ux'>Enim vero, Gelasime, opinor provenisti futtile,</l>
+            <lb ed="TLN" n="399" />
+            <l n="75" real='-u-u-uu----ux'>si neque ille adest neque hic, qui venit, quicquam subvenit.</l>
+            <lb ed="TLN" n="400" />
+            <l real='uu---u--uuuux'>ibo intro ad libros et discam de dictis melioribus;</l>
+            <lb ed="TLN" n="401" />
+            <l real='uuu--u-uuu-ux'>nam ni illos homines expello, ego occidi planissume.—</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="3" type="act">
+        <div2 n="1" type="scene">
+          <sp who="#epignomvs">
+            <speaker>Epignomvs</speaker>
+            <lb ed="TLN" n="402" />
+            <l real='-uuu-u-----ux'>Quom bene re gesta salvos convortor domum,</l>
+            <lb ed="TLN" n="403" />
+            <l real='-uuuuuuu--uux'>Neptuno grates habeo et Tempestatibus;</l>
+            <lb ed="TLN" n="404" />
+            <l real='uu-uuuu--uuux'>simul Mercurio, qui me in mercimoniis</l>
+            <lb ed="TLN" n="405" />
+            <l real='u-u-uuuuu--ux'>iuvit lucrisque quadruplicavit rem meam.</l>
+            <lb ed="TLN" n="406" />
+            <l n="5" real='u-u---u-uuux'>olim quos abiens adfeci aegrimonia,</l>
+            <lb ed="TLN" n="407" />
+            <l real='u-----uuuuux'>eos núnc laetantis faciam ádventu meo.</l>
+            <lb ed="TLN" n="408" />
+            <l real='-u-uu--u-u-x'>nam iam Antiphonem conveni adfinem meum</l>
+            <lb ed="TLN" n="409" />
+            <l real='uuuuuuuuu-uux'>cumque eo reveni ex inimicitia in gratiam.</l>
+            <lb ed="TLN" n="410" />
+            <l real='uuu-u-u-uuux'>videte, quaeso, quid potest pecunia:</l>
+            <lb ed="TLN" n="411" />
+            <l n="10" real='u-uu-uu--uuux'>quoniam bene gesta re rediisse me videt</l>
+            <lb ed="TLN" n="412" />
+            <l real='----u-uuuu-ux'>magnasque adportavisse divitias domum,</l>
+            <lb ed="TLN" n="413" />
+            <l real='u-uuuuu--u-ux'>sine advocatis ibidem in cercuro in stega</l>
+            <lb ed="TLN" n="414" />
+            <l real='uuuu--uu---ux'>in amicitiam atque in gratiam convortimus.</l>
+            <lb ed="TLN" n="415" />
+            <l real='uuuuu-uuu-u-x'>et is hodie apud me cenat et frater meus;</l>
+            <lb ed="TLN" n="416" />
+            <l n="15" real='u-uuu-uuu--ux'>nam heri ambo in uno portu fuimus, sed mea</l>
+            <lb ed="TLN" n="417" />
+            <l real='uuuu-uuuu-uux'>hodie solutast navis aliquanto prius.</l>
+            <lb ed="TLN" n="418" />
+            <l real='u--u-u--uux'>age abdúce hasce intro, quas mecum adduxi, Stiche.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stichvs</speaker>
+            <lb ed="TLN" n="419" />
+            <l real='uuu-uuu-uuuux'>Ere, sí ego taceam seu loquar, scio scire te</l>
+            <lb ed="TLN" n="420" />
+            <l real='---u-uuu--uux'>quam multas tecum miserias mulcaverim.</l>
+            <lb ed="TLN" n="421" />
+            <l n="20" real='--uuu----uuux'>nunc hunc diem unum ex illis multis miseriis</l>
+            <lb ed="TLN" n="422" />
+            <l real='uuuuuu-uu--ux'>volo mé eleutheria capere advenientem domum.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="423" />
+            <l real='-uu--uu-uuux'>Et ius et aequom postulas: sumas, Stiche.</l>
+            <lb ed="TLN" n="424" />
+            <l real='u-u-u-uuuuuux'>in hunc diem te nil moror; abi quo lubet.</l>
+            <lb ed="TLN" n="425" />
+            <l part="I" real='u-uuuu-uuuux'>cadum tibi veteris vini propino.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>St.</speaker>
+            <l part="M" real='ux'>Papae,</l>
+            <lb ed="TLN" n="426" />
+            <l n="25" part="I" real='uuuuux'>ducam hodie amicam.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='-u--uux'>Vel decem, dum de tuo.</l>
+          </sp>
+          <sp who="#soror">
+            <speaker>S.</speaker>
+            <lb ed="TLN" n="427" />
+            <l part="I" real='-uuuux'>Quid? hoc etiam unum?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-u-uu-ux'>Quid id autem unumst? expedi.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="428" />
+            <l part="I" real='-uuux'>Ad cenam ibone?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='uuu--ux'>
+              Si 
+              <abbr expan="vocatus es">vocatu's</abbr>
+              , censeo.
+            </l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="429" />
+            <l real='u-u-uuu-u-ux'>Sic hoc placet; rogatu necne, nil moror.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="430" />
+            <l part="I" real='uuuuux'>Vbi cenas hodie?</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='u-uuu-ux'>Sic hanc rationem institi:</l>
+            <lb ed="TLN" n="431" />
+            <l n="30" real='uuuuuuuu---ux'>amicam ego habeo Stephanium hinc ex proxumo,</l>
+            <lb ed="TLN" n="432" />
+            <l real='u-u--uu----ux'>tui frátris ancillam: eo condixi in symbolam</l>
+            <lb ed="TLN" n="433" />
+            <l real='-uu--u-uuuux'>ad cenam, ad eius consérvom Sangarinum Syrum.</l>
+            <lb ed="TLN" n="434" />
+            <l real='uuuuu-u-uu-ux'>eademst amica ambobus, rivales sumus.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="435" />
+            <l real='u-u--x', '-uuuuux'>Age abduce hasce intro. hunc tibi dedo diem.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="436" />
+            <l n="35" real='-uuuuuu-uuuux'>Meam culpam habeto, nisi probe excruciavero.</l>
+            <lb ed="TLN" n="437" />
+            <l real='uuu-uuu-uuuux'>iam hercle ego per hortum ad amicam transibo meam</l>
+            <lb ed="TLN" n="438" />
+            <l real='--uu--uu--ux'>mi hanc occupatum noctem; eadem symbolam</l>
+            <lb ed="TLN" n="439" />
+            <l real='u-uuu-uu-u-ux'>dabo et iubebo ad Sangarinum cenam coqui.</l>
+            <lb ed="TLN" n="440" />
+            <l real='-uuuu--uu-uux'>aut egomet ibo atque opsonabo opsonium.</l>
+            <lb ed="TLN" n="441" />
+            <l n="40" real='-uuuuu--uuuux'>Sangarinus scio iam hic aderit cum domino suo,</l>
+            <lb ed="TLN" n="442" />
+            <l real='uuuuuu-u-u-ux'>servos homo, qui nisi temperi ad cenam meat,</l>
+            <lb ed="TLN" n="443" />
+            <l real='--uu----uu-ux'>advorsitores pol cum verberibus decet</l>
+            <lb ed="TLN" n="444" />
+            <l real='uu--uu--u-ux'>dari, uti eum verberabundi adducant domum.</l>
+            <lb ed="TLN" n="445" />
+            <l real='uuu-uu-x', 'uu-uux'>parata res faciam ut sit. egomet me moror.</l>
+            <lb ed="TLN" n="446" />
+            <l n="45" real='--u-uuuuu--ux'>atque id ne vos miremini, hominis servolos</l>
+            <lb ed="TLN" n="447" />
+            <l real='uuuu--u--uux'>potare, amare atque ad cenam condicere:</l>
+            <lb ed="TLN" n="448" />
+            <l real='uu-uu-ux', '--uux'>licet haec Athenis nobis. sed quom cogito,</l>
+            <lb ed="TLN" n="449" />
+            <l real='-uu-uu-uuu-ux'>potius quam invidiam inveniam, est etiam hic ostium</l>
+            <lb ed="TLN" n="450" />
+            <l real='uu-uu--uu--ux'>aliud posticum nostrarum harunc aedium:</l>
+            <lb ed="TLN" n="450a" />
+            <l n="50" real='uu---uuu-u-ux'>[posticam partem magis utuntur aedium]</l>
+            <lb ed="TLN" n="451" />
+            <l real='u-uuuu-uu-uux'>ea ibo opsonatum, eadem referam opsonium:</l>
+            <lb ed="TLN" n="452" />
+            <l real='u-uuu-uu--ux'>per hortum utroque commeatus continet.</l>
+            <lb ed="TLN" n="453" />
+            <l real='u-u---x', 'u-uuuux'>ite hac secundum vos me. ego hunc lacero diem.—</l>
+          </sp>
+        </div2>
+        <div2 n="2" type="scene">
+          <sp who="#gelasimvs">
+            <speaker>Gelasimvs</speaker>
+            <lb ed="TLN" n="454" />
+            <l real='uu--u--uu-ux'>Libros inspexi; tam confido quam potis,</l>
+            <lb ed="TLN" n="455" />
+            <l real='u--u-u-uuu-x'>me meum optenturum regem ridiculis meis.</l>
+            <lb ed="TLN" n="456" />
+            <l real='---uu-u--uux'>nunc interviso, iamne a portu advenerit,</l>
+            <lb ed="TLN" n="457" />
+            <l real='uu----uuux'>ut eum ádvenientem meis dictis deleniam.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="458" />
+            <l n="5" real='uuuuu-uuu-uux'>Hic quidém Gelasimus est parasitus, qui venit.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="459" />
+            <l real='-uuuuu-uuux'>Auspicio hodie óptumo exivi foras:</l>
+            <lb ed="TLN" n="460" />
+            <l real='-uuuu---ux'>mustela murem ábstulit praeter pedes;</l>
+            <lb ed="TLN" n="461" />
+            <l real='-uu--u-ux'>cum strena óbscaevavit; spectatum hoc mihist.</l>
+            <lb ed="TLN" n="462" />
+            <l real='u-uu--uuuuuux'>nam ut illa vitam repperit hodie sibi,</l>
+            <lb ed="TLN" n="463" />
+            <l n="10" real='u-uuu-u-uu-ux'>item me spero facturum: augurium hac facit.</l>
+            <lb ed="TLN" n="464" />
+            <l real='u-u-ux', 'u-uux'>Epignómus hic quidemst qui ástat. ibo atque adloquar.</l>
+            <lb ed="TLN" n="465" />
+            <l real='uuuu-u-uuuux'>&lt;o&gt; Épignome, ut ego nunc te conspicio libens,</l>
+            <lb ed="TLN" n="466" />
+            <l real='-uuuuu-uuu-ux'>ut prae laetitia lacrimae prosiliunt mihi.</l>
+            <lb ed="TLN" n="467" />
+            <l part="I" real='uu-u-x'>valuistin usque?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='--u-uux'>Sustentatumst sedulo.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="468" />
+            <l n="15" real='uuuuuuu-u--ux'>Propino tibi salutem plenis faucibus.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="469" />
+            <l real='u-uuuux', 'u--ux'>Bene atque amice dicis. di dent quae velis.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="470-471" />
+            <l real='u-u-uuu--u-ux'>Cenem illi apud te, quoniam salvos advenis.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="472" />
+            <l real='uu-uuu-u--uux'>Locatast opera nunc quidem; tam gratiast.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="473" />
+            <l part="I" real='u-x'>Promitte.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-x'>Certumst.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='-u-x'>Sic face inquam.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-ux'>Certa res.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="474" />
+            <l n="20" part="I" real='u-u-uuux'>Lubente me hercle facies.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='uu--ux'>Idem ego istuc scio.</l>
+            <lb ed="TLN" n="475" />
+            <l part="I" real='-u-uu-ux'>quando usus veniet, fiet.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='--uux'>Nunc ergo usus est.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="476" />
+            <l part="I" real='uuu--x'>Non edepol possum.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='-uuu-ux'>Quid gravare? censeas.</l>
+            <lb ed="TLN" n="477" />
+            <l part="I" real='-uu-u--x'>nescio quid vero hábeo in mundo.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='uux'>I modo,</l>
+            <lb ed="TLN" n="478" />
+            <l real='u--u--uuuu-ux'>alium convivam quaerito tibi in hunc diem.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="479" />
+            <l n="25" part="I" real='-uu-x'>Quin tu promittis?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='-u-u-ux'>Non graver, si possiem.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="480" />
+            <l real='-u-u-uu-uux'>Vnum quidem hercle certo promitto tibi:</l>
+            <lb ed="TLN" n="481" />
+            <l real='u--uu--uuuuux'>libens accipiam certo, si promiseris.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Ep.</speaker>
+            <lb ed="TLN" n="482" />
+            <l part="I" real='uux'>Valeas.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='--x'>Certumnest?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Ep.</speaker>
+            <l part="M" real='-x', 'uuuux'>Certum. cenabo domi.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="483" />
+            <l real='-uu--u--u-ux'>[Quando quidem tu ad me non vis promittere]</l>
+            <lb ed="TLN" n="484" />
+            <l n="30" real='-uu--u-uuuuux'>sed—quoniam nil processit hac, ego ivero</l>
+            <lb ed="TLN" n="485" />
+            <l real='-uuuu-uuuuuux'>apertiore magis via; ita plane loquar:</l>
+            <lb ed="TLN" n="486" />
+            <l part="I" real='u--u-uux'>vin ad te ad cenam veniam?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='u--ux'>Si possim, velim;</l>
+            <lb ed="TLN" n="487" />
+            <l real='uuu-uu-uuuuux'>verum hic apud me cenant alieni novem.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="488" />
+            <l real='-uuuu-u----ux'>Hau postulo equidem med in lecto accumbere:</l>
+            <lb ed="TLN" n="489" />
+            <l n="35" real='-u-uu--uux'>scis tu me esse unisubselli virum.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="490" />
+            <l real='u---uu-uux'>At ei óratores sunt popli, summi viri;</l>
+            <lb ed="TLN" n="491" />
+            <l real='uuuuu--uuu-ux'>Ambracia veniunt huc legati publice.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="492" />
+            <l real='-uuu-uuu-u-ux'>Ergo oratores populi, summates viri,</l>
+            <lb ed="TLN" n="493" />
+            <l real='--u-u-uuu-ux'>summi accubent, ego infimatis infimus.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="494" />
+            <l n="40" real='----uuuuu-ux'>Haud aequomst te inter oratores accipi.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="495" />
+            <l real='uu-uu---uu-ux'>Equidem hercle orator sum, sed procedit parum.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="496" />
+            <l real='-uuuu--ux', '--ux'>Cras de reliquiis nos volo. multum vale.—</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="497" />
+            <l real='u-uuuuuuu--ux'>Perii hercle vero plane, nihil obnoxie.</l>
+            <lb ed="TLN" n="498" />
+            <l real='uuuuuuu--u-ux'>uno Gelasimo minus est quam dudum fuit.</l>
+            <lb ed="TLN" n="499" />
+            <l n="45" real='---u-u---uux'>certumst mustelae posthac numquam credere,</l>
+            <lb ed="TLN" n="500" />
+            <l real='--uu---uu-ux'>nam incertiorem nullam novi bestiam;</l>
+            <lb ed="TLN" n="501" />
+            <l real='u-uuu--uuu-ux'>quaen eapse deciens in die mutat locum,</l>
+            <lb ed="TLN" n="502" />
+            <l real='u-uuu-uuuuuux'>ea ego auspicavi ín re capitali mea?</l>
+            <lb ed="TLN" n="503" />
+            <l real='-uuu--uu--ux'>certumst amicos convocare, ut consulam</l>
+            <lb ed="TLN" n="504" />
+            <l n="50" real='uuu-u-uuu-ux'>qua lege nunc med essurire oporteat.—</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="4" type="act">
+        <div2 n="1" type="scene">
+          <sp who="#antipho">
+            <speaker>Antipho</speaker>
+            <lb ed="TLN" n="505" />
+            <l real='u-uuuuu---uux'>Íta me di bene amént measque mihi [bene] servassint filias,</l>
+            <lb ed="TLN" n="506" />
+            <l real='-u-uuuu-uu-ux'>ut mihi volup est, Pamphilippe, quia vos in patriam domum</l>
+            <lb ed="TLN" n="507" />
+            <l real='uuuu-u---u-ux'>rediisse video bene gesta re ambos, te et fratrem tuom.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamphilippvs</speaker>
+            <lb ed="TLN" n="508" />
+            <l real='uuu-uuuu-u-ux'>Satis abs te accipiam, nisi videam mihi te amicum esse, Antipho;</l>
+            <lb ed="TLN" n="509" />
+            <l n="5" real='-u-uuu-uuu-ux'>nunc quia té amicum mihi experior esse, credetur tibi.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="510" />
+            <l real='-u-u-u-u---ux'>Vocem ego te ad me ad cenam, frater tuos ni dixisset mihi,</l>
+            <lb ed="TLN" n="511" />
+            <l real='uu-uuu---u-ux'>te apud se cenaturum esse hodie, quom me ad se ad cenam vocat.</l>
+            <lb ed="TLN" n="512" />
+            <l real='-uu-uuu-uu-ux'>et magis pár fuerat me vobis dare cenam advenientibus,</l>
+            <lb ed="TLN" n="513" />
+            <l real='-u-uuuu---uux'>quam me ad illúm promittere, nisi nollem ei advorsarier.</l>
+            <lb ed="TLN" n="514" />
+            <l n="10" real='uu-uuu---uuux'>nunc me gratiam abs te inire verbis nil desidero:</l>
+            <lb ed="TLN" n="515" />
+            <l real='uu-u-u--u-uux'>cras apud me éritis et tu et ille cum vostris uxoribus.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="516" />
+            <l real='uu-uu-ux', '-uuu-uuux'>At apud mé perendie. nam ille heri me iam vocaverat</l>
+            <lb ed="TLN" n="517" />
+            <l real='u-ux', 'uuu-uuuu-u-ux'>in hunc diem. sed satin ego tecum pacificatus sum, Antipho?</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="518" />
+            <l real='---u---uu--ux'>Quando ita rem gessistis ut vos velle amicosque addecet,</l>
+            <lb ed="TLN" n="519" />
+            <l n="15" real='----u-ux', '-uuu-uux'>pax commersque est vobis mecum. nam hoc tu facito ut cogites:</l>
+            <lb ed="TLN" n="520" />
+            <l real='uuu-uu-uuuuux'>ut cuique homini res paratast, périnde amicis utitur:</l>
+            <lb ed="TLN" n="521" />
+            <l real='-uuuuu----uux'>si res firma, &lt;item&gt; fírmi amici sunt; sin res laxe labat,</l>
+            <lb ed="TLN" n="522" />
+            <l real='uu-u--uuuu-ux'>itidem amici conlabascunt: res amicos invenit.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epignomvs</speaker>
+            <lb ed="TLN" n="523" />
+            <l real='-uux', '-u-uuuuuuu-ux'>Iam redeo. nimiast voluptas, ubi diu afueris domo,</l>
+            <lb ed="TLN" n="524" />
+            <l n="20" real='uuu---uuuu-ux'>domum ubi rédieris, sí tibi nullast aegritudo animo obviam.</l>
+            <lb ed="TLN" n="525" />
+            <l real='uuuuu---uu-ux'>nam ita me absente familiarem rem uxor curavit meam,</l>
+            <lb ed="TLN" n="526" />
+            <l real='-u-uu-uu-uuux'>omnium me éxilem atque inanem fecit aegritudinum.</l>
+            <lb ed="TLN" n="527" />
+            <l real='u-u--u--uuuux'>sed eccum fratrem Pamphilippum, incedit cum socero suo.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>P.</speaker>
+            <lb ed="TLN" n="528" />
+            <l part="I" real='-uuuu-ux'>Quid agitur, Epignome?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-u-u---ux'>Quid tu? quam dudum in portum venis?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="529" />
+            <l n="25" part="I" real='---ux'>Hau longissume.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='--u-----ux'>Postilla iam iste est tranquillus tibi?</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>A.</speaker>
+            <lb ed="TLN" n="530" />
+            <l part="I" real='u--uu----x'>Magis quam mare quo ambo estis vecti.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='uuuuu--ux'>Facis ut alias res soles.</l>
+            <lb ed="TLN" n="531" />
+            <l part="I" real='uuu-uuu-u-ux'>hodiene exoneramus navem, frater?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='u--ux'>Clementer volo.</l>
+            <lb ed="TLN" n="532" />
+            <l real='-uuuuuu----x'>nos potius oneremus nosmet vícissatim voluptátibus.</l>
+            <lb ed="TLN" n="533" />
+            <l part="I" real='----u--uuux'>quam mox coctast cena? inpransus ego sum.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='u---ux'>Abi intro ad me et lava.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="534" />
+            <l n="30" real='uu--u--uu--ux'>Deos salutatum atque uxorem módo intro devortor domum;</l>
+            <lb ed="TLN" n="535" />
+            <l real='u-uuu-uu-uuux'>haec si ita ut volo conficio, continuo ad te transeo.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="536" />
+            <l real='----u--uu--ux'>Apud nos eccillam festinat cum sorore uxor tua.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="537" />
+            <l real='-u---uuuuuux', 'uu-ux'>Optumest, iam istoc morai minus erit. iam ego apud te ero.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="538" />
+            <l real='-uu-uuuuuu-ux'>Prius quam abis, praesente ted huic apologum agere unum volo.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="539" />
+            <l n="35" part="I" real='-ux'>Maxume.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='uu-uuu-uu-uux'>Fuit olim, quasi ego sum, senex; ei filiae</l>
+            <lb ed="TLN" n="540" />
+            <l real='--uu-uu---uux'>duae erant, quasi nunc meae sunt; eae erant duobus nuptae fratribus,</l>
+            <lb ed="TLN" n="541" />
+            <l part="I" real='uu-u--ux'>quasi nunc meae sunt vobis.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='u-uuu-uuux'>Miror quo evasurust apologus.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="542" />
+            <l real='uu--uuuu-uuux'>Erant minori illi adulescenti fidicina et tibicina,</l>
+            <lb ed="TLN" n="543" />
+            <l real='-uu-uu-u---ux'>peregre advexerat, quasi nunc tu; sed ille erat caeleps senex,</l>
+            <lb ed="TLN" n="544" />
+            <l n="40" part="I" real='uuu-x'>quasi ego nunc sum.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-u-x', '---u-uuux'>Perge porro. praesens hic quidem est apologus.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="545" />
+            <l real='-u--uuuu-uuux'>Deinde senex ille illi dixit, cuius erat tibicina,</l>
+            <lb ed="TLN" n="546" />
+            <l part="I" real='uuu-uuux'>quasi ego nunc tibi dico:</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='---uu--uuux'>Ausculto atque animum advorto sedulo.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="547" />
+            <l real='uu-uuu-uuu-ux'>‘Ego tibi meam filiam, bene quicum cubitares, dedi:</l>
+            <lb ed="TLN" n="548" />
+            <l real='u---uu-uu--ux'>nunc mihi reddi ego aequom esse abs te quicum cubitem censeo.’</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="549" />
+            <l n="45" part="I" real='---uuu-uuux'>Quis istuc dicit? an ille quasi tu?</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <l part="M" real='uuu-uuux'>Quasi ego nunc dico tibi.</l>
+            <lb ed="TLN" n="550" />
+            <l real='u-u-uu--uuuux'>‘Immo duas dabo,’ inquit ille adulescens ‘una si parumst;</l>
+            <lb ed="TLN" n="551" />
+            <l real='u--uuu-u---ux'>et si duarum paenitebit,’ inquit ‘addentur duae.’</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <lb ed="TLN" n="552" />
+            <l part="I" real='----u-uuux'>Quis istuc quaeso? an ille quasi ego?</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>A.</speaker>
+            <l part="M" real='u-uuux', 'uux'>Is ipse quasi tu. &lt;tum&gt; senex</l>
+            <lb ed="TLN" n="553" />
+            <l real='uuuu---u-uuux'>ille quasi ego: ‘si vis,’ inquit ‘quattuor sane dato,</l>
+            <lb ed="TLN" n="554" />
+            <l n="50" real='uuu----u---ux'>dúm equidem hercle quod edint addas, meum ne contruncent cibum.’</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="555" />
+            <l real='---u-uu-u--ux'>Videlicet parcum illum fuisse senem, qui &lt;illi istaec&gt; dixerit,</l>
+            <lb ed="TLN" n="556" />
+            <l real='uu-uuu-u-u-ux'>quóm ille, illi qui pollicetur, eum cibum poposcerit.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="557" />
+            <l real='uu--u---u-uux'>Videlicet non fuisse illum aequom ádulescentem, qui ilico</l>
+            <lb ed="TLN" n="558" />
+            <l real='-uuu-uuuu-uux'>ubi ille poscit denegavit dare se granum tritici.</l>
+            <lb ed="TLN" n="559" />
+            <l n="55" real='-uuuu-uu--uux'>hercle qui aequom postulabat ille senex, quando quidem</l>
+            <lb ed="TLN" n="560" />
+            <l real='uu-u-uuuuuuux'>filiae illae dederat dotem, accipere pro tibicina.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="561" />
+            <l real='--uu---u-u-ux'>Hercle ille quidem certo adulescens docte vorsutus fuit,</l>
+            <lb ed="TLN" n="562" />
+            <l real='u-uu-uuuu-uux'>qui seni illi concubinam dare dotatam noluit.</l>
+          </sp>
+          <sp who="#antipho">
+            <speaker>Ant.</speaker>
+            <lb ed="TLN" n="563" />
+            <l real='uu-u-u-u-uuux'>Senex quidem voluit, si posset, indipisci de cibo;</l>
+            <lb ed="TLN" n="564" />
+            <l n="60" real='uuuuu--u--uux'>quia nequit, qua lege licuit velle dixit fieri.</l>
+            <lb ed="TLN" n="565" />
+            <l real='uu-uuu-x', 'u-u---ux'>‘fiat’ ille inquít adulescens. ‘facis benigne’ inquit senex.</l>
+            <lb ed="TLN" n="566" />
+            <l real='uu----x', 'uuu-u-uuuux'>‘habeon rem pactam?’ inquit. ‘faciam ita’ inquit ‘ut fieri voles.’</l>
+            <lb ed="TLN" n="567" />
+            <l real='--uuu-----uux'>sed ego ibo intro et gratulabor vostrum adventum filiis.</l>
+            <lb ed="TLN" n="568" />
+            <l real='-u-uuuuuuu-ux'>poste ibo lautum ín pyelum, ibi fovebo sénectutem meam.</l>
+            <lb ed="TLN" n="569" />
+            <l n="65" real='uuuu-u-uuu-ux'>post ubi lavero, otiosus vos opperiar accubans.—</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="570" />
+            <l real='-uuuuuu-u--ux'>Graphicum mortalem Antiphonem, ut apologum fecit quam fabre.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="571" />
+            <l real='-uu-uu-uu--ux'>Etiam nunc scelestus &lt;se&gt; esse ducit pro adulescentulo.</l>
+            <lb ed="TLN" n="572" />
+            <l real='uuuu-u-----ux'>dabitur homini amica, noctu quae in lecto occentet senem;</l>
+            <lb ed="TLN" n="573" />
+            <l real='-u-uuuuu---ux'>namque edepol aliud quidem illi quid amica opus sit nescio.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="574" />
+            <l n="70" real='u--uuuuuuu-ux'>Sed quid agit parasitus noster Gelasimus? etiam valet?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <lb ed="TLN" n="575" />
+            <l part="I" real='uuuuuu--ux'>Vidi edepol hominem haud perdudum.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>P.</speaker>
+            <l part="M" real='-ux'>Quid agit?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-uuux'>Quod famelicus.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>P.</speaker>
+            <lb ed="TLN" n="576" />
+            <l part="I" real='-uu-uu-ux'>Quin vocavisti hominem ad cenam?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='uu--ux'>Ne quid advéniens perderem.</l>
+            <lb ed="TLN" n="577" />
+            <l real='u--uu--uuu-ux'>atque eccum tibi lúpum in sermone: praesens esuriens adest.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="578" />
+            <l part="I" real='uuuuuuux'>Ludificemur hominem.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='-u-uuuu-ux'>Capti consili memorem mones.</l>
+          </sp>
+        </div2>
+        <div2 n="2" type="scene">
+          <sp who="#gelasimvs">
+            <speaker>Gelasimvs</speaker>
+            <lb ed="TLN" n="579" />
+            <l real='-uu-uuu--u-ux'>Sed ita ut occepi narrare vobis: quom hic non adfui,</l>
+            <lb ed="TLN" n="580" />
+            <l real='u-uuuuu---u-x'>cúm amicis deliberavi iam et cum cognatis meis.</l>
+            <lb ed="TLN" n="581" />
+            <l real='uuu-uuuuuu-ux'>ita mi auctores fuere, ut egomet me hodie iugularem fame.</l>
+            <lb ed="TLN" n="582" />
+            <l real='-u---uuu-u-ux'>sed videone ego Pamphilippum cum fratre Epignomo? atque is est.</l>
+            <lb ed="TLN" n="583" />
+            <l n="5" real='-uuuuux', 'uuuu-u-u-ux'>adgrediar hominem. &lt;o&gt; sperate Pamphilippe, o spes mea,</l>
+            <lb ed="TLN" n="584" />
+            <l real='uuuuuuuu---x', '---ux'>o mea vita, o mea voluptas, salve. salvom gaudeo</l>
+            <lb ed="TLN" n="585" />
+            <l part="I" real='uuu-uu---x'>peregre te in patriam rediisse.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='-u-uuuux'>Salvo salve, Gelasime.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="586" />
+            <l part="I" real='uu--ux'>Valuistin bene?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>P.</speaker>
+            <l part="M" real='--u-uux'>Sustentatumst sedulo.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='uu--ux'>Edepol gaudeo.</l>
+            <lb ed="TLN" n="587" />
+            <l real='-uuu------uux'>edepol ne ego nunc mihi medimnum mille esse argenti velim.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="588" />
+            <l n="10" part="I" real='-uuuux'>Quid eo tibi opust?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='---u-u-u-ux'>Hunc hercle ad cenam ut vocem, te non vocem.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="589" />
+            <l part="I" real='---uuuux'>Advorsum te fabulare.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='--u-u-ux'>Illud quidem, ambos ut vocem;</l>
+            <lb ed="TLN" n="590" />
+            <l real='uu-u-uu-u--ux'>et equidem simitu hau maligne vos invitassem domum</l>
+            <lb ed="TLN" n="591" />
+            <l real='-u-u-uuuu-uux', '--u-x'>ad me, sed mihi ipsi domi meae nihil est. atque hoc scitis vos.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="592" />
+            <l real='uu-u--uu-u-ux'>Edepol te vocem lubenter, si superfiat locus.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="593" />
+            <l n="15" part="I" real='----uuuu-uux'>Quin tum stans obstrusero aliquid strenue.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-u-ux'>Immo unum hoc potest.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="594" />
+            <l part="I" real='x'>Quid?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='u-u-u--uux'>Vbi convivae abierint, tum venias.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='-uuux'>Vae aetati tuae.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="595" />
+            <l part="I" real='uu--u-u-ux'>Vasa lautum, non ad cenam dico.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uu-ux'>Di te perduint.</l>
+            <lb ed="TLN" n="596" />
+            <l part="I" real='uuu-u-x'>quid ais, Pamphilippe?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='-u-uuuuuuux'>Ad cenam hercle alio promisi foras.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="597" />
+            <l part="I" real='-ux'>Quid, foras?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>P.</speaker>
+            <l part="M" real='uuuux'>Foras hércle vero.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='-u-u-uux'>Qui malum tíbi lasso libet</l>
+            <lb ed="TLN" n="598" />
+            <l n="20" part="I" real='u-uux'>foris cenare?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='-u-x'>Vtrum tu censes?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u-uuu-ux'>Iuben domi cenam coqui</l>
+            <lb ed="TLN" n="599" />
+            <l part="I" real='-u-u-uux'>atque ad illúm renuntiari?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='u-uuuux'>Solus cenabo domi?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="600" />
+            <l part="I" real='uu--uuux'>Non enim sólus: me vocato.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='u-uu--ux'>At ille ne suscenseat,</l>
+            <lb ed="TLN" n="601" />
+            <l part="I" real='uuu-u--ux'>mea qui causa sumptum fecit.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uu-uuuux'>Facile excusari potest.</l>
+            <lb ed="TLN" n="602" />
+            <l part="I" real='uuu--uuu-uuux'>mihi modo ausculta, iube cénam domi coqui.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='-uux'>Non me quidem</l>
+            <lb ed="TLN" n="603" />
+            <l n="25" part="I" real='uu-uuuu--uuux'>faciet auctore, hodie ut illum decipiat.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='--ux'>Non tu hinc abis?</l>
+            <lb ed="TLN" n="604" />
+            <l real='uuu--uuu--uux', 'uu-uux'>nisi me non perspicere censes quid agas. cave sis tu tibi,</l>
+            <lb ed="TLN" n="605" />
+            <l real='uuuuu-uuuu-ux'>nam illic homó tuam hereditatem inhiát, quasi esuriens lupus.</l>
+            <lb ed="TLN" n="606" />
+            <l real='-u-uuuu--u-ux'>non tu scis, quam éfflictentur homines noctu hic in via?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="607" />
+            <l real='u-uu--u----ux'>Tanto pluris qui defendant ire advorsum iussero.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="608" />
+            <l n="30" part="I" real='-uu-uuuuu-uux'>Non it, non it, quia tanto opere suades ne ebitat.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='ux'>Iube</l>
+            <lb ed="TLN" n="609" />
+            <l real='u--uuuuu-u-ux'>domi mi tibique tuaeque uxori celeriter cenam coqui.</l>
+            <lb ed="TLN" n="610" />
+            <l real='--uuu-u-u--ux'>si hercle faxis, non opinor dices deceptum fore.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="611" />
+            <l real='-uuuuuu-uuuux'>Per hanc tibi cenam incenato, Gelasime, esse hodie licet.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="612" />
+            <l part="I" real='u--u-ux'>Ibisne ad cenam foras?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='u--u--ux'>Apud frátrem ceno in proxumo.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="613" />
+            <l n="35" part="I" real='--x'>Certumnest?</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>P.</speaker>
+            <l part="M" real='-x'>Certum.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='u-uuuuuu---ux'>Edepol te hodie lapide percussum velim.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="614" />
+            <l real='uu-uuu-uu--ux'>Non metuo: per hortúm transibo, non prodibo in publicum.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="615" />
+            <l part="I" real='-uuuuux'>Quid ais, Gelasime?</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uuu--uuuu-ux'>Oratores tu accipis, habeas tibi.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="616" />
+            <l part="I" real='uu-ux'>Tua pol refert.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u-uu-uu-uuuux'>Enim, si quidem meá refert, opera utere.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="617" />
+            <l real='-uuuuuuuuu--x'>Posse edepol tibi opinor etiam uni locum condi *</l>
+            <lb ed="TLN" n="618" />
+            <l n="40" part="I" real='u-ux'>ubi accubes.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <l part="M" real='uuuu---ux'>Sane faciundum censeo.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='uu-ux'>O lux oppidi.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="619" />
+            <l part="I" real='-uuuu-uux'>Si arte poteris accubare.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u--uu--ux'>Vél inter cuneos ferreos;</l>
+            <lb ed="TLN" n="620" />
+            <l real='uu--uu-uuu-ux'>tantillum loculi, ubi catellus cubet, id mi satis est loci.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <lb ed="TLN" n="621" />
+            <l part="I" real='uuuuuuux', 'ux'>Exorabo aliquo modo. veni.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='uux'>Hucine?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='---ux'>Immo in carcerem;</l>
+            <lb ed="TLN" n="622" />
+            <l real='uu-uuu-u--uux', 'uu-x'>nam hic quidem genium meliorem tuom non facies. eamus, tu.</l>
+          </sp>
+          <sp who="#pamphilippvs">
+            <speaker>Pamph.</speaker>
+            <lb ed="TLN" n="623" />
+            <l n="45" real='uuuu-u-uuuuux'>Deos salutabo modo, poste ad te continuo transeo.—</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <lb ed="TLN" n="624" />
+            <l part="I" real='-uux'>Quid igitur?</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='-uu--uux'>Dixi equidem, in carcerem ires.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>G.</speaker>
+            <l part="M" real='-u-ux'>Quin si iusseris,</l>
+            <lb ed="TLN" n="625" />
+            <l part="I" real='uuuux'>eo quoque ibo.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>E.</speaker>
+            <l part="M" real='--uu-u----ux'>Di immortales, hic quidem pól summam in crucem</l>
+            <lb ed="TLN" n="626" />
+            <l part="I" real='u--uu-uuux'>cena aut prandio perduci potest.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <l part="M" real='u-uu-x'>Ita ingenium meumst:</l>
+            <lb ed="TLN" n="627" />
+            <l real='u-u-uuuu---ux'>quicumvis depugno multo facilius quam cum fame.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <lb ed="TLN" n="628" />
+            <l n="50" real='---uuu-u--uux'>Dum parasitus mi atque fratri fuisti, rem confregimus.</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="629" />
+            <l part="I" real='-u-u-x'>Non nego ista ápud te.</l>
+          </sp>
+          <sp who="#epignomvs">
+            <speaker>Epig.</speaker>
+            <l part="M" real='--u-uu-uuuuux'>Satis spectatast mihi iam tua felicitas;</l>
+            <lb ed="TLN" n="630" />
+            <l real='uuuuuuuuuuuux'>nunc ego nolo ex Gelasimo mihi fieri te Catagelasimum.—</l>
+          </sp>
+          <sp who="#gelasimvs">
+            <speaker>Gel.</speaker>
+            <lb ed="TLN" n="631" />
+            <l real='uuuuuu--u--ux'>Iamne abiisti? Gelasime, vide quíd es capturus consili.</l>
+            <lb ed="TLN" n="632" />
+            <l real='uuuux', 'uuuuux', 'uuu-u-ux'>egone? tune. mihine? tibine. viden ut annonast gravis?</l>
+            <lb ed="TLN" n="633" />
+            <l n="55" real='uuuuu--u-uuux'>viden, benignitates hominum ut periere et prothymiae?</l>
+            <lb ed="TLN" n="634" />
+            <l real='uuuu---uuuuux'>viden ridiculos nihili fieri, atque ipsos parasitarier?</l>
+            <lb ed="TLN" n="635" />
+            <l real='uu----u-uu-ux'>numquam edepol me vivom quisquam in crastinum inspiciet diem;</l>
+            <lb ed="TLN" n="636" />
+            <l real='-uuuu-uuuuuux'>nam mihi iam intus potione iuncea onerabo gulam,</l>
+            <lb ed="TLN" n="637-640" />
+            <l real='---uu--u-u-ux'>neque ego hoc committam, ut me esse homines mortuom dicant fame.—</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 n="5" type="act">
+        <div2 n="1" type="scene">
+          <sp who="#stichvs">
+            <speaker>Stichvs</speaker>
+            <lb ed="TLN" n="641" />
+            <l real='u-u-u-uuu--ux'>More hoc fit, atque stulte mea sententia:</l>
+            <lb ed="TLN" n="642" />
+            <l real='uuu----u-uuux'>si quem hominem exspectant, eum solent provisere;</l>
+            <lb ed="TLN" n="643" />
+            <l real='--u-u-uuuux'>qui hercle illa causa ócius nihilo venit.</l>
+            <lb ed="TLN" n="644" />
+            <l real='u-uuuuuuuuuux'>idem ego nunc facio, qui proviso Sagarinum,</l>
+            <lb ed="TLN" n="645" />
+            <l n="5" real='uuu-uu-uu-uux'>qui nihilo citius veniet tamen hac gratia.</l>
+            <lb ed="TLN" n="646" />
+            <l real='-uuu--u----ux'>iam hercle ego decumbam solus, si ille huc non venit.</l>
+            <lb ed="TLN" n="647" />
+            <l real='u-u-u--uu-ux'>cadum modo hinc a me huc cum vino transferam,</l>
+            <lb ed="TLN" n="648" />
+            <l real='uuu--x', 'uu-u--ux'>postidea accumbam. quasi nix tabescit dies.—</l>
+          </sp>
+        </div2>
+        <div2 n="2" type="scene">
+          <sp who="#sangarinvs">
+            <speaker>Sangarinvs</speaker>
+            <lb ed="TLN" n="649" />
+            <l real='-uuuu--uuu-ux'>Salvete, Athenae, quae nutrices Graeciae,</l>
+            <lb ed="TLN" n="650" />
+            <l real='uuu-uuuuuuuux'>sperata erilis patria, te video libens.</l>
+            <lb ed="TLN" n="651" />
+            <l real='uu---uuuuuuux'>sed amica mea et conserva quid agat Stephanium</l>
+            <lb ed="TLN" n="652" />
+            <l real='u--uux', 'uuu-uux'>curaest, ut valeat. nam Sticho mandaveram,</l>
+            <lb ed="TLN" n="653" />
+            <l n="5" real='uu--uuu--uux'>salutem ut nuntiaret atque ei ut diceret</l>
+            <lb ed="TLN" n="654" />
+            <l real='uu-u-u-uu--ux'>me hodie venturum, ut cenam coqueret temperi.</l>
+            <lb ed="TLN" n="655" />
+            <l part="I" real='uuu--ux'>sed Stichus est hic quidem.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stichvs</speaker>
+            <l part="M" real='u-uuuuux'>Fecisti, ere, facetias,</l>
+            <lb ed="TLN" n="656" />
+            <l real='-uu-uuuu--uux'>quom hoc donavisti dono tuom servom Stichum.</l>
+            <lb ed="TLN" n="657" />
+            <l real='--u-uuuu-u-ux'>pro di immortales, quot ego voluptates fero,</l>
+            <lb ed="TLN" n="658" />
+            <l n="10" real='-uuu--u--uux'>quot risiones, quot iocos, quot savia,</l>
+            <lb ed="TLN" n="659" />
+            <l real='-uuu--uu-uuux'>saltationes, blanditias, prothymias.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="660" />
+            <l part="I" real='ux'>Stiche.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='x'>Hem.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='-x'>Quíd fit?</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='uu-uuuuu-ux'>Euge, Sangarine lepidissume.</l>
+            <lb ed="TLN" n="661" />
+            <l real='u-uuuuu-uu-ux'>fero convivam Dionysum mihique et tibi.</l>
+            <lb ed="TLN" n="662" />
+            <l real='uu-uu--u-u-ux'>namque edepol cena cocta est, locus liber datust</l>
+            <lb ed="TLN" n="663" />
+            <l n="15" real='-uu--u-u--uux'>mihi et tibi apud vos (nam apud nos est convivium,</l>
+            <lb ed="TLN" n="664" />
+            <l real='u--u--uuuu-ux'>ibi voster cenat cum uxore adeo et Antipho,</l>
+            <lb ed="TLN" n="665" />
+            <l real='uuu--u-uuuuux'>ibidem erus est noster), hoc mihi dono datumst.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="666" />
+            <l part="I" real='--uuu-x'>Quis somniavit aurum?</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='-u--ux'>Quid id ad te attinet?</l>
+            <lb ed="TLN" n="667" />
+            <l part="I" real='u-uuuuuux'>proin tu lavare propera.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='--x'>Lautus sum.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='-ux'>Optime,</l>
+            <lb ed="TLN" n="668" />
+            <l n="20" part="I" real='uu--ux'>[sequere ergo hác me íntro.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uuuuux'>Ego vero sequor.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="669" />
+            <l real='uuuuuuuuuu-ux'>] volo eluamus hodie, peregrina omnia</l>
+            <lb ed="TLN" n="670" />
+            <l real='u-uuu--uux', 'uuux'>relinque, Athenas nunc colamus. sequere me.—</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="671" />
+            <l real='u-u-u-u-uu-ux'>Sequor, et domum redeunti principium placet.</l>
+            <lb ed="TLN" n="672" />
+            <l real='uu-uuu-u---ux'>bona scaeva strenaque obviam occessit mihi.—</l>
+          </sp>
+        </div2>
+        <div2 n="3" type="scene">
+          <sp who="#stephanivm">
+            <speaker>Stephanivm</speaker>
+            <lb ed="TLN" n="673" />
+            <l real='-uuuu-uux'>Mirúm videri némini vestrúm volo, spectatóres,</l>
+            <lb ed="TLN" n="674-675" />
+            <l real='uu-u-uu---uux'>quid ego hinc, quae illic habito, exeam: faciam vos certiores.</l>
+            <lb ed="TLN" n="676" />
+            <l real='--uuuuuu--uux'>domo dúdum huc arcessita sum, &lt;nam&gt; quoniam nuntiatum est</l>
+            <lb ed="TLN" n="677" />
+            <l real='-u-uuuu-uuu-x'>istarum venturos viros, ibi festinamus omnes;</l>
+            <lb ed="TLN" n="678" />
+            <l n="5" real='-uuu--uu--u-x'>lectis sternendis studuimus munditiisque apparandis.</l>
+            <lb ed="TLN" n="679" />
+            <l real='-u-uuu--uuuux'>intér illud tamen negotium meis curavi amicis,</l>
+            <lb ed="TLN" n="680" />
+            <l real='uuuuuuuuu-u-x'>Sticho et conservo Sagarino meo, cena cocta ut esset.</l>
+            <lb ed="TLN" n="681" />
+            <l real='u-uuuuu-uuuux'>Stichus obsonatust, ceterum ego operam do: is adlegavit.</l>
+            <lb ed="TLN" n="682" />
+            <l real='uu-u-uuu-uu-x'>nunc ibo hinc et amicos meos curabo hic advenientes.—</l>
+          </sp>
+        </div2>
+        <div2 n="4" type="scene">
+          <sp who="#sangarinvs">
+            <speaker>Sangarinvs</speaker>
+            <lb ed="TLN" n="683" />
+            <l real='uuu-u-x', 'uu-ux'>Ágite ite foras: férte pompam. cádo te praefició, Stiche.</l>
+            <lb ed="TLN" n="684" />
+            <l real='-uu---uuu-uux'>omnibus módis temptare certumst nostrum hodie convivium.</l>
+            <lb ed="TLN" n="685" />
+            <l real='u-uu--uuuu-ux'>ita me di ament, lepide accipimur quom hoc recipimur in loco.</l>
+            <lb ed="TLN" n="686" />
+            <l part="I" real='---u-u-uuuux'>quisquis praetéreat, comissatum volo vocari.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stichvs</speaker>
+            <l part="M" real='-ux'>Convenit,</l>
+            <lb ed="TLN" n="687" />
+            <l n="5" real='-u-uuuuu-uuux'>dum quidem hercle quisque veniat, &lt;veniat&gt; cum vino suo.</l>
+            <lb ed="TLN" n="688" />
+            <l real='--uu---uu-uux'>nam hinc quidem hodie polluctura praeter nos dabitur nemini. †</l>
+            <lb ed="TLN" n="689" />
+            <l part="I" real='-u----uuux'>nosmet inter nos ministrémus monotropi.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='--uux'>Hoc conviviumst</l>
+            <lb ed="TLN" n="690" />
+            <l real='-uuuuu-uu-uux'>pro opibus nostris satis commodule nucibus, fabulis, ficulis,</l>
+            <lb ed="TLN" n="691" />
+            <l real='uux'>oleae † interiplio, lupillo, comminuto crustulo.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="692" />
+            <l n="10" real='uuuu-uuu---ux'>Sat est: servo homini módeste melius facere sumptum quam ampliter.</l>
+            <lb ed="TLN" n="693" />
+            <l real='uuu-uu-uu--ux'>suom quemque decet: quibus divitiae domi sunt, scaphiis cantharis</l>
+            <lb ed="TLN" n="694" />
+            <l real='----uuuuuuuux'>batiocis bibunt, át nos nostro Samiolo poterio:</l>
+            <lb ed="TLN" n="695" />
+            <l real='u-uu-uu--u-ux'>tamen bibimús nos, tamen efficimus pro opibus nostra moenia.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="696" />
+            <l part="I" real='uuuuuuuux'>Age dice uter utrubi áccumbamus.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='uuuuuu-x'>Abi tu sane superior.</l>
+            <lb ed="TLN" n="697" />
+            <l n="15" real='-uuu---u--uux'>atque adeo, ut tu scire possis, pacto ego hoc técum divido:</l>
+            <lb ed="TLN" n="698" />
+            <l real='uu--uuuuuu-ux'>vide, utram tibi libet etiam nunc capere, cape provinciam.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="699" />
+            <l part="I" real='--u-u-uux'>Quid istuc est provinciai?</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='u-uuuux'>Vtrum Fontine an Libero</l>
+            <lb ed="TLN" n="700" />
+            <l part="I" real='-uu-uuuuux'>imperium te inhibere mavis?</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uuuuuuuux'>Nimio liquido Libero.</l>
+            <lb ed="TLN" n="701" />
+            <l real='u-uu-u--u--ux'>sed amica mea et tua dum cenat dumque se exórnat, nos volo</l>
+            <lb ed="TLN" n="702" />
+            <l n="20" real='u-uu--x', 'uu-uuu--uux'>tamen ludere inter nós. strategum te facio huic convivio.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="703" />
+            <l real='---u-uu----ux'>Nimium lepide in mentem venit: potius quam in subsellio</l>
+            <lb ed="TLN" n="704" />
+            <l part="I" real='uuu-uu---x'>cynice hic accipimur quam in lectis.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='-u---ux'>Immo enim nímio hic dulcius.</l>
+            <lb ed="TLN" n="705" />
+            <l real='-uuu--u----ux'>sed interim, stratege noster, cur hic cessat cantharus?</l>
+            <lb ed="TLN" n="706" />
+            <l part="I" real='uu-uu-uux'>vide, quot cyathos bibimus.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='--uuuuu--ux'>Tot quot digiti tibi sunt in manu.</l>
+            <lb ed="TLN" n="707" />
+            <l n="25" real='-uu--x'>
+              cantio Graecast: 
+              .<foreign lang="greek">h)\ pe/nt' h)\ tri/a pi=n' h)\ mh\ te/ttara</foreign>
+              .
+            </l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="708" />
+            <l real='uuuux', 'uuu-uuuu-uuux'>Tibi propino. decumam a fonte tibi tute inde, si sapis.</l>
+            <lb ed="TLN" n="709" />
+            <l real='uuuuu-uuuuuux'>bene vos, bene nos, bene te, bene me, bene nostram etiam Stephanium.</l>
+            <lb ed="TLN" n="710" />
+            <l part="I" real='x'>[</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='uuuux'>Bibe si bibis.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='-uuuu-x'>Non mora erit apud me.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='uu--uuux'>Edepol convivi sat est,</l>
+            <lb ed="TLN" n="711" />
+            <l real='u-uuuu-uu-uux'>modo nostra huc amica accedat: id abest, aliud nil abest.]</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="712" />
+            <l n="30" real='uuu-x', 'uuuuu-ux', 'u-ux'>Lepide hoc actum est. tibi propino cantharum. vinum tu habes.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sa.</speaker>
+            <lb ed="TLN" n="713" />
+            <l part="I" real='u--uu--u-x'>Nimis vellem aliquid pulpamenti.</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>St.</speaker>
+            <l part="M" real='u----ux'>Si horum, quae adsunt, paenitet,</l>
+            <lb ed="TLN" n="714" />
+            <l part="I" real='uux', 'uux'>nihil est. tene aquam.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uu-u--u--uux'>Melius dicis; nil moror cuppedia.</l>
+            <lb ed="TLN" n="715" />
+            <l real='uuuux', 'uuuuu--u-uux'>bibe, tibicen. age si quid agis, bíbendum hercle hoc est, ne nega.</l>
+            <lb ed="TLN" n="716" />
+            <l real='uu--uu-uuu-ux'>quid hic fastidis quod faciundum vides esse tibi? quin bibis?</l>
+            <lb ed="TLN" n="717" />
+            <l n="35" real='uuuuuu-u-x', 'uuu-u----ux'>[age si quid agis] accipe inquam. non hoc &lt;tuo fit sumptu&gt;: inpendet publicum.</l>
+            <lb ed="TLN" n="718" />
+            <l real='-uu-uuux', 'uuuuux'>haud tuom istúc est te vereri. éripe ex ore tibias.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="719" />
+            <l real='u---uu-u--uux'>Vbi illic biberit, vel servato meum modum vel tu dabo. †</l>
+            <lb ed="TLN" n="720" />
+            <l real='uuux', '-uuuu-uux'>nolo ego nos † prosumo bibere. nulli rei erimus postea;</l>
+            <lb ed="TLN" n="721" />
+            <l real='--uuuu-u--uux'>namque edepol quam vis desubito vel cadus verti potest.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="722" />
+            <l n="40" real='-uu-u-u-uu-ux'>Quid igitur? quamquam gravatus fuisti, non nocuit tamen.</l>
+            <lb ed="TLN" n="723" />
+            <l real='--uuuu-uu-uux'>age, tibicen, quando bíbisti, refer ad labeas tibias,</l>
+            <lb ed="TLN" n="724" />
+            <l real='-uu--uuu---ux'>suffla celeriter tibi buccas quasi proserpens bestia,</l>
+            <lb ed="TLN" n="725" />
+            <l real='uux', 'uu--uuu-uux'>agedum. Stiche, uter démutassit, poculo multabitur.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="726" />
+            <l real='u--ux', '-uuu----uux'>Bonum ius dicis. impetrare oportet qui aequom postulat.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="727" />
+            <l n="45" real='u---x', 'uu----uuuuux'>Age ergo observa. si pecassis, multam hic retinebo ilico.</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>St.</speaker>
+            <lb ed="TLN" n="728" />
+            <l real='-u---uux', '-u-u-ux'>Optimum atque aequissimum oras. em tibi hoc primum omnium:</l>
+            <lb ed="TLN" n="729" />
+            <l real='uu-uu--uuu-ux'>haec facetiast, amare inter se rivalis duos,</l>
+            <lb ed="TLN" n="730" />
+            <l real='u-uuuuu---uux'>uno cantharo potare, únum scortum ducere.</l>
+            <lb ed="TLN" n="731" />
+            <l real='uuu-uuuuuuuux'>hoc memorabilest: ego tu sum, tu es ego, unianimi sumus,</l>
+            <lb ed="TLN" n="732" />
+            <l n="50" real='uuuu-uuu-u-ux'>unam amicam amamus ambo, mecum ubi est, tecum est tamen;</l>
+            <lb ed="TLN" n="733" />
+            <l real='--uu--uu-uuux'>tecum ubi autem est, mecum ibi autemst: neuter neutri ínvidet.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="734" />
+            <l real='u---uuu-u--ux'>Ohe, iam satis, nolo obtaedescat; alium ludum nunc volo.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="735" />
+            <l part="I" real='uuuuuuuuuu-ux'>Vin amicam huc evocemus? ea saltabit.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='-ux'>Censeo.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="736" />
+            <l real='uu-uuuuuuu-ux'>Mea suavis, amabilis, amoena Stephanium, ad amores tuos</l>
+            <lb ed="TLN" n="737" />
+            <l n="55" part="I" real='uuuuuuu-uu-ux'>foras egredere, satis mihi pulchra és.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uu---ux'>At enim pulcherrima.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="738" />
+            <l real='uuuuuuu---uux'>Fac nos hilaros hilariores opera atque adventu tuo.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="739-740" />
+            <l real='--uuuuu-uu--x'>Peregre advenientes te expetimus, Stephaniscidium, mel meum,</l>
+            <lb ed="TLN" n="741" />
+            <l real='-uuuu-uu-uuux'>sí amabilitas tibi nostrá placet, si tibi ambo áccepti sumus.</l>
+          </sp>
+        </div2>
+        <div2 n="5" type="scene">
+          <sp who="#stephanivm">
+            <speaker>Stephanivm</speaker>
+            <lb ed="TLN" n="742" />
+            <l real='-u-u-uuuux', 'uuuuuux'>Mórem vobis geram, meaé deliciae. nam íta me Venus amoéna amet,</l>
+            <lb ed="TLN" n="743" />
+            <l real='-u-uu---u--ux'>ut ego huc iam dudum simitu exissem vobiscum foras,</l>
+            <lb ed="TLN" n="744" />
+            <l real='uuuuu--ux', 'u--uu-uuux'>nisi me vobis exornarem. nam ita est ingenium muliebre:</l>
+            <lb ed="TLN" n="745" />
+            <l real='----uu-----ux'>bene cum lauta est, tersa ornata ficta est, infecta est tamen;</l>
+            <lb ed="TLN" n="746" />
+            <l n="5" real='u-uu--uuuuuux'>nimioque sibi mulier meretrix repperit odium ocius</l>
+            <lb ed="TLN" n="747" />
+            <l real='-uu-uu--uuuux'>sua inmunditia, quam in perpetuom ut placeat munditia sua.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="748" />
+            <l part="I" real='uu-uuuuuux'>Nimium lepide fabulata est.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uu-u-uuux'>Veneris mera est oratio,</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>St.</speaker>
+            <lb ed="TLN" n="749" />
+            <l part="I" real='-uux'>Sangarine.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sa.</speaker>
+            <l part="M" real='-x'>Quid est?</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>St.</speaker>
+            <l part="M" real='u-uux'>Totus doleo.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sa.</speaker>
+            <l part="M" real='u--uuuux'>Totus? tanto miserior.</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>Steph.</speaker>
+            <lb ed="TLN" n="750" />
+            <l part="I" real='u--x'>Vtrubi accumbo?</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uux'>Vtrubí tu vis?</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>Steph.</speaker>
+            <l part="M" real='-u-uu-uux'>Cum ambobus volo, nam ambos amo.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="751" />
+            <l n="10" part="I" real='uu-uuu-x'>Vapulat peculium, actum est.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uu-u--ux'>Fugit hoc libertas caput.</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>Steph.</speaker>
+            <lb ed="TLN" n="752" />
+            <l part="I" real='uu--uuuuu-uux'>Date mihi lócum, ubi accumbam, amabo, siquidem placeo.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='-ux'>Tun mihi?</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>Steph.</speaker>
+            <lb ed="TLN" n="753" />
+            <l part="I" real='uuuuux'>Cupio cúm utroque.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='uuuuuu-uux', 'uux'>Ei mihi, bene &lt;ego&gt; dispereo. quid ais?</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='-x'>Quid est?</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="754" />
+            <l real='--u-uuu----ux'>Ita me di ament, numquam enim fíet hodie, haec quin saltet tamen.</l>
+            <lb ed="TLN" n="755" />
+            <l real='uuuuu-u-uuuux'>age, mulsa mea suavitudo, salta: saltabo ego simul.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="756" />
+            <l n="15" real='u----uuuu-uux'>Numquam edepol med istoc vinces, quin ego ibidem pruriam.</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>Steph.</speaker>
+            <lb ed="TLN" n="757" />
+            <l real='-----uuu-uuux'>Siquidem mihi saltandum est, tum vos date bibat tibicini.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="758" />
+            <l part="I" real='-u-x'>Et quidem nóbis.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='uuuu-u-uuuuux'>Tene, tibicen, primum; postidea loci</l>
+            <lb ed="TLN" n="759" />
+            <l real='---uuu-u-uuux'>
+              si hoc eduxeris, proinde ut 
+              <abbr expan="consuetus es">consuetu's</abbr>
+               antehac, celeriter
+            </l>
+            <lb ed="TLN" n="760" />
+            <l real='-uuuu-uuuu-ux'>lepidam et suavem cantionem aliquam occupito cinaedicam,</l>
+            <lb ed="TLN" n="761" />
+            <l n="20" real='uu-u-uu-u--ux', '-uux'>ubi perpruriscamus usque ex unguiculis. inde huc aquam.</l>
+          </sp>
+        </div2>
+        <div2 n="6" type="scene">
+          <lb ed="TLN" n="762" />
+          <l real='uuuuux', 'u-uu-uux'>tene tu hóc, educe. dudum placuit potio:</l>
+          <lb ed="TLN" n="763" />
+          <l real='-u-uuu-ux', 'uux', '-ux'>nunc minus gravate iam accipit. tene tu. interim,</l>
+          <lb ed="TLN" n="764" />
+          <l real='uu-uuuuu---ux'>meus oculus, da mihi savium, dum illic bibit.</l>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="765" />
+            <l real='-uu------uuux'>Prostibilest tandem? stantem stanti savium</l>
+            <lb ed="TLN" n="766" />
+            <l n="5" real='uuuuuuuu-uuux'>dare amicum amicae? euge euge, sic furi datur.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="767" />
+            <l real='-u---uuu-uuux'>Age, iam infla buccas, nunciam aliquid suaviter.</l>
+            <lb ed="TLN" n="768" />
+            <l real='-u-uuuuuuux'>redde cántionem veteri pro vino novam.</l>
+          </sp>
+        </div2>
+        <div2 n="7" type="scene">
+          <lb ed="TLN" n="769" />
+          <l real='uu---uuuux'>qui Iónicus aut cinaédicust, qui hoc tále facere póssiet?</l>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="770" />
+            <l real='-u-uuuux'>Si istóc me vorsu víceris, alió me provocáto:</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sa.</speaker>
+            <lb ed="TLN" n="771" />
+            <l part="I" real='--ux'>Fac tu hóc modo.</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>St.</speaker>
+            <l part="M" real='--x'>At tu hoc módo.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sa.</speaker>
+            <l part="M" real='ux'>Babae.</l>
+          </sp>
+          <sp who="#stephanivm">
+            <speaker>St.</speaker>
+            <l part="M" real='uux'>Tataé.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <l part="M" real='ux'>Papae.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <l part="M" real='x'>Pax.</l>
+          </sp>
+          <sp who="#sangarinvs">
+            <speaker>Sang.</speaker>
+            <lb ed="TLN" n="772" />
+            <l real='-u-x', '-uu--x'>Nunc páriter ambo. omnís voco cinaédos contra.</l>
+            <lb ed="TLN" n="773" />
+            <l n="5" real='uuu--u-u----x'>satis ésse nobis nón magis potis quám fungo imber.</l>
+          </sp>
+          <sp who="#stichvs">
+            <speaker>Stich.</speaker>
+            <lb ed="TLN" n="774" />
+            <l real='uuu--u--u-uux'>Intro hínc abeamus nunciam: saltátum satis pro vinost.</l>
+            <lb ed="TLN" n="775" />
+            <l real='uu--u-u--u-ux'>vos, spectatores, plaudite atque ite ad vos comissatum.</l>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>
